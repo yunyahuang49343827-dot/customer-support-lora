@@ -1,0 +1,866 @@
+normalized_instruction,instruction,category,intent,duplicate_group_size,duplicate_group_rank
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}} ?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery City}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+do you deliver to <entity>?,do you deliver to {{Delivery Country}}?,DELIVERY,delivery_options,22,1
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}} ?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to order from <entity>?,is it possible to order from {{Delivery Country}}?,DELIVERY,delivery_options,22,2
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}} ?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery City}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+is it possible to place an order from <entity>?,is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,21,3
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship  to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery City}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+do you ship to <entity>?,do you ship to {{Delivery Country}}?,DELIVERY,delivery_options,20,4
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery City}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>?,can I place an order from {{Delivery Country}}?,DELIVERY,delivery_options,14,5
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery City}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+can i place an order from <entity>,can i place an order from {{Delivery Country}},DELIVERY,delivery_options,14,6
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery City}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+shipments to <entity>,shipments to {{Delivery Country}},DELIVERY,delivery_options,14,7
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery City}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>?,can I order from {{Delivery Country}}?,DELIVERY,delivery_options,14,8
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery City}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+can i order from <entity>,can i order from {{Delivery Country}},DELIVERY,delivery_options,14,9
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery City}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+do ya deliver to <entity>,do ya deliver to {{Delivery Country}},DELIVERY,delivery_options,14,10
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery City}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to order from <entity>,is it possible to order from {{Delivery Country}},DELIVERY,delivery_options,14,11
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery City}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+is it possible to place an order from <entity>,is it possible to place an order from {{Delivery Country}},DELIVERY,delivery_options,14,12
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery City}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+shipping to <entity>,shipping to {{Delivery Country}},DELIVERY,delivery_options,13,13
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery City}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery Country}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery Country}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery Country}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery Country}},DELIVERY,delivery_options,13,14
+deliveries to <entity>,deliveries to {{Delivery Country}},DELIVERY,delivery_options,13,14
+switch to <entity> account,switch to  {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to  {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to  {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to  {{Account Type}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to  {{Account Type}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to  {{Account Type}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Category}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Type}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Type}} account,ACCOUNT,switch_account,12,15
+switch to <entity> account,switch to {{Account Type}} account,ACCOUNT,switch_account,12,15
+rebating <entity><entity>,rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+rebating <entity><entity>,rebating {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,16
+order <entity> status,order  {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order  {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order  {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order  {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order  {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order {{Order Number}} status,ORDER,track_order,10,17
+order <entity> status,order {{Order Number}} status,ORDER,track_order,10,17
+i expect a compensation of <entity> dollars,I expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,I expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,I expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,I expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,I expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a compensation of <entity> dollars,i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,10,18
+i expect a rebate of <entity> dollars,I expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,I expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,I expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,I expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,I expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,i expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,i expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,i expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,i expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a rebate of <entity> dollars,i expect a rebate of {{Refund Amount}} dollars,REFUND,track_refund,10,19
+i expect a compensation of <entity><entity>,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,i expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,i expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,i expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,i expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i expect a compensation of <entity><entity>,i expect a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,20
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+i'm waiting for a compensation of <entity><entity>,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,21
+rebating <entity> dollars,rebating  {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating  {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating  {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating  {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating  {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating {{Refund Amount}} dollars,REFUND,get_refund,10,22
+rebating <entity> dollars,rebating {{Refund Amount}} dollars,REFUND,get_refund,10,22
+editing <entity> account,editing {{Account Category}}  account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Category}}  account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Category}} account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Category}} account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Category}} account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Type}}  account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Type}}  account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Type}} account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Type}} account,ACCOUNT,edit_account,10,23
+editing <entity> account,editing {{Account Type}} account,ACCOUNT,edit_account,10,23
+refund <entity><entity>,refund  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+refund <entity><entity>,refund {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,10,24
+i expect a restitution of <entity> dollars,I expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,I expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,I expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,I expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,I expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,i expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,i expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,i expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,i expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a restitution of <entity> dollars,i expect a restitution of {{Refund Amount}} dollars,REFUND,track_refund,10,25
+i expect a rebate of <entity><entity>,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a rebate of <entity><entity>,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,26
+i expect a refund of <entity> dollars,I expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,I expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,I expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,I expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,I expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,i expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,i expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,i expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,i expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity> dollars,i expect a refund of {{Refund Amount}} dollars,REFUND,track_refund,10,27
+i expect a refund of <entity><entity>,I expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,I expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,I expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,I expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,I expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a refund of <entity><entity>,i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,28
+i expect a reimbursement of <entity> dollars,I expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,I expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,I expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,I expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,I expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,i expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,i expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,i expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,i expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i expect a reimbursement of <entity> dollars,i expect a reimbursement of {{Refund Amount}} dollars,REFUND,track_refund,10,29
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i am waiting for a compensation of <entity><entity>,I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,30
+i expect a restitution of <entity><entity>,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+i expect a restitution of <entity><entity>,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,10,31
+refunding <entity> dollars,refunding {{Refund Amount}}  dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}}  dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}}  dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}}  dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}}  dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}} dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}} dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}} dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}} dollars,REFUND,get_refund,10,32
+refunding <entity> dollars,refunding {{Refund Amount}} dollars,REFUND,get_refund,10,32
+i expect a reimbursement of <entity><entity>,I expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,I expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,I expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,I expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+i expect a reimbursement of <entity><entity>,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,9,33
+cancel purchase <entity>,cancel purchase  {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase  {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase  {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase  {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase {{Order Number}},ORDER,cancel_order,9,34
+cancel purchase <entity>,cancel purchase {{Order Number}},ORDER,cancel_order,9,34
+changing data on <entity> account,changing data on {{Account Category}}  account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Category}}  account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Category}} account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Category}} account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Category}} account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Type}}  account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Type}} account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Type}} account,ACCOUNT,edit_account,9,35
+changing data on <entity> account,changing data on {{Account Type}} account,ACCOUNT,edit_account,9,35
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+shiping to <entity>,shiping to {{Delivery City}},DELIVERY,delivery_options,8,36
+rebate <entity><entity>,rebate  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+rebate <entity><entity>,rebate {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,8,37
+i need assistance cancelling purchase <entity>,I need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,I need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,I need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,I need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,I need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,i need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,i need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need assistance cancelling purchase <entity>,i need assistance cancelling purchase {{Order Number}},ORDER,cancel_order,8,38
+i need help cancelling purchase <entity>,I need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,I need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,I need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,I need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,I need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,i need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,i need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+i need help cancelling purchase <entity>,i need help cancelling purchase {{Order Number}},ORDER,cancel_order,8,39
+purchase <entity> current status,purchase {{Order Number}} current  status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current  status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current  status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current status,ORDER,track_order,8,40
+purchase <entity> current status,purchase {{Order Number}} current status,ORDER,track_order,8,40
+i want help to cancel purchase <entity>,I want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,I want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,I want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,I want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,I want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,i want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,i want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+i want help to cancel purchase <entity>,i want help to cancel purchase {{Order Number}},ORDER,cancel_order,8,41
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do you shp to <entity>?,do you shp to {{Delivery City}}?,DELIVERY,delivery_options,8,42
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+do uship to <entity>,do uship to {{Delivery City}},DELIVERY,delivery_options,8,43
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+delieries to <entity>,delieries to {{Delivery City}},DELIVERY,delivery_options,8,44
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+d uship to <entity>,d uship to {{Delivery City}},DELIVERY,delivery_options,8,45
+closing <entity> account,closing  {{Account Category}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing  {{Account Type}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Category}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Category}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Category}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Type}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Type}} account,ACCOUNT,delete_account,8,46
+closing <entity> account,closing {{Account Type}} account,ACCOUNT,delete_account,8,46
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+cn i place an order from <entity>?,cn I place an order from {{Delivery City}}?,DELIVERY,delivery_options,8,47
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possibleto place an order from <entity>,is it possibleto place an order from {{Delivery City}},DELIVERY,delivery_options,8,48
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+is it possible toorder from <entity>,is it possible toorder from {{Delivery City}},DELIVERY,delivery_options,8,49
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+shipmetns to <entity>,shipmetns to {{Delivery City}},DELIVERY,delivery_options,8,50
+i can no longer afford purchase <entity>,I can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,I can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,I can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,I can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,I can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,i can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i can no longer afford purchase <entity>,i can no longer afford purchase {{Order Number}},ORDER,cancel_order,7,51
+i need help to cancel purchase <entity>,I need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,I need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,I need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,I need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,I need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,i need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i need help to cancel purchase <entity>,i need help to cancel purchase {{Order Number}},ORDER,cancel_order,7,52
+i want help canceling purchase <entity>,I want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,I want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,I want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,I want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,I want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,i want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+i want help canceling purchase <entity>,i want help canceling purchase {{Order Number}},ORDER,cancel_order,7,53
+edit order <entity>,edit order  {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order  {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order {{Order Number}},ORDER,change_order,7,54
+edit order <entity>,edit order {{Order Number}},ORDER,change_order,7,54
+i need help with canceling purchase <entity>,I need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,I need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,I need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,I need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,I need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,i need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+i need help with canceling purchase <entity>,i need help with canceling purchase {{Order Number}},ORDER,cancel_order,7,55
+change order <entity>,change  order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change  order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change order {{Order Number}},ORDER,change_order,7,56
+change order <entity>,change order {{Order Number}},ORDER,change_order,7,56
+i want help cancelling purchase <entity>,I want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,I want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,I want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,I want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,I want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,i want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i want help cancelling purchase <entity>,i want help cancelling purchase {{Order Number}},ORDER,cancel_order,7,57
+i can no longer pay for order <entity>,I can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,I can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,I can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,I can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,I can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,i can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i can no longer pay for order <entity>,i can no longer pay for order {{Order Number}},ORDER,cancel_order,7,58
+i need help canceling purchase <entity>,I need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,I need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,I need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,I need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,I need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,i need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i need help canceling purchase <entity>,i need help canceling purchase {{Order Number}},ORDER,cancel_order,7,59
+i want assistance to cancel purchase <entity>,I want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,I want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,I want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,I want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,I want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,i want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+i want assistance to cancel purchase <entity>,i want assistance to cancel purchase {{Order Number}},ORDER,cancel_order,7,60
+eta of order <entity>,ETA of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,ETA of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,ETA of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,ETA of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,ETA of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,eta of order {{Order Number}},ORDER,track_order,7,61
+eta of order <entity>,eta of order {{Order Number}},ORDER,track_order,7,61
+i have problems with cancelling purchase <entity>,I have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,I have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,I have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,I have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,I have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,i have problems with  cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i have problems with cancelling purchase <entity>,i have problems with cancelling purchase {{Order Number}},ORDER,cancel_order,7,62
+i need assistance to cancel order <entity>,I need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,I need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,I need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,i need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,i need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,i need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+i need assistance to cancel order <entity>,i need assistance to cancel order {{Order Number}},ORDER,cancel_order,7,63
+update details on <entity> account,update details on {{Account Category}} account,ACCOUNT,edit_account,6,64
+update details on <entity> account,update details on {{Account Category}} account,ACCOUNT,edit_account,6,64
+update details on <entity> account,update details on {{Account Category}} account,ACCOUNT,edit_account,6,64
+update details on <entity> account,update details on {{Account Type}} account,ACCOUNT,edit_account,6,64
+update details on <entity> account,update details on {{Account Type}} account,ACCOUNT,edit_account,6,64
+update details on <entity> account,update details on {{Account Type}} account,ACCOUNT,edit_account,6,64
+using <entity> account,using {{Account Category}} account,ACCOUNT,switch_account,6,65
+using <entity> account,using {{Account Category}} account,ACCOUNT,switch_account,6,65
+using <entity> account,using {{Account Category}} account,ACCOUNT,switch_account,6,65
+using <entity> account,using {{Account Type}} account,ACCOUNT,switch_account,6,65
+using <entity> account,using {{Account Type}} account,ACCOUNT,switch_account,6,65
+using <entity> account,using {{Account Type}} account,ACCOUNT,switch_account,6,65
+open a <entity> account for my dad,open a {{Account Category}} account for my dad,ACCOUNT,create_account,6,66
+open a <entity> account for my dad,open a {{Account Category}} account for my dad,ACCOUNT,create_account,6,66
+open a <entity> account for my dad,open a {{Account Category}} account for my dad,ACCOUNT,create_account,6,66
+open a <entity> account for my dad,open a {{Account Type}} account for my dad,ACCOUNT,create_account,6,66
+open a <entity> account for my dad,open a {{Account Type}} account for my dad,ACCOUNT,create_account,6,66
+open a <entity> account for my dad,open a {{Account Type}} account for my dad,ACCOUNT,create_account,6,66
+help using the <entity> profile,help using the {{Account Category}} profile,ACCOUNT,switch_account,6,67
+help using the <entity> profile,help using the {{Account Category}} profile,ACCOUNT,switch_account,6,67
+help using the <entity> profile,help using the {{Account Category}} profile,ACCOUNT,switch_account,6,67
+help using the <entity> profile,help using the {{Account Type}} profile,ACCOUNT,switch_account,6,67
+help using the <entity> profile,help using the {{Account Type}} profile,ACCOUNT,switch_account,6,67
+help using the <entity> profile,help using the {{Account Type}} profile,ACCOUNT,switch_account,6,67
+delete <entity> account,delete {{Account Category}} account,ACCOUNT,delete_account,6,68
+delete <entity> account,delete {{Account Category}} account,ACCOUNT,delete_account,6,68
+delete <entity> account,delete {{Account Category}} account,ACCOUNT,delete_account,6,68
+delete <entity> account,delete {{Account Type}} account,ACCOUNT,delete_account,6,68
+delete <entity> account,delete {{Account Type}} account,ACCOUNT,delete_account,6,68
+delete <entity> account,delete {{Account Type}} account,ACCOUNT,delete_account,6,68
+modify <entity> account,modify {{Account Category}} account,ACCOUNT,edit_account,6,69
+modify <entity> account,modify {{Account Category}} account,ACCOUNT,edit_account,6,69
+modify <entity> account,modify {{Account Category}} account,ACCOUNT,edit_account,6,69
+modify <entity> account,modify {{Account Type}} account,ACCOUNT,edit_account,6,69
+modify <entity> account,modify {{Account Type}} account,ACCOUNT,edit_account,6,69
+modify <entity> account,modify {{Account Type}} account,ACCOUNT,edit_account,6,69
+help me cancelling purchase <entity>,help  me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+help me cancelling purchase <entity>,help me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+help me cancelling purchase <entity>,help me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+help me cancelling purchase <entity>,help me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+help me cancelling purchase <entity>,help me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+help me cancelling purchase <entity>,help me cancelling purchase {{Order Number}},ORDER,cancel_order,6,70
+deleting <entity> account,deleting {{Account Category}} account,ACCOUNT,delete_account,6,71
+deleting <entity> account,deleting {{Account Category}} account,ACCOUNT,delete_account,6,71
+deleting <entity> account,deleting {{Account Category}} account,ACCOUNT,delete_account,6,71
+deleting <entity> account,deleting {{Account Type}} account,ACCOUNT,delete_account,6,71
+deleting <entity> account,deleting {{Account Type}} account,ACCOUNT,delete_account,6,71
+deleting <entity> account,deleting {{Account Type}} account,ACCOUNT,delete_account,6,71
+new <entity> account for wife,new {{Account Category}} account for wife,ACCOUNT,create_account,6,72
+new <entity> account for wife,new {{Account Category}} account for wife,ACCOUNT,create_account,6,72
+new <entity> account for wife,new {{Account Category}} account for wife,ACCOUNT,create_account,6,72
+new <entity> account for wife,new {{Account Type}} account for wife,ACCOUNT,create_account,6,72
+new <entity> account for wife,new {{Account Type}} account for wife,ACCOUNT,create_account,6,72
+new <entity> account for wife,new {{Account Type}} account for wife,ACCOUNT,create_account,6,72
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+deliverids to <entity>,deliverids to {{Delivery Country}},DELIVERY,delivery_options,6,73
+can i change to the <entity> account?,can I change to the {{Account Category}} account?,ACCOUNT,switch_account,6,74
+can i change to the <entity> account?,can I change to the {{Account Category}} account?,ACCOUNT,switch_account,6,74
+can i change to the <entity> account?,can I change to the {{Account Category}} account?,ACCOUNT,switch_account,6,74
+can i change to the <entity> account?,can I change to the {{Account Type}} account?,ACCOUNT,switch_account,6,74
+can i change to the <entity> account?,can I change to the {{Account Type}} account?,ACCOUNT,switch_account,6,74
+can i change to the <entity> account?,can I change to the {{Account Type}} account?,ACCOUNT,switch_account,6,74
+remove <entity> account,remove {{Account Category}} account,ACCOUNT,delete_account,6,75
+remove <entity> account,remove {{Account Category}} account,ACCOUNT,delete_account,6,75
+remove <entity> account,remove {{Account Category}} account,ACCOUNT,delete_account,6,75
+remove <entity> account,remove {{Account Type}} account,ACCOUNT,delete_account,6,75
+remove <entity> account,remove {{Account Type}} account,ACCOUNT,delete_account,6,75
+remove <entity> account,remove {{Account Type}} account,ACCOUNT,delete_account,6,75
+help me canceling purchase <entity>,help  me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+help me canceling purchase <entity>,help me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+help me canceling purchase <entity>,help me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+help me canceling purchase <entity>,help me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+help me canceling purchase <entity>,help me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+help me canceling purchase <entity>,help me canceling purchase {{Order Number}},ORDER,cancel_order,6,76
+new <entity> account,new {{Account Category}} account,ACCOUNT,create_account,6,77
+new <entity> account,new {{Account Category}} account,ACCOUNT,create_account,6,77
+new <entity> account,new {{Account Category}} account,ACCOUNT,create_account,6,77
+new <entity> account,new {{Account Type}} account,ACCOUNT,create_account,6,77
+new <entity> account,new {{Account Type}} account,ACCOUNT,create_account,6,77
+new <entity> account,new {{Account Type}} account,ACCOUNT,create_account,6,77
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+do ya ship to <entity>,do ya ship to {{Delivery Country}},DELIVERY,delivery_options,6,78
+i do not know how to cancel purchase <entity>,I do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+i do not know how to cancel purchase <entity>,I do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+i do not know how to cancel purchase <entity>,I do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+i do not know how to cancel purchase <entity>,I do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+i do not know how to cancel purchase <entity>,I do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+i do not know how to cancel purchase <entity>,i do not know how to cancel purchase {{Order Number}},ORDER,cancel_order,6,79
+check order <entity> current status,check order {{Order Number}} current  status,ORDER,track_order,6,80
+check order <entity> current status,check order {{Order Number}} current status,ORDER,track_order,6,80
+check order <entity> current status,check order {{Order Number}} current status,ORDER,track_order,6,80
+check order <entity> current status,check order {{Order Number}} current status,ORDER,track_order,6,80
+check order <entity> current status,check order {{Order Number}} current status,ORDER,track_order,6,80
+check order <entity> current status,check order {{Order Number}} current status,ORDER,track_order,6,80
+use <entity> account,use {{Account Category}} account,ACCOUNT,switch_account,6,81
+use <entity> account,use {{Account Category}} account,ACCOUNT,switch_account,6,81
+use <entity> account,use {{Account Category}} account,ACCOUNT,switch_account,6,81
+use <entity> account,use {{Account Type}} account,ACCOUNT,switch_account,6,81
+use <entity> account,use {{Account Type}} account,ACCOUNT,switch_account,6,81
+use <entity> account,use {{Account Type}} account,ACCOUNT,switch_account,6,81
+how do i use the <entity> profile?,how do I use the {{Account Category}} profile?,ACCOUNT,switch_account,6,82
+how do i use the <entity> profile?,how do I use the {{Account Category}} profile?,ACCOUNT,switch_account,6,82
+how do i use the <entity> profile?,how do I use the {{Account Category}} profile?,ACCOUNT,switch_account,6,82
+how do i use the <entity> profile?,how do I use the {{Account Type}} profile?,ACCOUNT,switch_account,6,82
+how do i use the <entity> profile?,how do I use the {{Account Type}} profile?,ACCOUNT,switch_account,6,82
+how do i use the <entity> profile?,how do I use the {{Account Type}} profile?,ACCOUNT,switch_account,6,82
+opening new <entity> account,opening new {{Account Category}} account,ACCOUNT,create_account,6,83
+opening new <entity> account,opening new {{Account Category}} account,ACCOUNT,create_account,6,83
+opening new <entity> account,opening new {{Account Category}} account,ACCOUNT,create_account,6,83
+opening new <entity> account,opening new {{Account Type}} account,ACCOUNT,create_account,6,83
+opening new <entity> account,opening new {{Account Type}} account,ACCOUNT,create_account,6,83
+opening new <entity> account,opening new {{Account Type}} account,ACCOUNT,create_account,6,83
+removing <entity> account,removing {{Account Category}} account,ACCOUNT,delete_account,6,84
+removing <entity> account,removing {{Account Category}} account,ACCOUNT,delete_account,6,84
+removing <entity> account,removing {{Account Category}} account,ACCOUNT,delete_account,6,84
+removing <entity> account,removing {{Account Type}} account,ACCOUNT,delete_account,6,84
+removing <entity> account,removing {{Account Type}} account,ACCOUNT,delete_account,6,84
+removing <entity> account,removing {{Account Type}} account,ACCOUNT,delete_account,6,84
+i want help canceling order <entity>,I want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+i want help canceling order <entity>,I want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+i want help canceling order <entity>,i want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+i want help canceling order <entity>,i want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+i want help canceling order <entity>,i want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+i want help canceling order <entity>,i want help canceling order {{Order Number}},ORDER,cancel_order,6,85
+new <entity> acount,new {{Account Category}} acount,ACCOUNT,create_account,6,86
+new <entity> acount,new {{Account Category}} acount,ACCOUNT,create_account,6,86
+new <entity> acount,new {{Account Category}} acount,ACCOUNT,create_account,6,86
+new <entity> acount,new {{Account Type}} acount,ACCOUNT,create_account,6,86
+new <entity> acount,new {{Account Type}} acount,ACCOUNT,create_account,6,86
+new <entity> acount,new {{Account Type}} acount,ACCOUNT,create_account,6,86
+i want assistance to cancel order <entity>,I want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+i want assistance to cancel order <entity>,I want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+i want assistance to cancel order <entity>,I want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+i want assistance to cancel order <entity>,i want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+i want assistance to cancel order <entity>,i want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+i want assistance to cancel order <entity>,i want assistance to cancel order {{Order Number}},ORDER,cancel_order,6,87
+modify data on <entity> account,modify data on {{Account Category}} account,ACCOUNT,edit_account,6,88
+modify data on <entity> account,modify data on {{Account Category}} account,ACCOUNT,edit_account,6,88
+modify data on <entity> account,modify data on {{Account Category}} account,ACCOUNT,edit_account,6,88
+modify data on <entity> account,modify data on {{Account Type}} account,ACCOUNT,edit_account,6,88
+modify data on <entity> account,modify data on {{Account Type}} account,ACCOUNT,edit_account,6,88
+modify data on <entity> account,modify data on {{Account Type}} account,ACCOUNT,edit_account,6,88
+modifying info on <entity> account,modifying info on {{Account Category}} account,ACCOUNT,edit_account,6,89
+modifying info on <entity> account,modifying info on {{Account Category}} account,ACCOUNT,edit_account,6,89
+modifying info on <entity> account,modifying info on {{Account Category}} account,ACCOUNT,edit_account,6,89
+modifying info on <entity> account,modifying info on {{Account Type}} account,ACCOUNT,edit_account,6,89
+modifying info on <entity> account,modifying info on {{Account Type}} account,ACCOUNT,edit_account,6,89
+modifying info on <entity> account,modifying info on {{Account Type}} account,ACCOUNT,edit_account,6,89
+modifying information on <entity> account,modifying information on {{Account Category}} account,ACCOUNT,edit_account,6,90
+modifying information on <entity> account,modifying information on {{Account Category}} account,ACCOUNT,edit_account,6,90
+modifying information on <entity> account,modifying information on {{Account Category}} account,ACCOUNT,edit_account,6,90
+modifying information on <entity> account,modifying information on {{Account Type}} account,ACCOUNT,edit_account,6,90
+modifying information on <entity> account,modifying information on {{Account Type}} account,ACCOUNT,edit_account,6,90
+modifying information on <entity> account,modifying information on {{Account Type}} account,ACCOUNT,edit_account,6,90
+close <entity> account,close {{Account Category}} account,ACCOUNT,delete_account,6,91
+close <entity> account,close {{Account Category}} account,ACCOUNT,delete_account,6,91
+close <entity> account,close {{Account Category}} account,ACCOUNT,delete_account,6,91
+close <entity> account,close {{Account Type}} account,ACCOUNT,delete_account,6,91
+close <entity> account,close {{Account Type}} account,ACCOUNT,delete_account,6,91
+close <entity> account,close {{Account Type}} account,ACCOUNT,delete_account,6,91
+clsoe <entity> account,clsoe {{Account Category}} account,ACCOUNT,delete_account,6,92
+clsoe <entity> account,clsoe {{Account Category}} account,ACCOUNT,delete_account,6,92
+clsoe <entity> account,clsoe {{Account Category}} account,ACCOUNT,delete_account,6,92
+clsoe <entity> account,clsoe {{Account Type}} account,ACCOUNT,delete_account,6,92
+clsoe <entity> account,clsoe {{Account Type}} account,ACCOUNT,delete_account,6,92
+clsoe <entity> account,clsoe {{Account Type}} account,ACCOUNT,delete_account,6,92
+changing information on <entity> account,changing information on {{Account Category}} account,ACCOUNT,edit_account,6,93
+changing information on <entity> account,changing information on {{Account Category}} account,ACCOUNT,edit_account,6,93
+changing information on <entity> account,changing information on {{Account Category}} account,ACCOUNT,edit_account,6,93
+changing information on <entity> account,changing information on {{Account Type}} account,ACCOUNT,edit_account,6,93
+changing information on <entity> account,changing information on {{Account Type}} account,ACCOUNT,edit_account,6,93
+changing information on <entity> account,changing information on {{Account Type}} account,ACCOUNT,edit_account,6,93
+correct data on <entity> account,correct data on {{Account Category}} account,ACCOUNT,edit_account,6,94
+correct data on <entity> account,correct data on {{Account Category}} account,ACCOUNT,edit_account,6,94
+correct data on <entity> account,correct data on {{Account Category}} account,ACCOUNT,edit_account,6,94
+correct data on <entity> account,correct data on {{Account Type}} account,ACCOUNT,edit_account,6,94
+correct data on <entity> account,correct data on {{Account Type}} account,ACCOUNT,edit_account,6,94
+correct data on <entity> account,correct data on {{Account Type}} account,ACCOUNT,edit_account,6,94
+i do not know what to do to switch to the <entity> account,I do not know what to do to switch to the {{Account Category}} account,ACCOUNT,switch_account,6,95
+i do not know what to do to switch to the <entity> account,I do not know what to do to switch to the {{Account Type}} account,ACCOUNT,switch_account,6,95
+i do not know what to do to switch to the <entity> account,i do not know what to do to switch to the {{Account Category}} account,ACCOUNT,switch_account,6,95
+i do not know what to do to switch to the <entity> account,i do not know what to do to switch to the {{Account Category}} account,ACCOUNT,switch_account,6,95
+i do not know what to do to switch to the <entity> account,i do not know what to do to switch to the {{Account Type}} account,ACCOUNT,switch_account,6,95
+i do not know what to do to switch to the <entity> account,i do not know what to do to switch to the {{Account Type}} account,ACCOUNT,switch_account,6,95
+create <entity> account for wife,create {{Account Category}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account for wife,create {{Account Category}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account for wife,create {{Account Category}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account for wife,create {{Account Type}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account for wife,create {{Account Type}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account for wife,create {{Account Type}} account for wife,ACCOUNT,create_account,6,96
+create <entity> account,create {{Account Category}} account,ACCOUNT,create_account,6,97
+create <entity> account,create {{Account Category}} account,ACCOUNT,create_account,6,97
+create <entity> account,create {{Account Category}} account,ACCOUNT,create_account,6,97
+create <entity> account,create {{Account Type}} account,ACCOUNT,create_account,6,97
+create <entity> account,create {{Account Type}} account,ACCOUNT,create_account,6,97
+create <entity> account,create {{Account Type}} account,ACCOUNT,create_account,6,97
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to place a order from <entity>?,is it possible to place a order from {{Delivery Country}}?,DELIVERY,delivery_options,6,98
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+is it possible to ordet from <entity>,is it possible to ordet from {{Delivery Country}},DELIVERY,delivery_options,6,99
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Category}} account,ACCOUNT,switch_account,6,100
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Category}} account,ACCOUNT,switch_account,6,100
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Category}} account,ACCOUNT,switch_account,6,100
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Type}} account,ACCOUNT,switch_account,6,100
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Type}} account,ACCOUNT,switch_account,6,100
+i don't know what to do to change to the <entity> account,I don't know what to do to change to the {{Account Type}} account,ACCOUNT,switch_account,6,100

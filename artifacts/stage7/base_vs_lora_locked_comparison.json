@@ -1,0 +1,133 @@
+{
+  "error_tag_comparison": {
+    "empty_response": {
+      "base": 0,
+      "delta": 0,
+      "lora": 0
+    },
+    "extra_key": {
+      "base": 0,
+      "delta": 0,
+      "lora": 0
+    },
+    "extra_text_after_json": {
+      "base": 1,
+      "delta": -1,
+      "lora": 0
+    },
+    "extra_text_before_json": {
+      "base": 1,
+      "delta": -1,
+      "lora": 0
+    },
+    "generation_truncated": {
+      "base": 0,
+      "delta": 1,
+      "lora": 1
+    },
+    "intent_category_mismatch": {
+      "base": 45,
+      "delta": -45,
+      "lora": 0
+    },
+    "invalid_enum": {
+      "base": 143,
+      "delta": -142,
+      "lora": 1
+    },
+    "invalid_json": {
+      "base": 2,
+      "delta": -1,
+      "lora": 1
+    },
+    "missing_key": {
+      "base": 0,
+      "delta": 0,
+      "lora": 0
+    },
+    "wrong_category": {
+      "base": 115,
+      "delta": -112,
+      "lora": 3
+    },
+    "wrong_intent": {
+      "base": 216,
+      "delta": -198,
+      "lora": 18
+    },
+    "wrong_needs_human": {
+      "base": 63,
+      "delta": -59,
+      "lora": 4
+    }
+  },
+  "evaluated_rows": 300,
+  "metrics": {
+    "category_accuracy": {
+      "absolute_delta": 37.333333,
+      "base": 61.666667,
+      "lora": 99.0,
+      "unit": "percentage_points"
+    },
+    "escalation_accuracy": {
+      "absolute_delta": 19.666667,
+      "base": 79.0,
+      "lora": 98.666667,
+      "unit": "percentage_points"
+    },
+    "escalation_f1": {
+      "absolute_delta": 83.693271,
+      "base": 14.084507,
+      "lora": 97.777778,
+      "unit": "percentage_points"
+    },
+    "escalation_precision": {
+      "absolute_delta": -4.347826,
+      "base": 100.0,
+      "lora": 95.652174,
+      "unit": "percentage_points"
+    },
+    "escalation_recall": {
+      "absolute_delta": 92.424242,
+      "base": 7.575758,
+      "lora": 100.0,
+      "unit": "percentage_points"
+    },
+    "intent_accuracy": {
+      "absolute_delta": 66.0,
+      "base": 28.0,
+      "lora": 94.0,
+      "unit": "percentage_points"
+    },
+    "json_valid_rate": {
+      "absolute_delta": 0.333334,
+      "base": 99.333333,
+      "lora": 99.666667,
+      "unit": "percentage_points"
+    },
+    "mean_latency": {
+      "absolute_delta": 1946.319345,
+      "base": 1121.592696,
+      "lora": 3067.912041,
+      "unit": "milliseconds"
+    },
+    "median_latency": {
+      "absolute_delta": 1639.493168,
+      "base": 1078.23727,
+      "lora": 2717.730438,
+      "unit": "milliseconds"
+    },
+    "p95_latency": {
+      "absolute_delta": 3385.788934,
+      "base": 1587.030367,
+      "lora": 4972.819301,
+      "unit": "milliseconds"
+    },
+    "schema_compliance": {
+      "absolute_delta": 62.666666,
+      "base": 36.666667,
+      "lora": 99.333333,
+      "unit": "percentage_points"
+    }
+  }
+}

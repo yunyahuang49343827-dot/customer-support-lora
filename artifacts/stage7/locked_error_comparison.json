@@ -1,0 +1,62 @@
+{
+  "empty_response": {
+    "base": 0,
+    "delta": 0,
+    "lora": 0
+  },
+  "extra_key": {
+    "base": 0,
+    "delta": 0,
+    "lora": 0
+  },
+  "extra_text_after_json": {
+    "base": 1,
+    "delta": -1,
+    "lora": 0
+  },
+  "extra_text_before_json": {
+    "base": 1,
+    "delta": -1,
+    "lora": 0
+  },
+  "generation_truncated": {
+    "base": 0,
+    "delta": 1,
+    "lora": 1
+  },
+  "intent_category_mismatch": {
+    "base": 45,
+    "delta": -45,
+    "lora": 0
+  },
+  "invalid_enum": {
+    "base": 143,
+    "delta": -142,
+    "lora": 1
+  },
+  "invalid_json": {
+    "base": 2,
+    "delta": -1,
+    "lora": 1
+  },
+  "missing_key": {
+    "base": 0,
+    "delta": 0,
+    "lora": 0
+  },
+  "wrong_category": {
+    "base": 115,
+    "delta": -112,
+    "lora": 3
+  },
+  "wrong_intent": {
+    "base": 216,
+    "delta": -198,
+    "lora": 18
+  },
+  "wrong_needs_human": {
+    "base": 63,
+    "delta": -59,
+    "lora": 4
+  }
+}

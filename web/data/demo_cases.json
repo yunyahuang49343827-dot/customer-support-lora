@@ -1,0 +1,370 @@
+[
+  {
+    "id": "refund-request",
+    "label_zh": "退款申請",
+    "message": "Please help me request a refund for my recent purchase.",
+    "expected": {
+      "intent": "get_refund",
+      "category": "REFUND",
+      "needs_human": true
+    },
+    "base": {
+      "intent": "refund",
+      "category": "REFUND",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": false,
+      "response": "I'm sorry to hear that you're having trouble with your purchase. To process a refund, we need your order number. Please provide it so we can assist you further.",
+      "raw_output": "{\n  \"intent\": \"refund\",\n  \"category\": \"REFUND\",\n  \"needs_human\": false,\n  \"response\": \"I'm sorry to hear that you're having trouble with your purchase. To process a refund, we need your order number. Please provide it so we can assist you further.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 1276.488,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "get_refund",
+      "category": "REFUND",
+      "needs_human": true,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm sorry to hear that you're experiencing difficulties with your recent purchase and need assistance in requesting a refund. I understand how frustrating it can be to encounter issues with your purchase, and I'm here to help you navigate through the process. To better assist you, could you please provide me with the {{Order Number}} or {{Tracking Number}}? This will allow me to locate your purchase and provide you with the necessary information to initiate the refund request. Thank you for reaching out to us, and I appreciate your patience as we work together to resolve this matter.",
+      "raw_output": "{\"intent\":\"get_refund\",\"category\":\"REFUND\",\"needs_human\":true,\"response\":\"I'm sorry to hear that you're experiencing difficulties with your recent purchase and need assistance in requesting a refund. I understand how frustrating it can be to encounter issues with your purchase, and I'm here to help you navigate through the process. To better assist you, could you please provide me with the {{Order Number}} or {{Tracking Number}}? This will allow me to locate your purchase and provide you with the necessary information to initiate the refund request. Thank you for reaching out to us, and I appreciate your patience as we work together to resolve this matter.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1908.272,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "refund-tracking",
+    "label_zh": "退款進度查詢",
+    "message": "Can you tell me where my pending refund is right now?",
+    "expected": {
+      "intent": "track_refund",
+      "category": "REFUND",
+      "needs_human": false
+    },
+    "base": {
+      "intent": "REFUND",
+      "category": "REFUND",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": false,
+      "response": "I'm sorry, but I don't have real-time information on your pending refund. You can check your account for updates on your refund status. If you need further assistance, please contact our customer service.",
+      "raw_output": "{\n  \"intent\": \"REFUND\",\n  \"category\": \"REFUND\",\n  \"needs_human\": false,\n  \"response\": \"I'm sorry, but I don't have real-time information on your pending refund. You can check your account for updates on your refund status. If you need further assistance, please contact our customer service.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 972.678,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "track_refund",
+      "category": "REFUND",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm on it! I completely understand your curiosity about the current status of your pending refund. To provide you with the most accurate information, could you please provide me with the {{Refund Number}} or {{Order Number}}? With that information, I'll be able to assist you further and give you an update on the progress of your refund. Thank you for your cooperation, and I appreciate your patience as we work together to resolve this matter.",
+      "raw_output": "{\"intent\":\"track_refund\",\"category\":\"REFUND\",\"needs_human\":false,\"response\":\"I'm on it! I completely understand your curiosity about the current status of your pending refund. To provide you with the most accurate information, could you please provide me with the {{Refund Number}} or {{Order Number}}? With that information, I'll be able to assist you further and give you an update on the progress of your refund. Thank you for your cooperation, and I appreciate your patience as we work together to resolve this matter.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1614.483,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "payment-issue",
+    "label_zh": "付款問題",
+    "message": "My payment keeps failing and I need assistance resolving it.",
+    "expected": {
+      "intent": "payment_issue",
+      "category": "PAYMENT",
+      "needs_human": true
+    },
+    "base": {
+      "intent": "payment_issue",
+      "category": "PAYMENT",
+      "needs_human": true,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "We're here to help. Please provide your payment method details so we can assist you further.",
+      "raw_output": "{\"intent\":\"payment_issue\",\"category\":\"PAYMENT\",\"needs_human\":true,\"response\":\"We're here to help. Please provide your payment method details so we can assist you further.\"}",
+      "generation_truncated": false,
+      "latency_ms": 728.71,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "payment_issue",
+      "category": "PAYMENT",
+      "needs_human": true,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm sorry to hear that you're experiencing difficulties with your payment and need assistance in resolving the issue. Your feedback is crucial in helping us identify and address the root cause. Could you please provide more details about the specific error message or error message you received? This will help us narrow down the problem and provide you with the most effective solution. Thank you for reaching out to us, and we appreciate your patience as we work together to resolve this matter.",
+      "raw_output": "{\"intent\":\"payment_issue\",\"category\":\"PAYMENT\",\"needs_human\":true,\"response\":\"I'm sorry to hear that you're experiencing difficulties with your payment and need assistance in resolving the issue. Your feedback is crucial in helping us identify and address the root cause. Could you please provide more details about the specific error message or error message you received? This will help us narrow down the problem and provide you with the most effective solution. Thank you for reaching out to us, and we appreciate your patience as we work together to resolve this matter.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1616.381,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "cancel-order",
+    "label_zh": "取消訂單",
+    "message": "I would like to cancel the order I submitted this morning.",
+    "expected": {
+      "intent": "cancel_order",
+      "category": "ORDER",
+      "needs_human": false
+    },
+    "base": {
+      "intent": "cancel_order",
+      "category": "ORDER",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "To cancel your order, please log into your account and navigate to the 'My Orders' section. From there, select the order you wish to cancel and click on the 'Cancel' button. This will initiate the cancellation process. If you need further assistance, feel free to contact our customer service team.",
+      "raw_output": "{\n  \"intent\": \"cancel_order\",\n  \"category\": \"ORDER\",\n  \"needs_human\": false,\n  \"response\": \"To cancel your order, please log into your account and navigate to the 'My Orders' section. From there, select the order you wish to cancel and click on the 'Cancel' button. This will initiate the cancellation process. If you need further assistance, feel free to contact our customer service team.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 1126.445,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "cancel_order",
+      "category": "ORDER",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm sorry to hear that you would like to cancel your order. I understand how frustrating it can be when you encounter issues or changes your mind. To assist you with the cancellation process, could you please provide me with the order number or any other relevant details? This will help me locate your order and provide you with the necessary guidance to cancel it. Thank you for reaching out to us, and I appreciate your cooperation in resolving this matter.",
+      "raw_output": "{\"intent\":\"cancel_order\",\"category\":\"ORDER\",\"needs_human\":false,\"response\":\"I'm sorry to hear that you would like to cancel your order. I understand how frustrating it can be when you encounter issues or changes your mind. To assist you with the cancellation process, could you please provide me with the order number or any other relevant details? This will help me locate your order and provide you with the necessary guidance to cancel it. Thank you for reaching out to us, and I appreciate your cooperation in resolving this matter.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1588.263,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "human-agent",
+    "label_zh": "聯絡真人客服",
+    "message": "Could you connect me with a human support agent?",
+    "expected": {
+      "intent": "contact_human_agent",
+      "category": "CONTACT",
+      "needs_human": true
+    },
+    "base": {
+      "intent": "CONTACT",
+      "category": "CONTACT",
+      "needs_human": true,
+      "json_valid": true,
+      "schema_compliant": false,
+      "response": "I can help you connect with a human support agent. Please provide your contact details so I can assist you.",
+      "raw_output": "{\n  \"intent\": \"CONTACT\",\n  \"category\": \"CONTACT\",\n  \"needs_human\": true,\n  \"response\": \"I can help you connect with a human support agent. Please provide your contact details so I can assist you.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 809.525,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "contact_human_agent",
+      "category": "CONTACT",
+      "needs_human": true,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm on it! I'm here to assist you in connecting you with a human support agent. Our dedicated team is available to provide you with personalized assistance and address any concerns you may have. Please allow me a moment to connect you with a human representative. Thank you for your patience.",
+      "raw_output": "{\"intent\":\"contact_human_agent\",\"category\":\"CONTACT\",\"needs_human\":true,\"response\":\"I'm on it! I'm here to assist you in connecting you with a human support agent. Our dedicated team is available to provide you with personalized assistance and address any concerns you may have. Please allow me a moment to connect you with a human representative. Thank you for your patience.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1672.176,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "check-invoice",
+    "label_zh": "查看發票",
+    "message": "I want to review the invoice details for my latest order.",
+    "expected": {
+      "intent": "check_invoice",
+      "category": "INVOICE",
+      "needs_human": false
+    },
+    "base": {
+      "intent": "check_invoice",
+      "category": "INVOICE",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "To review your invoice details, please log into your account and navigate to the 'My Account' section. From there, you'll find your order history and the invoice details. If you need further assistance, feel free to ask.",
+      "raw_output": "{\n  \"intent\": \"check_invoice\",\n  \"category\": \"INVOICE\",\n  \"needs_human\": false,\n  \"response\": \"To review your invoice details, please log into your account and navigate to the 'My Account' section. From there, you'll find your order history and the invoice details. If you need further assistance, feel free to ask.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 1006.591,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "check_invoice",
+      "category": "INVOICE",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm happy to help! I can assist you in reviewing the invoice details for your latest order. To access the invoice, please log in to your account and navigate to the \"Invoices\" section. From there, you should be able to find the invoice for your order. If you have any trouble locating it, feel free to let me know, and I'll be happy to guide you through the process.",
+      "raw_output": "{\"intent\":\"check_invoice\",\"category\":\"INVOICE\",\"needs_human\":false,\"response\":\"I'm happy to help! I can assist you in reviewing the invoice details for your latest order. To access the invoice, please log in to your account and navigate to the \\\"Invoices\\\" section. From there, you should be able to find the invoice for your order. If you have any trouble locating it, feel free to let me know, and I'll be happy to guide you through the process.\"}",
+      "generation_truncated": false,
+      "latency_ms": 2853.721,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "create-account",
+    "label_zh": "建立帳戶",
+    "message": "What do I need to do to open a new customer account?",
+    "expected": {
+      "intent": "create_account",
+      "category": "ACCOUNT",
+      "needs_human": false
+    },
+    "base": {
+      "intent": "registration_problems",
+      "category": "REGISTRATION",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": false,
+      "response": "To open a new customer account, you'll need to provide some basic information. You'll need to provide your name, address, phone number, email address, and a password. You can use the same email address for multiple accounts if you wish. Once you've provided this information, we'll create your account and send you an email with your login details.",
+      "raw_output": "{\n  \"intent\": \"registration_problems\",\n  \"category\": \"REGISTRATION\",\n  \"needs_human\": false,\n  \"response\": \"To open a new customer account, you'll need to provide some basic information. You'll need to provide your name, address, phone number, email address, and a password. You can use the same email address for multiple accounts if you wish. Once you've provided this information, we'll create your account and send you an email with your login details.\"\n}",
+      "generation_truncated": false,
+      "latency_ms": 1247.602,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "create_account",
+      "category": "ACCOUNT",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm happy to help! To open a new customer account, you can follow these steps: 1. Visit our website and navigate to the \"Sign Up\" or \"Create Account\" page. 2. Fill in the required fields with your personal information, such as your name, email address, and a username. 3. Choose a password that meets our security requirements. 4. Confirm your email address by clicking on the confirmation link sent to your inbox. 5. Once your account is created, you can log in using your username and password. 6. Explore our website and start enjoying all the features and benefits that come with a new customer account. If you have any further questions or need assistance during the account creation process, feel free to reach out to our customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}.",
+      "raw_output": "{\"intent\":\"create_account\",\"category\":\"ACCOUNT\",\"needs_human\":false,\"response\":\"I'm happy to help! To open a new customer account, you can follow these steps: 1. Visit our website and navigate to the \\\"Sign Up\\\" or \\\"Create Account\\\" page. 2. Fill in the required fields with your personal information, such as your name, email address, and a username. 3. Choose a password that meets our security requirements. 4. Confirm your email address by clicking on the confirmation link sent to your inbox. 5. Once your account is created, you can log in using your username and password. 6. Explore our website and start enjoying all the features and benefits that come with a new customer account. If you have any further questions or need assistance during the account creation process, feel free to reach out to our customer support team. They are available {{Customer Support Hours}} at {{Customer Support Phone Number}} or through the Live Chat on our website at {{Website URL}}.\"}",
+      "generation_truncated": false,
+      "latency_ms": 3284.243,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  },
+  {
+    "id": "shipping-address",
+    "label_zh": "變更配送地址",
+    "message": "Please explain how to change the delivery address on my order.",
+    "expected": {
+      "intent": "change_shipping_address",
+      "category": "SHIPPING",
+      "needs_human": false
+    },
+    "base": {
+      "intent": "ORDER",
+      "category": "DELIVERY",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": false,
+      "response": "To change your delivery address on your order, please log into your account and follow these steps: 1. Click on 'My Account' or 'Account' in the top menu. 2. Select 'Edit Account'. 3. Scroll down to 'Shipping Address' and click on 'Edit'. 4. Enter your new address details. 5. Click 'Update Address'. This will update your shipping address for your order. If you need further assistance, feel free to contact our customer service team.",
+      "raw_output": "{\"intent\":\"ORDER\",\"category\":\"DELIVERY\",\"needs_human\":false,\"response\":\"To change your delivery address on your order, please log into your account and follow these steps: 1. Click on 'My Account' or 'Account' in the top menu. 2. Select 'Edit Account'. 3. Scroll down to 'Shipping Address' and click on 'Edit'. 4. Enter your new address details. 5. Click 'Update Address'. This will update your shipping address for your order. If you need further assistance, feel free to contact our customer service team.\"}",
+      "generation_truncated": false,
+      "latency_ms": 1399.676,
+      "generation_error": null
+    },
+    "lora": {
+      "intent": "change_shipping_address",
+      "category": "SHIPPING",
+      "needs_human": false,
+      "json_valid": true,
+      "schema_compliant": true,
+      "response": "I'm happy to help! To change the delivery address on your order, you can log in to your account on our website and navigate to the \"Order Details\" or \"My Account\" section. From there, you should be able to find the option to update your shipping address. If you encounter any difficulties or have further questions, please don't hesitate to let me know. I'm here to assist you every step of the way!",
+      "raw_output": "{\"intent\":\"change_shipping_address\",\"category\":\"SHIPPING\",\"needs_human\":false,\"response\":\"I'm happy to help! To change the delivery address on your order, you can log in to your account on our website and navigate to the \\\"Order Details\\\" or \\\"My Account\\\" section. From there, you should be able to find the option to update your shipping address. If you encounter any difficulties or have further questions, please don't hesitate to let me know. I'm here to assist you every step of the way!\"}",
+      "generation_truncated": false,
+      "latency_ms": 1595.927,
+      "generation_error": null
+    },
+    "provenance": {
+      "source": "frozen_local_inference",
+      "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "candidate": "candidate_01",
+      "adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "temperature": 0.0,
+      "seed": 42,
+      "max_generated_tokens": 512,
+      "response_modified": false
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "accuracy_evaluated": false,
+  "adapter_load_success": true,
+  "behavioral_improvement_claimed": false,
+  "generation_success": true,
+  "new_process": true,
+  "sample_count": 3,
+  "samples": [
+    {
+      "instruction": "shipments to {{Delivery City}}",
+      "raw_output": "{\"intent\":\"track_refund\",\"category\":\"REFUND\",\"needs_human\":false,\"response\":\"We are currently tracking your shipments to {{Delivery City}}. If you need any further assistance, please contact our customer service team.\"}"
+    },
+    {
+      "instruction": "I have troubles trying to update my address",
+      "raw_output": "{\"intent\":\"change_shipping_address\",\"category\":\"DELIVERY\",\"needs_human\":false,\"response\":\"We understand that you are having trouble updating your shipping address. Please provide your new shipping address details so we can proceed with the update. If you need any assistance, feel free to contact our customer service team.\"}"
+    },
+    {
+      "instruction": "I need help acquiringv several of your item",
+      "raw_output": "{\"intent\":\"place_order\",\"category\":\"ORDER\",\"needs_human\":false,\"response\":\"Hello! To place an order, you need to provide more details. Could you please specify the quantity of each item you wish to purchase? We'll be happy to assist you further once you provide this information.\"}"
+    }
+  ]
+}

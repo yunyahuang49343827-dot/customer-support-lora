@@ -1,0 +1,37 @@
+model: mlx-community/Qwen2.5-1.5B-Instruct-4bit
+train: true
+fine_tune_type: lora
+
+data: data/training
+seed: 42
+
+num_layers: 16
+batch_size: 1
+grad_accumulation_steps: 2
+iters: 1350
+
+learning_rate: 1.0e-5
+steps_per_report: 10
+steps_per_eval: 150
+val_batches: 50
+
+adapter_path: artifacts/stage5/candidate_01/adapter
+save_every: 150
+test: false
+
+max_seq_length: 1024
+grad_checkpoint: false
+mask_prompt: true
+
+lora_parameters:
+  keys:
+    - self_attn.q_proj
+    - self_attn.k_proj
+    - self_attn.v_proj
+    - self_attn.o_proj
+    - mlp.gate_proj
+    - mlp.up_proj
+    - mlp.down_proj
+  rank: 8
+  scale: 16.0
+  dropout: 0.0

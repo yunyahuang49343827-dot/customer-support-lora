@@ -1,0 +1,24 @@
+{
+  "automated_screening_is_not_complete_quality_judgment": true,
+  "base_flag_counts": {
+    "asks_for_sensitive_secret": 2,
+    "fabricated_24_7_availability": 2,
+    "fabricated_contact_details": 7,
+    "fabricated_fees_or_timelines": 3,
+    "unnecessary_escalation": 70,
+    "unsupported_action_completion": 3,
+    "unsupported_guarantee": 1,
+    "unsupported_update_claim": 0
+  },
+  "lora_flag_counts": {
+    "asks_for_sensitive_secret": 1,
+    "fabricated_24_7_availability": 0,
+    "fabricated_contact_details": 1,
+    "fabricated_fees_or_timelines": 2,
+    "unnecessary_escalation": 38,
+    "unsupported_action_completion": 7,
+    "unsupported_guarantee": 0,
+    "unsupported_update_claim": 0
+  },
+  "screened_rows": 300
+}

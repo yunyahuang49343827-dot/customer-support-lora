@@ -1,0 +1,53 @@
+{
+  "artifacts": {
+    "confusion": "artifacts/stage4/intent_confusion.csv",
+    "errors": "artifacts/stage4/base_error_cases.csv",
+    "manual_qa": "artifacts/stage4/manual_qa_samples.csv",
+    "metrics": "artifacts/stage4/base_metrics.json",
+    "predictions": "artifacts/stage4/base_dev_predictions.jsonl"
+  },
+  "dev_dataset_path": "data/processed/dev.jsonl",
+  "dev_sha256": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6",
+  "environment": {
+    "mlx_lm_version": "0.29.1",
+    "mlx_version": "0.29.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python_version": "3.9.6"
+  },
+  "evaluated_rows": 300,
+  "final_evaluation_content_accessed": false,
+  "final_evaluation_hash_confirmed_in_manifest": true,
+  "inference_config": {
+    "adapter_path": null,
+    "concurrency": 1,
+    "config_version": "stage4_base_baseline_v1",
+    "dataset_hash_manifest_path": "data/manifests/dataset_hashes.json",
+    "dev_dataset_path": "data/processed/dev.jsonl",
+    "framework": "MLX / MLX-LM",
+    "local_files_only": true,
+    "max_generation_tokens": 512,
+    "model_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "prompt_path": "prompts/base_system_prompt.txt",
+    "seed": 42,
+    "temperature": 0.0,
+    "warmup_runs": 0
+  },
+  "inference_config_path": "configs/base_inference.json",
+  "inference_config_sha256": "a6c18e0e6b016897a1645a4cef1bb0663dc25d568fcbf5c499ccaceb5e4b52c9",
+  "model": {
+    "adapter_loaded": false,
+    "architecture": "Qwen2ForCausalLM",
+    "load_success": true,
+    "local_snapshot": "/Users/sleep/.cache/huggingface/hub/models--mlx-community--Qwen2.5-1.5B-Instruct-4bit/snapshots/8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "model_load_seconds": 0.447908,
+    "parameter_size_label": "1.5B",
+    "quantization_bits": 4,
+    "quantization_group_size": 64,
+    "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677"
+  },
+  "prompt_path": "prompts/base_system_prompt.txt",
+  "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+  "stage": "C4 Base Model Development Baseline"
+}

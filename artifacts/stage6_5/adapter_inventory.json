@@ -1,0 +1,65 @@
+{
+  "adapter_config_sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+  "file_count": 11,
+  "files": [
+    {
+      "relative_path": "0000150_adapters.safetensors",
+      "sha256": "2c1f21a922dd87c60036d48904bdc647f53cf1c54f64fc9ec176441529950e0d",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0000300_adapters.safetensors",
+      "sha256": "6c6964d79ce497a13181ee1555841a5e2d964f313ee91a62d6efc436c00ec3df",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0000450_adapters.safetensors",
+      "sha256": "b6289ed5d5d78291271c929b447a30d68b94ed52889ecc3fc65d121ad1c99415",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0000600_adapters.safetensors",
+      "sha256": "85412b7a107720d5b0e70d68d64478b1ebba2ec2ea8df6d588b0b8220574f11a",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0000750_adapters.safetensors",
+      "sha256": "bc546fb1bcf5ee8e741cc6d06cfec834e822ac3529e940b9decad4cc8664678d",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0000900_adapters.safetensors",
+      "sha256": "559026eab91ad979dbb0a0f7270993c54e3ad74d4a7aa6cd95770c7088d1362d",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0001050_adapters.safetensors",
+      "sha256": "bf6bcb5d9ce734dc615e79e8801a64b0fdb3df3030c9aa35103858a347a1f0b7",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0001200_adapters.safetensors",
+      "sha256": "6642de9c4dc9ebc5a01511c4d29a248e8121b60244e351ac2d94f725c86da3db",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "0001350_adapters.safetensors",
+      "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "size_bytes": 21126646
+    },
+    {
+      "relative_path": "adapter_config.json",
+      "sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+      "size_bytes": 1222
+    },
+    {
+      "relative_path": "adapters.safetensors",
+      "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "size_bytes": 21126646
+    }
+  ],
+  "final_adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+  "final_checkpoint_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+  "path": "artifacts/stage5/candidate_01/adapter",
+  "total_bytes": 211267682
+}

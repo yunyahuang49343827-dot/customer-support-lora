@@ -1,0 +1,166 @@
+{
+  "base_confusion_count": 216,
+  "descriptive_only_not_for_candidate_modification": true,
+  "lora_confusion_count": 18,
+  "remaining_lora_taxonomy_boundaries": [
+    {
+      "count": 4,
+      "ground_truth_intent": "get_invoice",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 4,
+      "ground_truth_intent": "set_up_shipping_address",
+      "predicted_intent": "change_shipping_address"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "create_account",
+      "predicted_intent": "edit_account"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "cancel_order",
+      "predicted_intent": "place_order"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "change_order",
+      "predicted_intent": "cancel_order"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "change_shipping_address",
+      "predicted_intent": "edit_account"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "place_order",
+      "predicted_intent": "get_refund"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "switch_account",
+      "predicted_intent": "edit_account"
+    }
+  ],
+  "top_base_confusions": [
+    {
+      "count": 11,
+      "ground_truth_intent": "create_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 11,
+      "ground_truth_intent": "get_invoice",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 8,
+      "ground_truth_intent": "delete_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 8,
+      "ground_truth_intent": "switch_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 8,
+      "ground_truth_intent": "track_refund",
+      "predicted_intent": "check_refund_policy"
+    },
+    {
+      "count": 7,
+      "ground_truth_intent": "track_order",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 6,
+      "ground_truth_intent": "change_shipping_address",
+      "predicted_intent": "set_up_shipping_address"
+    },
+    {
+      "count": 5,
+      "ground_truth_intent": "edit_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 5,
+      "ground_truth_intent": "edit_account",
+      "predicted_intent": "set_up_shipping_address"
+    },
+    {
+      "count": 5,
+      "ground_truth_intent": "newsletter_subscription",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 4,
+      "ground_truth_intent": "change_order",
+      "predicted_intent": "place_order"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "newsletter_subscription",
+      "predicted_intent": "complaint"
+    },
+    {
+      "count": 2,
+      "ground_truth_intent": "change_order",
+      "predicted_intent": "cancel_order"
+    },
+    {
+      "count": 2,
+      "ground_truth_intent": "check_cancellation_fee",
+      "predicted_intent": "complaint"
+    },
+    {
+      "count": 2,
+      "ground_truth_intent": "recover_password",
+      "predicted_intent": "payment_issue"
+    }
+  ],
+  "top_lora_confusions": [
+    {
+      "count": 4,
+      "ground_truth_intent": "get_invoice",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 4,
+      "ground_truth_intent": "set_up_shipping_address",
+      "predicted_intent": "change_shipping_address"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "create_account",
+      "predicted_intent": "edit_account"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "cancel_order",
+      "predicted_intent": "place_order"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "change_order",
+      "predicted_intent": "cancel_order"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "change_shipping_address",
+      "predicted_intent": "edit_account"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "place_order",
+      "predicted_intent": "get_refund"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "switch_account",
+      "predicted_intent": "edit_account"
+    }
+  ]
+}

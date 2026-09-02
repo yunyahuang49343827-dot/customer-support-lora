@@ -1,0 +1,33 @@
+{
+  "failed_rows": 2,
+  "failure_reason_counts": {
+    "incomplete_list_introduction": 2
+  },
+  "final_selected_quality_failures": 0,
+  "per_split_replacement_counts": {
+    "dev": 0,
+    "locked_test": 0,
+    "train": 2,
+    "validation": 0
+  },
+  "replacement_strategy": "Deterministic SHA-256 ranking among unused, source-quality-PASS, singleton normalized groups with the same canonical intent; no content repair or generation.",
+  "replacements": [
+    {
+      "intent": "change_shipping_address",
+      "removed_source_index": 2575,
+      "replacement_group_id": "200290bda093b6c94549f9c45d791dbe9703e7215a1f6b38e6c45f8309ac9ad2",
+      "replacement_source_index": 2295,
+      "split": "train"
+    },
+    {
+      "intent": "check_cancellation_fee",
+      "removed_source_index": 3494,
+      "replacement_group_id": "0a61e86ae10ae00d7dc40ab4aa2e505b4359bf62b7b42f0b15797c6d21f38914",
+      "replacement_source_index": 3400,
+      "split": "train"
+    }
+  ],
+  "replacements_made": 2,
+  "selected_rows_scanned": 3600,
+  "validator_version": "source_response_quality_v1"
+}

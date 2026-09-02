@@ -1,0 +1,102 @@
+/Users/sleep/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loading configuration file configs/qlora_smoke.yaml
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.171% (2.638M/1543.714M)
+Starting training..., iters: 20
+
+Calculating loss...: 0it [00:00, ?it/s]
+Calculating loss...: 1it [00:00,  1.57it/s]
+Calculating loss...: 2it [00:01,  1.84it/s]
+Calculating loss...: 3it [00:01,  1.89it/s]
+Calculating loss...: 4it [00:02,  1.95it/s]
+Calculating loss...: 5it [00:02,  2.05it/s]
+Calculating loss...: 6it [00:03,  1.74it/s]
+Calculating loss...: 7it [00:03,  1.80it/s]
+Calculating loss...: 8it [00:04,  1.85it/s]
+Calculating loss...: 9it [00:04,  1.92it/s]
+Calculating loss...: 10it [00:05,  1.94it/s]
+Calculating loss...: 11it [00:05,  2.00it/s]
+Calculating loss...: 12it [00:06,  2.00it/s]
+Calculating loss...: 13it [00:06,  2.00it/s]
+Calculating loss...: 14it [00:07,  2.03it/s]
+Calculating loss...: 15it [00:07,  2.04it/s]
+Calculating loss...: 16it [00:08,  1.71it/s]
+Calculating loss...: 17it [00:08,  1.83it/s]
+Calculating loss...: 18it [00:09,  1.90it/s]
+Calculating loss...: 19it [00:09,  1.99it/s]
+Calculating loss...: 20it [00:10,  1.91it/s]
+Calculating loss...: 20it [00:10,  1.91it/s]
+Iter 1: Val loss 3.031, Val took 10.507s
+Iter 1: Train loss 2.514, Learning Rate 1.000e-05, It/sec 0.507, Tokens/sec 379.839, Trained Tokens 749, Peak mem 2.775 GB
+Iter 2: Train loss 3.340, Learning Rate 1.000e-05, It/sec 1.183, Tokens/sec 571.482, Trained Tokens 1232, Peak mem 2.775 GB
+Iter 3: Train loss 2.979, Learning Rate 1.000e-05, It/sec 1.054, Tokens/sec 544.048, Trained Tokens 1748, Peak mem 2.775 GB
+Iter 4: Train loss 3.144, Learning Rate 1.000e-05, It/sec 1.256, Tokens/sec 624.367, Trained Tokens 2245, Peak mem 2.775 GB
+Iter 5: Train loss 2.757, Learning Rate 1.000e-05, It/sec 1.288, Tokens/sec 655.775, Trained Tokens 2754, Peak mem 2.775 GB
+Iter 6: Train loss 2.798, Learning Rate 1.000e-05, It/sec 1.275, Tokens/sec 641.556, Trained Tokens 3257, Peak mem 2.775 GB
+Iter 7: Train loss 2.718, Learning Rate 1.000e-05, It/sec 1.249, Tokens/sec 600.845, Trained Tokens 3738, Peak mem 2.775 GB
+Iter 8: Train loss 2.662, Learning Rate 1.000e-05, It/sec 1.199, Tokens/sec 585.137, Trained Tokens 4226, Peak mem 2.775 GB
+Iter 9: Train loss 2.237, Learning Rate 1.000e-05, It/sec 0.912, Tokens/sec 599.416, Trained Tokens 4883, Peak mem 3.104 GB
+
+Calculating loss...: 0it [00:00, ?it/s]
+Calculating loss...: 1it [00:00,  2.02it/s]
+Calculating loss...: 2it [00:00,  2.05it/s]
+Calculating loss...: 3it [00:01,  2.08it/s]
+Calculating loss...: 4it [00:01,  2.09it/s]
+Calculating loss...: 5it [00:02,  2.14it/s]
+Calculating loss...: 6it [00:02,  2.13it/s]
+Calculating loss...: 7it [00:03,  2.00it/s]
+Calculating loss...: 8it [00:03,  2.07it/s]
+Calculating loss...: 9it [00:04,  2.12it/s]
+Calculating loss...: 10it [00:04,  1.99it/s]
+Calculating loss...: 11it [00:05,  1.98it/s]
+Calculating loss...: 12it [00:05,  2.02it/s]
+Calculating loss...: 13it [00:06,  1.77it/s]
+Calculating loss...: 14it [00:07,  1.83it/s]
+Calculating loss...: 15it [00:07,  1.93it/s]
+Calculating loss...: 16it [00:08,  1.94it/s]
+Calculating loss...: 17it [00:08,  2.01it/s]
+Calculating loss...: 18it [00:08,  2.03it/s]
+Calculating loss...: 19it [00:09,  2.05it/s]
+Calculating loss...: 20it [00:10,  1.78it/s]
+Calculating loss...: 20it [00:10,  1.96it/s]
+Iter 10: Val loss 2.393, Val took 10.193s
+Iter 10: Train loss 2.503, Learning Rate 1.000e-05, It/sec 1.300, Tokens/sec 659.194, Trained Tokens 5390, Peak mem 3.104 GB
+Iter 11: Train loss 2.236, Learning Rate 1.000e-05, It/sec 1.216, Tokens/sec 635.821, Trained Tokens 5913, Peak mem 3.104 GB
+Iter 12: Train loss 2.325, Learning Rate 1.000e-05, It/sec 1.369, Tokens/sec 617.276, Trained Tokens 6364, Peak mem 3.104 GB
+Iter 13: Train loss 2.109, Learning Rate 1.000e-05, It/sec 1.289, Tokens/sec 636.724, Trained Tokens 6858, Peak mem 3.104 GB
+Iter 14: Train loss 2.164, Learning Rate 1.000e-05, It/sec 1.286, Tokens/sec 640.283, Trained Tokens 7356, Peak mem 3.104 GB
+Iter 15: Train loss 1.734, Learning Rate 1.000e-05, It/sec 0.792, Tokens/sec 613.225, Trained Tokens 8130, Peak mem 3.470 GB
+Iter 16: Train loss 1.899, Learning Rate 1.000e-05, It/sec 1.302, Tokens/sec 647.041, Trained Tokens 8627, Peak mem 3.470 GB
+Iter 17: Train loss 1.728, Learning Rate 1.000e-05, It/sec 0.843, Tokens/sec 647.598, Trained Tokens 9395, Peak mem 3.470 GB
+Iter 18: Train loss 1.766, Learning Rate 1.000e-05, It/sec 1.183, Tokens/sec 623.508, Trained Tokens 9922, Peak mem 3.470 GB
+Iter 19: Train loss 1.685, Learning Rate 1.000e-05, It/sec 1.063, Tokens/sec 614.433, Trained Tokens 10500, Peak mem 3.470 GB
+
+Calculating loss...: 0it [00:00, ?it/s]
+Calculating loss...: 1it [00:00,  1.87it/s]
+Calculating loss...: 2it [00:01,  1.86it/s]
+Calculating loss...: 3it [00:01,  1.97it/s]
+Calculating loss...: 4it [00:02,  1.98it/s]
+Calculating loss...: 5it [00:02,  1.99it/s]
+Calculating loss...: 6it [00:03,  1.87it/s]
+Calculating loss...: 7it [00:03,  1.81it/s]
+Calculating loss...: 8it [00:04,  1.86it/s]
+Calculating loss...: 9it [00:04,  1.94it/s]
+Calculating loss...: 10it [00:05,  1.99it/s]
+Calculating loss...: 11it [00:05,  1.99it/s]
+Calculating loss...: 12it [00:06,  1.73it/s]
+Calculating loss...: 13it [00:06,  1.83it/s]
+Calculating loss...: 14it [00:07,  1.84it/s]
+Calculating loss...: 15it [00:07,  1.87it/s]
+Calculating loss...: 16it [00:08,  1.89it/s]
+Calculating loss...: 17it [00:08,  1.91it/s]
+Calculating loss...: 18it [00:09,  1.94it/s]
+Calculating loss...: 19it [00:10,  1.69it/s]
+Calculating loss...: 20it [00:10,  1.77it/s]
+Calculating loss...: 20it [00:10,  1.86it/s]
+Iter 20: Val loss 1.646, Val took 10.749s
+Iter 20: Train loss 1.651, Learning Rate 1.000e-05, It/sec 0.906, Tokens/sec 632.279, Trained Tokens 11198, Peak mem 3.470 GB
+Iter 20: Saved adapter weights to artifacts/stage5a/adapter/adapters.safetensors and artifacts/stage5a/adapter/0000020_adapters.safetensors.
+Saved final weights to artifacts/stage5a/adapter/adapters.safetensors.

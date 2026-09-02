@@ -1,0 +1,30 @@
+{
+  "error_tag_counts": {
+    "generation_truncated": 1,
+    "intent_category_mismatch": 46,
+    "invalid_enum": 152,
+    "invalid_json": 3,
+    "wrong_category": 117,
+    "wrong_intent": 206,
+    "wrong_needs_human": 65
+  },
+  "evaluated_rows": 300,
+  "operational": {
+    "latency_sample_count": 300,
+    "mean_latency_ms": 1235.668082,
+    "median_latency_ms": 1190.410854,
+    "p95_latency_ms": 1802.524533
+  },
+  "primary": {
+    "intent_accuracy_percent": 31.333333,
+    "json_valid_rate_percent": 99.0,
+    "schema_compliance_percent": 33.0
+  },
+  "secondary": {
+    "category_accuracy_percent": 61.0,
+    "escalation_accuracy_percent": 78.333333,
+    "escalation_false_negative_count": 62,
+    "escalation_false_positive_count": 0,
+    "escalation_invalid_or_missing_count": 3
+  }
+}

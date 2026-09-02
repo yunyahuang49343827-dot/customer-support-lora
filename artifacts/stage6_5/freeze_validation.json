@@ -1,0 +1,354 @@
+{
+  "fail_count": 0,
+  "freeze_status": "PASS",
+  "items": [
+    {
+      "actual": "ce35cd9ff927521a9ff5c2454b16a0012b22aa232c5c33c9b6a857f6cc57bf28",
+      "expected": "ce35cd9ff927521a9ff5c2454b16a0012b22aa232c5c33c9b6a857f6cc57bf28",
+      "name": "dataset_train_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 2700,
+      "expected": 2700,
+      "name": "dataset_train_row_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "d9a2035ebebb2eb739ecb7e5bc6d589927a0359416b0a05dde5e793a39410175",
+      "expected": "d9a2035ebebb2eb739ecb7e5bc6d589927a0359416b0a05dde5e793a39410175",
+      "name": "dataset_validation_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "dataset_validation_row_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6",
+      "expected": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6",
+      "name": "dataset_dev_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "dataset_dev_row_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+      "expected": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+      "name": "dataset_locked_test_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "dataset_locked_test_row_count",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "candidate_adapter_exists",
+      "status": "PASS"
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "name": "adapter_file_count",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "adapter_hash_generated",
+      "status": "PASS"
+    },
+    {
+      "actual": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "expected": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "name": "final_checkpoint_matches_final_adapter",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "adapter_fresh_reload_success",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "adapter_unchanged_after_reload",
+      "status": "PASS"
+    },
+    {
+      "actual": 224,
+      "expected": 224,
+      "name": "adapter_lora_tensor_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "expected": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "name": "model_revision",
+      "status": "PASS"
+    },
+    {
+      "actual": "Qwen2ForCausalLM",
+      "expected": "Qwen2ForCausalLM",
+      "name": "model_architecture",
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "bits": 4,
+        "group_size": 64
+      },
+      "expected": {
+        "bits": 4,
+        "group_size": 64
+      },
+      "name": "model_quantization",
+      "status": "PASS"
+    },
+    {
+      "actual": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "expected": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "name": "stage5_model_revision",
+      "status": "PASS"
+    },
+    {
+      "actual": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "expected": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "name": "stage6_model_revision",
+      "status": "PASS"
+    },
+    {
+      "actual": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "expected": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "name": "qlora_model",
+      "status": "PASS"
+    },
+    {
+      "actual": "artifacts/stage5/candidate_01/adapter",
+      "expected": "artifacts/stage5/candidate_01/adapter",
+      "name": "qlora_adapter_path",
+      "status": "PASS"
+    },
+    {
+      "actual": 16,
+      "expected": 16,
+      "name": "qlora_num_layers",
+      "status": "PASS"
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "name": "qlora_rank",
+      "status": "PASS"
+    },
+    {
+      "actual": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "expected": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "name": "prompt_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 0.0,
+      "expected": 0.0,
+      "name": "inference_temperature",
+      "status": "PASS"
+    },
+    {
+      "actual": 42,
+      "expected": 42,
+      "name": "inference_seed",
+      "status": "PASS"
+    },
+    {
+      "actual": 512,
+      "expected": 512,
+      "name": "inference_max_generated_tokens",
+      "status": "PASS"
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "inference_concurrency",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "base_lora_inference_contract_consistency",
+      "status": "PASS"
+    },
+    {
+      "actual": 27,
+      "expected": 27,
+      "name": "intent_count",
+      "status": "PASS"
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "name": "category_count",
+      "status": "PASS"
+    },
+    {
+      "actual": 27,
+      "expected": 27,
+      "name": "schema_intent_count",
+      "status": "PASS"
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "name": "schema_category_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "https://json-schema.org/draft/2020-12/schema",
+      "expected": "https://json-schema.org/draft/2020-12/schema",
+      "name": "schema_draft",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "taxonomy_schema_intents_equal",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "taxonomy_schema_categories_equal",
+      "status": "PASS"
+    },
+    {
+      "actual": [
+        "complaint",
+        "contact_customer_service",
+        "contact_human_agent",
+        "delete_account",
+        "get_refund",
+        "payment_issue"
+      ],
+      "expected": [
+        "complaint",
+        "contact_customer_service",
+        "contact_human_agent",
+        "delete_account",
+        "get_refund",
+        "payment_issue"
+      ],
+      "name": "escalation_true_intents",
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "name": "escalation_true_count",
+      "status": "PASS"
+    },
+    {
+      "actual": 21,
+      "expected": 21,
+      "name": "escalation_false_count",
+      "status": "PASS"
+    },
+    {
+      "actual": 3.0,
+      "expected": 3.0,
+      "name": "promotion_intent_threshold",
+      "status": "PASS"
+    },
+    {
+      "actual": 1.0,
+      "expected": 1.0,
+      "name": "promotion_json_regression",
+      "status": "PASS"
+    },
+    {
+      "actual": 1.0,
+      "expected": 1.0,
+      "name": "promotion_schema_regression",
+      "status": "PASS"
+    },
+    {
+      "actual": 3.0,
+      "expected": 3.0,
+      "name": "promotion_category_material_drop",
+      "status": "PASS"
+    },
+    {
+      "actual": 3.0,
+      "expected": 3.0,
+      "name": "promotion_escalation_material_drop",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "promotion_critical_regression_allowed",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "promotion_latency_blocker",
+      "status": "PASS"
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "evaluator_hashes_recorded",
+      "status": "PASS"
+    },
+    {
+      "actual": "candidate_01_approved_for_freeze",
+      "expected": "candidate_01_approved_for_freeze",
+      "name": "manual_qa_approval",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "locked_content_parsed",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "locked_inference_performed",
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "name": "stage7_outputs",
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "name": "candidate02_outputs",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "training_performed_during_freeze",
+      "status": "PASS"
+    }
+  ],
+  "locked_access_mode": "raw_binary_sha256_and_newline_count_only",
+  "locked_content_parsed": false,
+  "pass_count": 54,
+  "stage": "C6.5"
+}

@@ -1,0 +1,30 @@
+{
+  "stage": "V1",
+  "status": "COMPLETE",
+  "export_timestamp": "2026-09-02T06:34:40.684659+00:00",
+  "curated_examples": 8,
+  "base_successful_inferences": 8,
+  "lora_successful_inferences": 8,
+  "frozen_hashes_before": {
+    "artifacts/stage7/base_vs_lora_locked_comparison.json": "094d36866bdd8a58f6ea823e81e3bb385c68c3c9f10b76ee1b47923682c8d174",
+    "artifacts/stage8/promotion_decision.json": "a603883c5cbecc7f2dd3fa605211af9f742a44e62ec0888dc5c28e90fd4d39c2",
+    "artifacts/stage8/deployment_constraints.json": "ecd5b98b48c795eff6204d98242e61401de77d2aed4b56c33cc8ee5dd17d4e5a",
+    "demo/app.py": "8251f68bdbad51301a04599537eb9e73c191585c3bbf80f3c181956458a5f197",
+    "src/demo/comparison.py": "c64758b0313a5bec47e3f191a51bb9c0a269855331496ee3e15666759ecf9a70",
+    "reports/stage9_demo.md": "0036f0e3fc537769ada9cf110bacc84d8034b82751d033544f62947dfe91baa1"
+  },
+  "frozen_hashes_after": {
+    "artifacts/stage7/base_vs_lora_locked_comparison.json": "094d36866bdd8a58f6ea823e81e3bb385c68c3c9f10b76ee1b47923682c8d174",
+    "artifacts/stage8/promotion_decision.json": "a603883c5cbecc7f2dd3fa605211af9f742a44e62ec0888dc5c28e90fd4d39c2",
+    "artifacts/stage8/deployment_constraints.json": "ecd5b98b48c795eff6204d98242e61401de77d2aed4b56c33cc8ee5dd17d4e5a",
+    "demo/app.py": "8251f68bdbad51301a04599537eb9e73c191585c3bbf80f3c181956458a5f197",
+    "src/demo/comparison.py": "c64758b0313a5bec47e3f191a51bb9c0a269855331496ee3e15666759ecf9a70",
+    "reports/stage9_demo.md": "0036f0e3fc537769ada9cf110bacc84d8034b82751d033544f62947dfe91baa1"
+  },
+  "adapter_hash": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+  "prompt_hash": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+  "training_performed": false,
+  "locked_test_rerun_performed": false,
+  "stage_c9_modified": false,
+  "nextjs_started": false
+}

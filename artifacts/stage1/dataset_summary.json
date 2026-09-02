@@ -1,0 +1,87 @@
+{
+  "dataset_name": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+  "split_names": [
+    "train"
+  ],
+  "row_count": 26872,
+  "columns": [
+    "flags",
+    "instruction",
+    "category",
+    "intent",
+    "response"
+  ],
+  "feature_types": {
+    "train": {
+      "row_count": 26872,
+      "metadata_row_count": 26872,
+      "features": {
+        "flags": "string",
+        "instruction": "string",
+        "category": "string",
+        "intent": "string",
+        "response": "string"
+      }
+    }
+  },
+  "column_integrity": {
+    "flags": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "empty_string_count": 0,
+      "empty_string_percentage": 0.0,
+      "whitespace_only_count": 0,
+      "whitespace_only_percentage": 0.0
+    },
+    "instruction": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "empty_string_count": 0,
+      "empty_string_percentage": 0.0,
+      "whitespace_only_count": 0,
+      "whitespace_only_percentage": 0.0
+    },
+    "category": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "empty_string_count": 0,
+      "empty_string_percentage": 0.0,
+      "whitespace_only_count": 0,
+      "whitespace_only_percentage": 0.0
+    },
+    "intent": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "empty_string_count": 0,
+      "empty_string_percentage": 0.0,
+      "whitespace_only_count": 0,
+      "whitespace_only_percentage": 0.0
+    },
+    "response": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "empty_string_count": 0,
+      "empty_string_percentage": 0.0,
+      "whitespace_only_count": 0,
+      "whitespace_only_percentage": 0.0
+    }
+  },
+  "exact_duplicate_rows": {
+    "duplicate_count_beyond_first": 0,
+    "duplicate_group_count": 0,
+    "rows_in_duplicate_groups": 0
+  },
+  "exact_duplicate_instructions": {
+    "duplicate_count_beyond_first": 2237,
+    "duplicate_group_count": 989,
+    "rows_in_duplicate_groups": 3226,
+    "largest_group_size": 8
+  },
+  "exact_duplicate_responses": {
+    "duplicate_count_beyond_first": 2,
+    "duplicate_group_count": 2,
+    "rows_in_duplicate_groups": 4,
+    "largest_group_size": 2
+  },
+  "count_definition": "Duplicate counts are occurrences beyond the first; group and involved-row counts are also reported."
+}

@@ -1,0 +1,550 @@
+placeholder,intent,occurrence_count,row_count,total_placeholder_occurrences,percentage_within_placeholder
+{{Order Number}},cancel_order,2830,980,8029,35.247229
+{{Order Number}},track_order,2091,981,8029,26.043094
+{{Order Number}},change_order,2010,983,8029,25.034251
+{{Order Number}},delivery_period,915,915,8029,11.396189
+{{Order Number}},check_refund_policy,175,175,8029,2.179599
+{{Order Number}},track_refund,6,6,8029,0.074729
+{{Order Number}},check_invoice,1,1,8029,0.012455
+{{Order Number}},contact_human_agent,1,1,8029,0.012455
+{{Account Type}},switch_account,2559,703,5440,47.040441
+{{Account Type}},delete_account,1103,411,5440,20.275735
+{{Account Type}},create_account,1070,414,5440,19.669118
+{{Account Type}},edit_account,708,264,5440,13.014706
+{{Account Category}},switch_account,1836,425,3900,47.076923
+{{Account Category}},create_account,793,319,3900,20.333333
+{{Account Category}},delete_account,683,276,3900,17.512821
+{{Account Category}},edit_account,588,228,3900,15.076923
+{{Online Order Interaction}},cancel_order,2541,857,2699,94.14598
+{{Online Order Interaction}},track_order,158,157,2699,5.85402
+{{Customer Support Phone Number}},cancel_order,932,931,2635,35.370019
+{{Customer Support Phone Number}},contact_customer_service,374,374,2635,14.193548
+{{Customer Support Phone Number}},payment_issue,149,149,2635,5.654649
+{{Customer Support Phone Number}},get_refund,131,131,2635,4.971537
+{{Customer Support Phone Number}},recover_password,117,117,2635,4.440228
+{{Customer Support Phone Number}},complaint,103,103,2635,3.908918
+{{Customer Support Phone Number}},contact_human_agent,95,95,2635,3.605313
+{{Customer Support Phone Number}},delete_account,84,84,2635,3.187856
+{{Customer Support Phone Number}},check_invoice,68,67,2635,2.580645
+{{Customer Support Phone Number}},registration_problems,63,63,2635,2.390892
+{{Customer Support Phone Number}},delivery_options,60,60,2635,2.27704
+{{Customer Support Phone Number}},change_order,54,54,2635,2.049336
+{{Customer Support Phone Number}},edit_account,54,54,2635,2.049336
+{{Customer Support Phone Number}},set_up_shipping_address,51,51,2635,1.935484
+{{Customer Support Phone Number}},check_refund_policy,50,50,2635,1.897533
+{{Customer Support Phone Number}},track_refund,50,50,2635,1.897533
+{{Customer Support Phone Number}},create_account,40,40,2635,1.518027
+{{Customer Support Phone Number}},place_order,38,38,2635,1.442125
+{{Customer Support Phone Number}},check_payment_methods,37,37,2635,1.404175
+{{Customer Support Phone Number}},track_order,23,23,2635,0.872865
+{{Customer Support Phone Number}},delivery_period,21,21,2635,0.796964
+{{Customer Support Phone Number}},get_invoice,19,19,2635,0.721063
+{{Customer Support Phone Number}},switch_account,11,11,2635,0.417457
+{{Customer Support Phone Number}},newsletter_subscription,6,6,2635,0.227704
+{{Customer Support Phone Number}},review,5,5,2635,0.189753
+{{Website URL}},cancel_order,925,922,2534,36.503552
+{{Website URL}},contact_customer_service,351,351,2534,13.851618
+{{Website URL}},get_refund,121,121,2534,4.775059
+{{Website URL}},payment_issue,121,121,2534,4.775059
+{{Website URL}},recover_password,108,106,2534,4.262036
+{{Website URL}},complaint,79,79,2534,3.117601
+{{Website URL}},delete_account,73,73,2534,2.880821
+{{Website URL}},contact_human_agent,71,71,2534,2.801894
+{{Website URL}},delivery_options,70,69,2534,2.762431
+{{Website URL}},check_refund_policy,65,64,2534,2.565114
+{{Website URL}},check_invoice,64,63,2534,2.525651
+{{Website URL}},create_account,60,59,2534,2.367798
+{{Website URL}},edit_account,54,54,2534,2.131018
+{{Website URL}},place_order,54,54,2534,2.131018
+{{Website URL}},check_payment_methods,49,49,2534,1.933702
+{{Website URL}},change_order,45,45,2534,1.775848
+{{Website URL}},registration_problems,45,45,2534,1.775848
+{{Website URL}},set_up_shipping_address,45,45,2534,1.775848
+{{Website URL}},track_refund,40,40,2534,1.578532
+{{Website URL}},track_order,22,22,2534,0.868193
+{{Website URL}},delivery_period,17,17,2534,0.670876
+{{Website URL}},get_invoice,16,16,2534,0.631413
+{{Website URL}},newsletter_subscription,15,15,2534,0.591949
+{{Website URL}},review,12,12,2534,0.47356
+{{Website URL}},switch_account,12,11,2534,0.47356
+{{Customer Support Hours}},cancel_order,926,926,2325,39.827957
+{{Customer Support Hours}},contact_customer_service,621,620,2325,26.709677
+{{Customer Support Hours}},recover_password,91,91,2325,3.913978
+{{Customer Support Hours}},payment_issue,76,76,2325,3.268817
+{{Customer Support Hours}},delete_account,59,59,2325,2.537634
+{{Customer Support Hours}},check_refund_policy,47,47,2325,2.021505
+{{Customer Support Hours}},contact_human_agent,46,45,2325,1.978495
+{{Customer Support Hours}},get_refund,46,46,2325,1.978495
+{{Customer Support Hours}},edit_account,43,43,2325,1.849462
+{{Customer Support Hours}},check_invoice,39,38,2325,1.677419
+{{Customer Support Hours}},complaint,38,38,2325,1.634409
+{{Customer Support Hours}},change_order,37,37,2325,1.591398
+{{Customer Support Hours}},registration_problems,32,32,2325,1.376344
+{{Customer Support Hours}},track_refund,32,32,2325,1.376344
+{{Customer Support Hours}},delivery_options,31,31,2325,1.333333
+{{Customer Support Hours}},place_order,31,31,2325,1.333333
+{{Customer Support Hours}},create_account,29,29,2325,1.247312
+{{Customer Support Hours}},check_payment_methods,28,28,2325,1.204301
+{{Customer Support Hours}},set_up_shipping_address,22,22,2325,0.946237
+{{Customer Support Hours}},delivery_period,16,16,2325,0.688172
+{{Customer Support Hours}},switch_account,12,12,2325,0.516129
+{{Customer Support Hours}},get_invoice,9,9,2325,0.387097
+{{Customer Support Hours}},track_order,9,9,2325,0.387097
+{{Customer Support Hours}},review,3,3,2325,0.129032
+{{Customer Support Hours}},newsletter_subscription,2,2,2325,0.086022
+{{Invoice Number}},get_invoice,815,515,1521,53.583169
+{{Invoice Number}},check_invoice,706,539,1521,46.416831
+{{Person Name}},get_invoice,670,451,1249,53.642914
+{{Person Name}},check_invoice,579,438,1249,46.357086
+{{Refund Amount}},track_refund,808,433,1187,68.070767
+{{Refund Amount}},get_refund,379,197,1187,31.929233
+{{Online Company Portal Info}},cancel_order,835,835,1055,79.146919
+{{Online Company Portal Info}},edit_account,220,219,1055,20.853081
+{{Tracking Number}},delivery_period,896,896,896,100.0
+{{Date Range}},delivery_options,824,400,894,92.170022
+{{Date Range}},check_invoice,70,70,894,7.829978
+{{Delivery City}},delivery_options,840,234,840,100.0
+{{Currency Symbol}},track_refund,602,407,745,80.805369
+{{Currency Symbol}},get_refund,143,143,745,19.194631
+{{Client Last Name}},check_invoice,398,389,712,55.898876
+{{Client Last Name}},get_invoice,314,303,712,44.101124
+{{Salutation}},check_invoice,373,364,706,52.832861
+{{Salutation}},get_invoice,333,322,706,47.167139
+{{Delivery Country}},delivery_options,681,183,681,100.0
+{{Settings}},switch_account,573,567,625,91.68
+{{Settings}},recover_password,50,47,625,8.0
+{{Settings}},check_invoice,1,1,625,0.16
+{{Settings}},get_invoice,1,1,625,0.16
+{{Profile}},switch_account,488,476,490,99.591837
+{{Profile}},recover_password,1,1,490,0.204082
+{{Profile}},set_up_shipping_address,1,1,490,0.204082
+{{Account Change}},switch_account,472,466,472,100.0
+{{Upgrade Account}},switch_account,448,446,448,100.0
+{{Login Page URL}},recover_password,397,397,397,100.0
+{{Store Location}},delivery_options,322,322,325,99.076923
+{{Store Location}},place_order,3,3,325,0.923077
+{{Forgot Password}},recover_password,219,212,219,100.0
+{{Order Status}},track_order,187,187,187,100.0
+{{Customer Support Email}},contact_customer_service,62,62,174,35.632184
+{{Customer Support Email}},contact_human_agent,28,28,174,16.091954
+{{Customer Support Email}},payment_issue,26,26,174,14.942529
+{{Customer Support Email}},complaint,22,22,174,12.643678
+{{Customer Support Email}},review,10,10,174,5.747126
+{{Customer Support Email}},registration_problems,7,7,174,4.022989
+{{Customer Support Email}},get_invoice,4,4,174,2.298851
+{{Customer Support Email}},get_refund,3,3,174,1.724138
+{{Customer Support Email}},newsletter_subscription,3,3,174,1.724138
+{{Customer Support Email}},recover_password,3,3,174,1.724138
+{{Customer Support Email}},check_invoice,2,2,174,1.149425
+{{Customer Support Email}},switch_account,2,2,174,1.149425
+{{Customer Support Email}},cancel_order,1,1,174,0.574713
+{{Customer Support Email}},set_up_shipping_address,1,1,174,0.574713
+{{Profile Type}},switch_account,140,135,140,100.0
+{{Order Tracking}},track_order,76,76,79,96.202532
+{{Order Tracking}},delivery_period,3,3,79,3.797468
+{{Forgot PIN}},recover_password,75,72,75,100.0
+{{Client Name}},get_invoice,50,45,60,83.333333
+{{Client Name}},check_invoice,9,9,60,15.0
+{{Client Name}},track_order,1,1,60,1.666667
+{{Forgot Access Key}},recover_password,54,54,54,100.0
+{{Account Recovery Page URL}},recover_password,52,52,52,100.0
+{{Money Amount}},track_refund,50,50,50,100.0
+{{Company Name}},edit_account,21,21,45,46.666667
+{{Company Name}},check_refund_policy,8,7,45,17.777778
+{{Company Name}},get_refund,3,3,45,6.666667
+{{Company Name}},track_refund,3,3,45,6.666667
+{{Company Name}},check_invoice,2,2,45,4.444444
+{{Company Name}},check_payment_methods,2,2,45,4.444444
+{{Company Name}},delivery_options,2,2,45,4.444444
+{{Company Name}},cancel_order,1,1,45,2.222222
+{{Company Name}},contact_customer_service,1,1,45,2.222222
+{{Company Name}},payment_issue,1,1,45,2.222222
+{{Company Name}},registration_problems,1,1,45,2.222222
+{{Account Recovery}},recover_password,36,36,36,100.0
+{{Security}},recover_password,34,32,34,100.0
+{{Profile Settings}},recover_password,26,24,30,86.666667
+{{Profile Settings}},switch_account,4,3,30,13.333333
+{{Cancel Purchase}},cancel_order,28,28,28,100.0
+{{Forgot Key}},recover_password,25,25,25,100.0
+{{Account Recovery Page}},recover_password,24,24,24,100.0
+{{Reset PIN}},recover_password,21,20,21,100.0
+{{Client First Name}},check_invoice,9,9,18,50.0
+{{Client First Name}},get_invoice,9,9,18,50.0
+{{Purchase History}},track_order,14,14,14,100.0
+{{Company Account}},cancel_order,13,13,13,100.0
+{{Live Chat Support}},get_refund,3,3,13,23.076923
+{{Live Chat Support}},edit_account,2,2,13,15.384615
+{{Live Chat Support}},recover_password,2,2,13,15.384615
+{{Live Chat Support}},check_refund_policy,1,1,13,7.692308
+{{Live Chat Support}},contact_customer_service,1,1,13,7.692308
+{{Live Chat Support}},delivery_period,1,1,13,7.692308
+{{Live Chat Support}},registration_problems,1,1,13,7.692308
+{{Live Chat Support}},set_up_shipping_address,1,1,13,7.692308
+{{Live Chat Support}},switch_account,1,1,13,7.692308
+{{Toll-Free Number}},contact_customer_service,11,11,11,100.0
+{{PIN Code}},recover_password,10,10,10,100.0
+{{order number}},delivery_period,10,10,10,100.0
+{{tracking number}},delivery_period,10,10,10,100.0
+{{Reset Password}},recover_password,9,9,9,100.0
+{{Track Order}},track_order,9,9,9,100.0
+{{Client Full Name}},get_invoice,8,7,8,100.0
+{{Feature 1}},switch_account,8,8,8,100.0
+{{Feature 2}},switch_account,8,8,8,100.0
+{{Feature 3}},switch_account,8,8,8,100.0
+{{Feedback Email Address}},review,8,8,8,100.0
+{{Company}},cancel_order,6,6,7,85.714286
+{{Company}},edit_account,1,1,7,14.285714
+{{PIN Recovery}},recover_password,7,7,7,100.0
+{{PIN Settings}},recover_password,7,7,7,100.0
+{{Password Reset Page}},recover_password,6,6,6,100.0
+{{Reset Access Key}},recover_password,6,6,6,100.0
+{{Reset Key}},recover_password,6,6,6,100.0
+{{Customer Service Email}},complaint,2,2,5,40.0
+{{Customer Service Email}},contact_customer_service,1,1,5,20.0
+{{Customer Service Email}},contact_human_agent,1,1,5,20.0
+{{Customer Service Email}},payment_issue,1,1,5,20.0
+{{PIN Management}},recover_password,5,4,5,100.0
+{{PIN Retrieval}},recover_password,5,4,5,100.0
+{{Password Recovery Page URL}},recover_password,5,5,5,100.0
+{{Password}},recover_password,4,4,5,80.0
+{{Password}},switch_account,1,1,5,20.0
+{{Privacy}},recover_password,5,5,5,100.0
+{{Refund Processing Time}},check_refund_policy,4,4,5,80.0
+{{Refund Processing Time}},get_refund,1,1,5,20.0
+{{Contact Method}},contact_customer_service,1,1,4,25.0
+{{Contact Method}},delete_account,1,1,4,25.0
+{{Contact Method}},get_refund,1,1,4,25.0
+{{Contact Method}},recover_password,1,1,4,25.0
+{{Customer Service Hours}},contact_customer_service,2,2,4,50.0
+{{Customer Service Hours}},review,1,1,4,25.0
+{{Customer Service Hours}},switch_account,1,1,4,25.0
+{{Forgot Account Key}},recover_password,4,4,4,100.0
+{{Forgot Pin Code}},recover_password,4,4,4,100.0
+{{Forgot Profile Key}},recover_password,4,4,4,100.0
+{{Online Customer Support Channel}},edit_account,1,1,4,25.0
+{{Online Customer Support Channel}},recover_password,1,1,4,25.0
+{{Online Customer Support Channel}},set_up_shipping_address,1,1,4,25.0
+{{Online Customer Support Channel}},track_order,1,1,4,25.0
+{{PIN}},recover_password,4,4,4,100.0
+{{Profile Recovery Page URL}},recover_password,4,4,4,100.0
+{{Submit}},recover_password,3,3,4,75.0
+{{Submit}},set_up_shipping_address,1,1,4,25.0
+{{Account Number}},check_invoice,2,2,3,66.666667
+{{Account Number}},check_refund_policy,1,1,3,33.333333
+{{Account Security}},recover_password,3,3,3,100.0
+{{Customer Service Email Address}},contact_customer_service,3,3,3,100.0
+{{Customer Support Team}},cancel_order,1,1,3,33.333333
+{{Customer Support Team}},delivery_period,1,1,3,33.333333
+{{Customer Support Team}},switch_account,1,1,3,33.333333
+{{Date}},check_invoice,3,3,3,100.0
+{{Delivery Time}},delivery_options,3,2,3,100.0
+{{Expedited Shipping Time}},delivery_options,3,3,3,100.0
+{{Feedback Email}},review,3,3,3,100.0
+{{Forgot User Key}},recover_password,3,3,3,100.0
+{{PIN Code Recovery}},recover_password,3,3,3,100.0
+{{PIN Code Retrieval}},recover_password,3,3,3,100.0
+{{PIN Reset}},recover_password,3,3,3,100.0
+{{Profile Recovery}},recover_password,3,2,3,100.0
+{{Purchase Details}},track_order,3,3,3,100.0
+{{Rebate Tracking Number}},track_refund,3,3,3,100.0
+{{Recover PIN}},recover_password,3,3,3,100.0
+{{Reset User Key}},recover_password,3,2,3,100.0
+{{Retrieve PIN}},recover_password,3,3,3,100.0
+{{Security & Privacy}},recover_password,3,3,3,100.0
+{{Standard Shipping Time}},delivery_options,3,3,3,100.0
+{{Switch User}},switch_account,3,2,3,100.0
+{{Upgrade to {{Account Type}},switch_account,3,3,3,100.0
+{{User Account Recovery}},recover_password,3,3,3,100.0
+{{User Account Settings}},recover_password,3,3,3,100.0
+{{Access Key Recovery}},recover_password,2,2,2,100.0
+{{Access Key}},recover_password,2,2,2,100.0
+{{Account Upgrade}},switch_account,2,2,2,100.0
+{{Account}},recover_password,1,1,2,50.0
+{{Account}},switch_account,1,1,2,50.0
+{{Basic Account}},switch_account,2,2,2,100.0
+{{Basic}},switch_account,2,2,2,100.0
+{{Cancellation Policy}},cancel_order,2,2,2,100.0
+{{Change PIN}},recover_password,2,2,2,100.0
+{{Change User}},switch_account,2,2,2,100.0
+{{Complaint Email Address}},complaint,2,2,2,100.0
+{{Customer Assistance Email Address}},contact_customer_service,2,2,2,100.0
+{{Customer Assistance Hours}},contact_customer_service,2,2,2,100.0
+{{Customer Assistance Phone Number}},contact_customer_service,2,2,2,100.0
+{{Date of the Invoice}},check_invoice,2,2,2,100.0
+{{ETA}},track_order,2,2,2,100.0
+{{Estimated Delivery Time}},delivery_options,2,1,2,100.0
+{{Expedited Delivery Time}},delivery_options,2,2,2,100.0
+{{Forgot User Access Key}},recover_password,2,2,2,100.0
+{{Forgot User Account Key}},recover_password,2,2,2,100.0
+{{Help Center URL}},recover_password,2,2,2,100.0
+{{Live Chat}},contact_customer_service,1,1,2,50.0
+{{Live Chat}},switch_account,1,1,2,50.0
+{{My Purchases}},cancel_order,2,2,2,100.0
+{{Number of Days}},delivery_options,2,1,2,100.0
+{{Order/Transaction/Reimbursement}},track_refund,2,1,2,100.0
+{{PIN Code Management}},recover_password,2,2,2,100.0
+{{PIN Code Reset}},recover_password,2,2,2,100.0
+{{PIN Code Restoration}},recover_password,2,2,2,100.0
+{{Password Reset Page URL}},recover_password,2,2,2,100.0
+{{Product Category}},place_order,2,1,2,100.0
+{{Product Feedback Email}},review,2,2,2,100.0
+{{Profile Recovery Page}},recover_password,2,2,2,100.0
+{{Purchase Status}},track_order,2,2,2,100.0
+{{Rebate ID}},track_refund,2,2,2,100.0
+{{Recover Access Key}},recover_password,2,2,2,100.0
+{{Reference Number}},track_refund,2,2,2,100.0
+{{Refund Policy}},cancel_order,2,1,2,100.0
+{{Reimbursement ID}},track_refund,2,2,2,100.0
+{{Restore Password}},recover_password,2,2,2,100.0
+{{Retrieve Account Key}},recover_password,2,2,2,100.0
+{{Review Platform}},review,2,1,2,100.0
+{{Save}},recover_password,1,1,2,50.0
+{{Save}},set_up_shipping_address,1,1,2,50.0
+{{Shipping Cut-off Time}},delivery_options,2,2,2,100.0
+{{Standard Delivery Time}},delivery_options,2,2,2,100.0
+{{Standard Shipping Days}},delivery_options,2,2,2,100.0
+{{Support Page URL}},recover_password,1,1,2,50.0
+{{Support Page URL}},registration_problems,1,1,2,50.0
+{{Switch to {{Account Type}},switch_account,2,2,2,100.0
+{{User Profile Settings}},recover_password,2,2,2,100.0
+{{X-day/money back guarantee period}},check_refund_policy,2,1,2,100.0
+{{number of days}},check_refund_policy,2,1,2,100.0
+{{Access Key Reset Page URL}},recover_password,1,1,1,100.0
+{{Access Key Retrieval}},recover_password,1,1,1,100.0
+{{Account Access Key Reset}},recover_password,1,1,1,100.0
+{{Account Closure Process}},delete_account,1,1,1,100.0
+{{Account Closure Timeframe}},delete_account,1,1,1,100.0
+{{Account Details}},track_refund,1,1,1,100.0
+{{Account ID}},delete_account,1,1,1,100.0
+{{Account Key Recovery}},recover_password,1,1,1,100.0
+{{Account Management}},recover_password,1,1,1,100.0
+{{Account Name}},check_invoice,1,1,1,100.0
+{{Account Page}},set_up_shipping_address,1,1,1,100.0
+{{Account Plan}},switch_account,1,1,1,100.0
+{{Account Type Switch}},switch_account,1,1,1,100.0
+{{Add a New Address}},set_up_shipping_address,1,1,1,100.0
+{{Billing Category}},check_invoice,1,1,1,100.0
+{{Billing History}},get_invoice,1,1,1,100.0
+{{Billing}},check_invoice,1,1,1,100.0
+{{Business Hours}},contact_customer_service,1,1,1,100.0
+{{Business Name Anonymized}},complaint,1,1,1,100.0
+{{Cancellation Refund Time}},check_refund_policy,1,1,1,100.0
+{{Carrier Name}},delivery_options,1,1,1,100.0
+{{Case Number}},track_refund,1,1,1,100.0
+{{Change Access Key}},recover_password,1,1,1,100.0
+{{Change Account}},switch_account,1,1,1,100.0
+{{Change Key}},recover_password,1,1,1,100.0
+{{Change Password}},recover_password,1,1,1,100.0
+{{Change Profile}},switch_account,1,1,1,100.0
+{{Choose Account Type}},switch_account,1,1,1,100.0
+{{Choose the {{Account Type}},switch_account,1,1,1,100.0
+{{City 1}},place_order,1,1,1,100.0
+{{City 2}},place_order,1,1,1,100.0
+{{City 3}},place_order,1,1,1,100.0
+{{Claims Contact Number}},complaint,1,1,1,100.0
+{{Claims Department}},complaint,1,1,1,100.0
+{{Claims Website URL}},complaint,1,1,1,100.0
+{{Closing Time}},contact_customer_service,1,1,1,100.0
+{{Company Phone Number}},contact_human_agent,1,1,1,100.0
+{{Company Representative Name}},get_invoice,1,1,1,100.0
+{{Company Support Channels}},contact_customer_service,1,1,1,100.0
+{{Company Support Page URL}},registration_problems,1,1,1,100.0
+{{CompanyName}},check_refund_policy,1,1,1,100.0
+{{Compensation ID}},track_refund,1,1,1,100.0
+{{Compensation Identifier}},track_refund,1,1,1,100.0
+{{Compensation Type}},track_refund,1,1,1,100.0
+{{Complaint Hotline Number}},complaint,1,1,1,100.0
+{{Completion steps}},switch_account,1,1,1,100.0
+{{Confirm Cancellation}},cancel_order,1,1,1,100.0
+{{Confirm}},recover_password,1,1,1,100.0
+{{Consumer Complaint Email Address}},complaint,1,1,1,100.0
+{{Contact Channel}},switch_account,1,1,1,100.0
+{{Contact Page URL}},recover_password,1,1,1,100.0
+{{Contact Us}},set_up_shipping_address,1,1,1,100.0
+{{Country List}},delivery_options,1,1,1,100.0
+{{Country}},delivery_options,1,1,1,100.0
+{{Create Account}},switch_account,1,1,1,100.0
+{{Create a Secondary Address}},set_up_shipping_address,1,1,1,100.0
+{{Customer Assistance Email}},contact_customer_service,1,1,1,100.0
+{{Customer Claims Email Address}},complaint,1,1,1,100.0
+{{Customer ID}},track_refund,1,1,1,100.0
+{{Customer Service Toll-Free Number}},contact_customer_service,1,1,1,100.0
+{{Customer Support Closing Time}},contact_customer_service,1,1,1,100.0
+{{Customer Support Contact Number}},contact_customer_service,1,1,1,100.0
+{{Customer Support Days}},contact_customer_service,1,1,1,100.0
+{{Customer Support End Time}},contact_customer_service,1,1,1,100.0
+{{Customer Support Hotline}},contact_customer_service,1,1,1,100.0
+{{Customer Support Live Chat URL}},track_order,1,1,1,100.0
+{{Customer Support Opening Time}},contact_customer_service,1,1,1,100.0
+{{Customer Support Start Time}},contact_customer_service,1,1,1,100.0
+{{Customer Support Team Name}},contact_human_agent,1,1,1,100.0
+{{Customer Support Ticket Number}},contact_customer_service,1,1,1,100.0
+{{Customer Support Toll-Free Number}},contact_customer_service,1,1,1,100.0
+{{Customer Support Website}},contact_customer_service,1,1,1,100.0
+{{Cut Off Time}},delivery_options,1,1,1,100.0
+{{Dashboard}},switch_account,1,1,1,100.0
+{{Date of the Bill}},check_invoice,1,1,1,100.0
+{{Delivery Date}},track_order,1,1,1,100.0
+{{Destination}},delivery_period,1,1,1,100.0
+{{Downgrade}},switch_account,1,1,1,100.0
+{{Duplicate Charges Refund Time}},check_refund_policy,1,1,1,100.0
+{{E-commerce Platform 1}},place_order,1,1,1,100.0
+{{E-commerce Platform 2}},place_order,1,1,1,100.0
+{{E-commerce Platform Names}},place_order,1,1,1,100.0
+{{Edit PIN}},recover_password,1,1,1,100.0
+{{Email Address}},track_order,1,1,1,100.0
+{{Event Cancellation Refund Time}},check_refund_policy,1,1,1,100.0
+{{Expedited Shipping Days}},delivery_options,1,1,1,100.0
+{{Explanation of Feature 1}},switch_account,1,1,1,100.0
+{{Explanation of Feature 2}},switch_account,1,1,1,100.0
+{{Explanation of Feature 3}},switch_account,1,1,1,100.0
+{{Express Delivery Time}},delivery_options,1,1,1,100.0
+{{Express Shipping Days}},delivery_options,1,1,1,100.0
+{{Express Shipping Time}},delivery_options,1,1,1,100.0
+{{Fifth Step}},switch_account,1,1,1,100.0
+{{First Step}},switch_account,1,1,1,100.0
+{{Forgot Account Access Key}},recover_password,1,1,1,100.0
+{{Forgot PIN Code}},recover_password,1,1,1,100.0
+{{Forgot PIN code}},recover_password,1,1,1,100.0
+{{Forgot Pin}},recover_password,1,1,1,100.0
+{{Forgot Profile Access Key}},recover_password,1,1,1,100.0
+{{Forgot User Profile Key}},recover_password,1,1,1,100.0
+{{Forgot Your Access Key}},recover_password,1,1,1,100.0
+{{Fourth Step}},switch_account,1,1,1,100.0
+{{Free Account Name}},edit_account,1,1,1,100.0
+{{Free Customer Support Number}},contact_customer_service,1,1,1,100.0
+{{Full Name}},get_invoice,1,1,1,100.0
+{{Help Center}},recover_password,1,1,1,100.0
+{{Invoice Name}},get_invoice,1,1,1,100.0
+{{Key Management}},recover_password,1,1,1,100.0
+{{Key Recovery Page URL}},recover_password,1,1,1,100.0
+{{Live Chat Feature}},contact_customer_service,1,1,1,100.0
+{{Login Page}},recover_password,1,1,1,100.0
+{{Login URL}},recover_password,1,1,1,100.0
+{{Login page URL}},recover_password,1,1,1,100.0
+{{Login steps}},switch_account,1,1,1,100.0
+{{Lost Key}},recover_password,1,1,1,100.0
+{{Manage PIN}},recover_password,1,1,1,100.0
+{{Manage Subscription}},switch_account,1,1,1,100.0
+{{Max Delivery Time}},delivery_period,1,1,1,100.0
+{{Membership Type}},switch_account,1,1,1,100.0
+{{Min Delivery Time}},delivery_period,1,1,1,100.0
+{{Month}},get_invoice,1,1,1,100.0
+{{My Account}},set_up_shipping_address,1,1,1,100.0
+{{Navigation steps}},switch_account,1,1,1,100.0
+{{Non-receipt of Goods Refund Time}},check_refund_policy,1,1,1,100.0
+{{Online Marketplace}},place_order,1,1,1,100.0
+{{Online Store}},place_order,1,1,1,100.0
+{{Opening Time}},contact_customer_service,1,1,1,100.0
+{{Order Tracker}},track_order,1,1,1,100.0
+{{Order Tracking Method}},delivery_period,1,1,1,100.0
+{{Order/Claim Number}},track_refund,1,1,1,100.0
+{{Order/Claim/Compensation}},track_refund,1,1,1,100.0
+{{Order/Invoice Number}},track_refund,1,1,1,100.0
+{{Order/Refund/Case Number}},track_refund,1,1,1,100.0
+{{Order/Refund/Transaction}},track_refund,1,1,1,100.0
+{{Order/Transaction ID}},track_refund,1,1,1,100.0
+{{Order/Transaction/Reference Number}},track_refund,1,1,1,100.0
+{{PIN Recovery Page URL}},recover_password,1,1,1,100.0
+{{PIN Reset Page URL}},recover_password,1,1,1,100.0
+{{PIN Retrieval Page URL}},recover_password,1,1,1,100.0
+{{PIN code}},recover_password,1,1,1,100.0
+{{Password Management}},recover_password,1,1,1,100.0
+{{Password Recovery Page}},recover_password,1,1,1,100.0
+{{Password Recovery}},recover_password,1,1,1,100.0
+{{Password Reset}},recover_password,1,1,1,100.0
+{{Password and Security}},recover_password,1,1,1,100.0
+{{Payment Issue Email}},payment_issue,1,1,1,100.0
+{{Payment Issue Phone Number}},payment_issue,1,1,1,100.0
+{{Pin Code Settings}},recover_password,1,1,1,100.0
+{{Platform Login URL}},recover_password,1,1,1,100.0
+{{Platform URL}},recover_password,1,1,1,100.0
+{{Product Reviews Email}},review,1,1,1,100.0
+{{Product/Service Defect Refund Time}},check_refund_policy,1,1,1,100.0
+{{Product/Service Name}},check_refund_policy,1,1,1,100.0
+{{Profile PIN Recovery}},recover_password,1,1,1,100.0
+{{Profile Security}},recover_password,1,1,1,100.0
+{{Purpose of the Features}},switch_account,1,1,1,100.0
+{{Rebate Identifier}},track_refund,1,1,1,100.0
+{{Rebate Number}},track_refund,1,1,1,100.0
+{{Recover Key}},recover_password,1,1,1,100.0
+{{Refund Helpline Number}},get_refund,1,1,1,100.0
+{{Refund Hotline Number}},get_refund,1,1,1,100.0
+{{Registration Support Phone Number}},registration_problems,1,1,1,100.0
+{{Regular Profile}},switch_account,1,1,1,100.0
+{{Reimbursement Request Number}},track_refund,1,1,1,100.0
+{{Remove}},change_order,1,1,1,100.0
+{{Reset Account Key}},recover_password,1,1,1,100.0
+{{Reset Pin Code}},recover_password,1,1,1,100.0
+{{Reset}},recover_password,1,1,1,100.0
+{{Restitution ID}},track_refund,1,1,1,100.0
+{{Restore Access Key}},recover_password,1,1,1,100.0
+{{Restore PIN Code}},recover_password,1,1,1,100.0
+{{Restore User Access Key}},recover_password,1,1,1,100.0
+{{Restore User Key}},recover_password,1,1,1,100.0
+{{Retail Stores}},place_order,1,1,1,100.0
+{{Retrieve Account PIN}},recover_password,1,1,1,100.0
+{{Retrieve Key}},recover_password,1,1,1,100.0
+{{Retrieve PIN Code}},recover_password,1,1,1,100.0
+{{Retrieve Profile Key}},recover_password,1,1,1,100.0
+{{Retrieve User Account Key}},recover_password,1,1,1,100.0
+{{Retrieve User Key}},recover_password,1,1,1,100.0
+{{Return Policy}},cancel_order,1,1,1,100.0
+{{Review Platform 1}},review,1,1,1,100.0
+{{Review Platform 2}},review,1,1,1,100.0
+{{Same-Day Order Time}},delivery_options,1,1,1,100.0
+{{Second Step}},switch_account,1,1,1,100.0
+{{Security Settings}},recover_password,1,1,1,100.0
+{{Security and Privacy}},recover_password,1,1,1,100.0
+{{Shipment Tracking Number}},delivery_period,1,1,1,100.0
+{{Shipping Addresses}},set_up_shipping_address,1,1,1,100.0
+{{Shipping Address}},delivery_period,1,1,1,100.0
+{{Shipping Method}},delivery_period,1,1,1,100.0
+{{Shipping Status}},track_order,1,1,1,100.0
+{{Sign Up}},switch_account,1,1,1,100.0
+{{Social Media Handles}},contact_customer_service,1,1,1,100.0
+{{Social Media Platform}},contact_customer_service,1,1,1,100.0
+{{Stolen User Key}},recover_password,1,1,1,100.0
+{{Store Address}},place_order,1,1,1,100.0
+{{Store Pickup Time}},delivery_options,1,1,1,100.0
+{{Support Channel 1}},switch_account,1,1,1,100.0
+{{Support Channel 2}},switch_account,1,1,1,100.0
+{{Support Channel}},recover_password,1,1,1,100.0
+{{Support Hours}},registration_problems,1,1,1,100.0
+{{Support Phone Number}},recover_password,1,1,1,100.0
+{{Switch Plan}},switch_account,1,1,1,100.0
+{{Switch to {{Account Category}},switch_account,1,1,1,100.0
+{{Switching option}},switch_account,1,1,1,100.0
+{{Third Step}},switch_account,1,1,1,100.0
+{{Timeframe}},check_invoice,1,1,1,100.0
+{{Track Reimbursement}},track_refund,1,1,1,100.0
+{{Tracking Information}},delivery_period,1,1,1,100.0
+{{Tracking Page}},track_order,1,1,1,100.0
+{{Unauthorized Charges Refund Time}},check_refund_policy,1,1,1,100.0
+{{Update Account}},switch_account,1,1,1,100.0
+{{Update Profile}},switch_account,1,1,1,100.0
+{{Upgrade Account Type}},switch_account,1,1,1,100.0
+{{Upgrade or Downgrade Account}},switch_account,1,1,1,100.0
+{{User Key Retrieval Page URL}},recover_password,1,1,1,100.0
+{{User Key Retrieval}},recover_password,1,1,1,100.0
+{{User Management}},switch_account,1,1,1,100.0
+{{User Profile Page URL}},recover_password,1,1,1,100.0
+{{User Profile}},recover_password,1,1,1,100.0
+{{User Settings}},recover_password,1,1,1,100.0
+{{Username}},switch_account,1,1,1,100.0
+{{Working Hours}},contact_customer_service,1,1,1,100.0
+{{Year}},check_invoice,1,1,1,100.0
+{{Zip Code}},delivery_period,1,1,1,100.0
+{{additional details}},check_invoice,1,1,1,100.0
+{{contact_method}},contact_customer_service,1,1,1,100.0
+{{customer_support_phone_number}},create_account,1,1,1,100.0
+{{mention the different contact options available}},contact_customer_service,1,1,1,100.0
+{{month}},check_invoice,1,1,1,100.0
+{{proceed to our website and click on the 'Contact Us' button / dial our customer support number / reach out to our live chat support}},contact_human_agent,1,1,1,100.0
+{{provide step-by-step instructions}},edit_account,1,1,1,100.0
+{{the reason for your call}},contact_human_agent,1,1,1,100.0
+{{the specific topic you need assistance with}},contact_human_agent,1,1,1,100.0
+{{year}},check_invoice,1,1,1,100.0
+{{your issue}},contact_human_agent,1,1,1,100.0
+{{{{Account Category}},switch_account,1,1,1,100.0
+{{{{Account Type}},switch_account,1,1,1,100.0

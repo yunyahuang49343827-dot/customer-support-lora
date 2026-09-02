@@ -1,0 +1,25 @@
+/Users/sleep/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+{
+  "adapter_load_success": true,
+  "generation_success": true,
+  "sample_count": 3,
+  "samples": [
+    {
+      "instruction": "I do not know what to do to submit feedback for a service",
+      "raw_output": "{\"intent\":\"review\",\"category\":\"FEEDBACK\",\"needs_human\":false,\"response\":\"I'm sorry to hear that you're unsure about how to submit feedback for our service. I'm here to guide you through the process and ensure that you feel confident in your decision. To submit feedback, you can visit our website and navigate to the \\\"Contact Us\\\" page. From there, you can find the option to provide feedback on our service. Simply fill out the form with the details of your feedback, and we'll do our best to address it promptly. If you have any further questions or need additional assistance, please don't hesitate to let me know. I'm here to help you every step of the way.\"}"
+    },
+    {
+      "instruction": "issue with payment",
+      "raw_output": "{\"intent\":\"payment_issue\",\"category\":\"PAYMENT\",\"needs_human\":true,\"response\":\"I'm sorry to hear that you're experiencing issues with your payment. I understand how frustrating it can be when payment problems arise. To better assist you, could you please provide more details about the specific problem you're facing? This will help me identify the root cause and provide you with the most appropriate solution. Your feedback is valuable to us, and we're here to help you resolve this issue as quickly as possible.\"}"
+    },
+    {
+      "instruction": "purchase {{Order Number}} status",
+      "raw_output": "{\"intent\":\"track_order\",\"category\":\"ORDER\",\"needs_human\":false,\"response\":\"We understand your need to check the status of your purchase with the order number {{Order Number}}. We apologize for any inconvenience caused. To provide you with the most accurate information, could you please provide us with the {{Order Number}}? With this information, we will be able to assist you in tracking the status of your purchase. We appreciate your patience and cooperation in resolving this matter.\"}"
+    }
+  ],
+  "new_process": true,
+  "source": "formal_validation_derived",
+  "accuracy_evaluated": false,
+  "behavioral_improvement_claimed": false
+}

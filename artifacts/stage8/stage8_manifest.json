@@ -1,0 +1,17 @@
+{
+  "c6_5_freeze_manifest_hash": "f59616cb621e7794766b4b668f86546667746edbcaff387fd02b2af423aae3d0",
+  "c7_manifest_hash": "fd46de0127f4cb254a98457e6eea8865b733fb767fdbc21c0071a56e4a89052f",
+  "candidate": "candidate_01",
+  "candidate_modified": false,
+  "decision": "PROMOTE",
+  "decision_timestamp": "2026-09-02T05:04:51.185204+00:00",
+  "evaluator_modified": false,
+  "locked_rerun_performed": false,
+  "promotion_gate_hash": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+  "prompt_modified": false,
+  "stage": "C8",
+  "stage9_performed": false,
+  "status": "COMPLETE",
+  "threshold_modified": false,
+  "training_performed": false
+}

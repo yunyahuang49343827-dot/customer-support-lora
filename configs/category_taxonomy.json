@@ -1,0 +1,104 @@
+{
+  "contract_version": "1.0.0",
+  "dataset_name": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+  "source_artifacts": [
+    "artifacts/stage1/category_distribution.csv",
+    "artifacts/stage1/category_intent_mapping.csv"
+  ],
+  "category_count": 11,
+  "categories": [
+    {
+      "category": "ACCOUNT",
+      "count": 5986,
+      "mapped_intents": [
+        "create_account",
+        "delete_account",
+        "edit_account",
+        "recover_password",
+        "registration_problems",
+        "switch_account"
+      ]
+    },
+    {
+      "category": "CANCEL",
+      "count": 950,
+      "mapped_intents": [
+        "check_cancellation_fee"
+      ]
+    },
+    {
+      "category": "CONTACT",
+      "count": 1999,
+      "mapped_intents": [
+        "contact_customer_service",
+        "contact_human_agent"
+      ]
+    },
+    {
+      "category": "DELIVERY",
+      "count": 1994,
+      "mapped_intents": [
+        "delivery_options",
+        "delivery_period"
+      ]
+    },
+    {
+      "category": "FEEDBACK",
+      "count": 1997,
+      "mapped_intents": [
+        "complaint",
+        "review"
+      ]
+    },
+    {
+      "category": "INVOICE",
+      "count": 1999,
+      "mapped_intents": [
+        "check_invoice",
+        "get_invoice"
+      ]
+    },
+    {
+      "category": "ORDER",
+      "count": 3988,
+      "mapped_intents": [
+        "cancel_order",
+        "change_order",
+        "place_order",
+        "track_order"
+      ]
+    },
+    {
+      "category": "PAYMENT",
+      "count": 1998,
+      "mapped_intents": [
+        "check_payment_methods",
+        "payment_issue"
+      ]
+    },
+    {
+      "category": "REFUND",
+      "count": 2992,
+      "mapped_intents": [
+        "check_refund_policy",
+        "get_refund",
+        "track_refund"
+      ]
+    },
+    {
+      "category": "SHIPPING",
+      "count": 1970,
+      "mapped_intents": [
+        "change_shipping_address",
+        "set_up_shipping_address"
+      ]
+    },
+    {
+      "category": "SUBSCRIPTION",
+      "count": 999,
+      "mapped_intents": [
+        "newsletter_subscription"
+      ]
+    }
+  ]
+}

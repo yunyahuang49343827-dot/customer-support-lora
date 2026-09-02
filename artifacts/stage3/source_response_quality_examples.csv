@@ -1,0 +1,3 @@
+split,source_index,intent,failure_reason,response
+train,3494,check_cancellation_fee,incomplete_list_introduction,No problem! I can assist you with finding the information about the early termination charge. Just follow these steps...
+train,2575,change_shipping_address,incomplete_list_introduction,"Positively! If you need to update your shipping address, you can easily do so by following a few simple steps..."

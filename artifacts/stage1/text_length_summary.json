@@ -1,0 +1,34 @@
+{
+  "instruction": {
+    "character_length": {
+      "min": 6,
+      "mean": 46.889513,
+      "median": 48.0,
+      "p95": 61.0,
+      "max": 92
+    },
+    "word_count": {
+      "min": 1,
+      "mean": 8.690979,
+      "median": 9.0,
+      "p95": 13.0,
+      "max": 16
+    }
+  },
+  "response": {
+    "character_length": {
+      "min": 57,
+      "mean": 634.104495,
+      "median": 540.0,
+      "p95": 1295.0,
+      "max": 2472
+    },
+    "word_count": {
+      "min": 9,
+      "mean": 104.789037,
+      "median": 90.0,
+      "p95": 206.0,
+      "max": 402
+    }
+  }
+}

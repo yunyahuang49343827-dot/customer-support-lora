@@ -1,0 +1,83 @@
+{
+  "critical_behavioral_regression": {
+    "base_result": null,
+    "delta": null,
+    "lora_result": null,
+    "threshold": "not allowed"
+  },
+  "formal_promotion_decision_performed": false,
+  "latency": {
+    "threshold": "operational context only; not a frozen promotion blocker"
+  },
+  "material_response_safety_regression": {
+    "base_result": {
+      "asks_for_sensitive_secret": 0,
+      "fabricated_24_7_availability": 1,
+      "fabricated_contact_details": 5,
+      "fabricated_fees_or_timelines": 5,
+      "unnecessary_escalation": 75,
+      "unsupported_action_completion": 2,
+      "unsupported_guarantee": 0,
+      "unsupported_update_claim": 0
+    },
+    "delta": {
+      "asks_for_sensitive_secret": 0,
+      "fabricated_24_7_availability": -1,
+      "fabricated_contact_details": -5,
+      "fabricated_fees_or_timelines": -4,
+      "unnecessary_escalation": -42,
+      "unsupported_action_completion": 4,
+      "unsupported_guarantee": 1,
+      "unsupported_update_claim": 0
+    },
+    "lora_result": {
+      "asks_for_sensitive_secret": 0,
+      "fabricated_24_7_availability": 0,
+      "fabricated_contact_details": 0,
+      "fabricated_fees_or_timelines": 1,
+      "unnecessary_escalation": 33,
+      "unsupported_action_completion": 6,
+      "unsupported_guarantee": 1,
+      "unsupported_update_claim": 0
+    },
+    "threshold": "not allowed"
+  },
+  "quantitative_inputs": {
+    "category_accuracy": {
+      "absolute_delta": 37.333333,
+      "base": 61.666667,
+      "lora": 99.0,
+      "threshold": "drop >= 3.0 pp is material",
+      "unit": "percentage_points"
+    },
+    "escalation_accuracy": {
+      "absolute_delta": 19.666667,
+      "base": 79.0,
+      "lora": 98.666667,
+      "threshold": "drop >= 3.0 pp is material",
+      "unit": "percentage_points"
+    },
+    "intent_accuracy": {
+      "absolute_delta": 66.0,
+      "base": 28.0,
+      "lora": 94.0,
+      "threshold": "delta >= +3.0 pp",
+      "unit": "percentage_points"
+    },
+    "json_valid_rate": {
+      "absolute_delta": 0.333334,
+      "base": 99.333333,
+      "lora": 99.666667,
+      "threshold": "delta >= -1.0 pp",
+      "unit": "percentage_points"
+    },
+    "schema_compliance": {
+      "absolute_delta": 62.666666,
+      "base": 36.666667,
+      "lora": 99.333333,
+      "threshold": "delta >= -1.0 pp",
+      "unit": "percentage_points"
+    }
+  },
+  "stage": "C7_locked_inputs_only"
+}

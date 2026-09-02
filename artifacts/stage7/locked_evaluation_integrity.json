@@ -1,0 +1,450 @@
+{
+  "fail_count": 0,
+  "items": [
+    {
+      "actual": "PASS",
+      "expected": "PASS",
+      "name": "freeze_status",
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "freeze_validation_fail_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "candidate_01",
+      "expected": "candidate_01",
+      "name": "candidate",
+      "status": "PASS"
+    },
+    {
+      "actual": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "expected": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "name": "base_model",
+      "status": "PASS"
+    },
+    {
+      "actual": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "expected": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "name": "base_revision",
+      "status": "PASS"
+    },
+    {
+      "actual": "artifacts/stage5/candidate_01/adapter",
+      "expected": "artifacts/stage5/candidate_01/adapter",
+      "name": "adapter_path",
+      "status": "PASS"
+    },
+    {
+      "actual": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "expected": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "name": "adapter_sha256_manifest",
+      "status": "PASS"
+    },
+    {
+      "actual": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "expected": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "name": "adapter_sha256_current",
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "adapter_config_sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+        "file_count": 11,
+        "files": [
+          {
+            "relative_path": "0000150_adapters.safetensors",
+            "sha256": "2c1f21a922dd87c60036d48904bdc647f53cf1c54f64fc9ec176441529950e0d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000300_adapters.safetensors",
+            "sha256": "6c6964d79ce497a13181ee1555841a5e2d964f313ee91a62d6efc436c00ec3df",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000450_adapters.safetensors",
+            "sha256": "b6289ed5d5d78291271c929b447a30d68b94ed52889ecc3fc65d121ad1c99415",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000600_adapters.safetensors",
+            "sha256": "85412b7a107720d5b0e70d68d64478b1ebba2ec2ea8df6d588b0b8220574f11a",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000750_adapters.safetensors",
+            "sha256": "bc546fb1bcf5ee8e741cc6d06cfec834e822ac3529e940b9decad4cc8664678d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000900_adapters.safetensors",
+            "sha256": "559026eab91ad979dbb0a0f7270993c54e3ad74d4a7aa6cd95770c7088d1362d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001050_adapters.safetensors",
+            "sha256": "bf6bcb5d9ce734dc615e79e8801a64b0fdb3df3030c9aa35103858a347a1f0b7",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001200_adapters.safetensors",
+            "sha256": "6642de9c4dc9ebc5a01511c4d29a248e8121b60244e351ac2d94f725c86da3db",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001350_adapters.safetensors",
+            "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "adapter_config.json",
+            "sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+            "size_bytes": 1222
+          },
+          {
+            "relative_path": "adapters.safetensors",
+            "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+            "size_bytes": 21126646
+          }
+        ],
+        "final_adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "final_checkpoint_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "path": "artifacts/stage5/candidate_01/adapter",
+        "total_bytes": 211267682
+      },
+      "expected": {
+        "adapter_config_sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+        "file_count": 11,
+        "files": [
+          {
+            "relative_path": "0000150_adapters.safetensors",
+            "sha256": "2c1f21a922dd87c60036d48904bdc647f53cf1c54f64fc9ec176441529950e0d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000300_adapters.safetensors",
+            "sha256": "6c6964d79ce497a13181ee1555841a5e2d964f313ee91a62d6efc436c00ec3df",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000450_adapters.safetensors",
+            "sha256": "b6289ed5d5d78291271c929b447a30d68b94ed52889ecc3fc65d121ad1c99415",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000600_adapters.safetensors",
+            "sha256": "85412b7a107720d5b0e70d68d64478b1ebba2ec2ea8df6d588b0b8220574f11a",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000750_adapters.safetensors",
+            "sha256": "bc546fb1bcf5ee8e741cc6d06cfec834e822ac3529e940b9decad4cc8664678d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0000900_adapters.safetensors",
+            "sha256": "559026eab91ad979dbb0a0f7270993c54e3ad74d4a7aa6cd95770c7088d1362d",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001050_adapters.safetensors",
+            "sha256": "bf6bcb5d9ce734dc615e79e8801a64b0fdb3df3030c9aa35103858a347a1f0b7",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001200_adapters.safetensors",
+            "sha256": "6642de9c4dc9ebc5a01511c4d29a248e8121b60244e351ac2d94f725c86da3db",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "0001350_adapters.safetensors",
+            "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+            "size_bytes": 21126646
+          },
+          {
+            "relative_path": "adapter_config.json",
+            "sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+            "size_bytes": 1222
+          },
+          {
+            "relative_path": "adapters.safetensors",
+            "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+            "size_bytes": 21126646
+          }
+        ],
+        "final_adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "final_checkpoint_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "path": "artifacts/stage5/candidate_01/adapter",
+        "total_bytes": 211267682
+      },
+      "name": "adapter_inventory",
+      "status": "PASS"
+    },
+    {
+      "actual": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "expected": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "name": "prompt_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": "1225f7169ea6f2394e40478dcb1df572768d44c08f73f990866393b0d0b26752",
+      "expected": "1225f7169ea6f2394e40478dcb1df572768d44c08f73f990866393b0d0b26752",
+      "name": "inference_contract_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+      "expected": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+      "name": "locked_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "locked_rows_binary",
+      "status": "PASS"
+    },
+    {
+      "actual": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "expected": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "name": "inference_model",
+      "status": "PASS"
+    },
+    {
+      "actual": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "expected": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "name": "inference_revision",
+      "status": "PASS"
+    },
+    {
+      "actual": "artifacts/stage5/candidate_01/adapter",
+      "expected": "artifacts/stage5/candidate_01/adapter",
+      "name": "inference_adapter",
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "concurrency": 1,
+        "max_generated_tokens": 512,
+        "seed": 42,
+        "strategy": "deterministic_greedy",
+        "temperature": 0.0,
+        "warmup_runs": 0
+      },
+      "expected": {
+        "concurrency": 1,
+        "max_generated_tokens": 512,
+        "seed": 42,
+        "strategy": "deterministic_greedy",
+        "temperature": 0.0,
+        "warmup_runs": 0
+      },
+      "name": "inference_decoding",
+      "status": "PASS"
+    },
+    {
+      "actual": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "expected": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "name": "promotion_gate_sha256",
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "name": "stage8_outputs_before_run",
+      "status": "PASS"
+    },
+    {
+      "actual": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+      "expected": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+      "name": "evaluator_manifest:src/evaluation/base_baseline.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+      "expected": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+      "name": "evaluator_current:src/evaluation/base_baseline.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+      "expected": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+      "name": "evaluator_manifest:src/evaluation/contracts.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+      "expected": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+      "name": "evaluator_current:src/evaluation/contracts.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+      "expected": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+      "name": "evaluator_manifest:src/evaluation/development_evaluation.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+      "expected": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+      "name": "evaluator_current:src/evaluation/development_evaluation.py",
+      "status": "PASS"
+    },
+    {
+      "actual": "6a3d0900b3485e5a24205ea5f7ae42360d598a6c7a7fc6d97cde2d8fde88daa2",
+      "expected": "6a3d0900b3485e5a24205ea5f7ae42360d598a6c7a7fc6d97cde2d8fde88daa2",
+      "name": "schema_manifest:configs/output_schema.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "6a3d0900b3485e5a24205ea5f7ae42360d598a6c7a7fc6d97cde2d8fde88daa2",
+      "expected": "6a3d0900b3485e5a24205ea5f7ae42360d598a6c7a7fc6d97cde2d8fde88daa2",
+      "name": "schema_current:configs/output_schema.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "8e99fdfcdd90a2bcc2dd733503e936d5f0785ef4548468fa5923b4d965e3422f",
+      "expected": "8e99fdfcdd90a2bcc2dd733503e936d5f0785ef4548468fa5923b4d965e3422f",
+      "name": "schema_manifest:configs/intent_taxonomy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "8e99fdfcdd90a2bcc2dd733503e936d5f0785ef4548468fa5923b4d965e3422f",
+      "expected": "8e99fdfcdd90a2bcc2dd733503e936d5f0785ef4548468fa5923b4d965e3422f",
+      "name": "schema_current:configs/intent_taxonomy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "694f2c4a56fe662d795a1315781ed7c86f68114012ea0012ead43cefc4a5ba79",
+      "expected": "694f2c4a56fe662d795a1315781ed7c86f68114012ea0012ead43cefc4a5ba79",
+      "name": "schema_manifest:configs/category_taxonomy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "694f2c4a56fe662d795a1315781ed7c86f68114012ea0012ead43cefc4a5ba79",
+      "expected": "694f2c4a56fe662d795a1315781ed7c86f68114012ea0012ead43cefc4a5ba79",
+      "name": "schema_current:configs/category_taxonomy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "c07898c29254bc584c944007bc2fd2785c9db1e70fedda0aeb7c0ec7c2ef0f2d",
+      "expected": "c07898c29254bc584c944007bc2fd2785c9db1e70fedda0aeb7c0ec7c2ef0f2d",
+      "name": "schema_manifest:configs/escalation_policy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": "c07898c29254bc584c944007bc2fd2785c9db1e70fedda0aeb7c0ec7c2ef0f2d",
+      "expected": "c07898c29254bc584c944007bc2fd2785c9db1e70fedda0aeb7c0ec7c2ef0f2d",
+      "name": "schema_current:configs/escalation_policy.json",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "base_attempts",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "lora_attempts",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "same_locked_membership",
+      "status": "PASS"
+    },
+    {
+      "actual": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "expected": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+      "name": "same_prompt",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "same_evaluator",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "same_decoder",
+      "status": "PASS"
+    },
+    {
+      "actual": "src.evaluation.base_baseline._strict_json_object",
+      "expected": "src.evaluation.base_baseline._strict_json_object",
+      "name": "same_parser",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "same_schema_taxonomy_policy",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "all_base_failures_retained",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "all_lora_failures_retained",
+      "status": "PASS"
+    },
+    {
+      "actual": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "expected": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+      "name": "adapter_unchanged",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "training_performed",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "prompt_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "evaluator_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "thresholds_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "candidate_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "name": "stage8_outputs",
+      "status": "PASS"
+    }
+  ],
+  "pass_count": 50,
+  "stage": "C7",
+  "status": "PASS"
+}

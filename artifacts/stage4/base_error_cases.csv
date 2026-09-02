@@ -1,0 +1,1424 @@
+source_index,instruction,ground_truth_intent,predicted_intent,ground_truth_category,predicted_category,ground_truth_needs_human,predicted_needs_human,json_valid,schema_compliant,generation_truncated,error_tags,raw_model_output
+22308,i need help to leave some feedback about ur services,review,feedback,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We'd love to hear your feedback! Please provide a brief comment or suggestion. This will help us improve our services. Thank you for your input.""
+}"
+13409,can you help me to see how soon can I expect the delivery?,delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can provide you with the expected delivery date. Please check your order status for more details.""
+}"
+14827,change info on {{Account Type}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information as soon as possible. Please provide your new details.""
+}"
+22170,how to send some feedback for a service?,review,FEEDBACK,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""FEEDBACK"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""To provide feedback for our service, you can send us your thoughts and suggestions. Please use the 'Contact' option in our system to share your feedback. We value your input and strive to improve our services. If you have any questions or need further assistance, feel free to contact us.""
+}"
+2704,wanna knowabout updating the address,change_shipping_address,set_up_shipping_address,SHIPPING,SHIPPING,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""To update your shipping address, please follow these steps:\n1. Log in to your account.\n2. Go to the 'My Account' section.\n3. Click on 'Edit Account'.\n4. Scroll down to 'Shipping Address' and enter your new address details.\n5. Save your changes.\n\nIf you need further assistance, feel free to ask.""
+}"
+26552,i want help checking if there are any news on my restitution,track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you're experiencing issues with your refund. To help you, I'll need more information. Could you please provide your order number and the date of the transaction? This will help me check the status of your refund.""
+}"
+16617,assistance to obtain a restitution of my money,get_refund,refund,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""refund"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""We are here to assist you. To proceed with obtaining a refund, please provide your order number. Once we have your order number, we can help you initiate the refund process. If you have any other questions or need further assistance, feel free to ask.""
+}"
+23770,want help to enter a new delivery address,set_up_shipping_address,set_up_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To set up your new shipping address, please follow these steps:\n1. Go to your account settings.\n2. Click on the 'Edit' option for your shipping address.\n3. Enter your new address details.\n4. Save the changes.\n\nIf you need further assistance, feel free to ask.""
+}"
+21843,i need help to report problems with registrations,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have any issues with your registration, please provide more details so we can assist you better. This includes any problems you're experiencing, such as account issues, payment issues, or other concerns. We'll do our best to resolve your registration problems.""
+}"
+24808,how to use the platinum profile?,switch_account,,ACCOUNT,,False,,False,False,False,wrong_intent;wrong_category;invalid_json;wrong_needs_human,"{
+  ""intent"": ""SET_UP_SHIPPING_ADDRESS"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""To use the Platinum profile, you need to set up your shipping address. Here’s how you can do it:
+
+1. Log in to your account.
+2. Go to the 'My Account' section.
+3. Click on 'Edit Profile'.
+4. Under 'Shipping Address', enter your address details.
+5. Save the changes.
+
+Once your shipping address is set up, you can use the Platinum profile for faster delivery times and better service. If you need further assistance, feel free to ask.""
+}"
+6268,hlp seeing ur money back guarantee,check_refund_policy,refund,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""refund"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your payment. To help you recover your funds, we've implemented a money-back guarantee. Please provide your order number so we can process the refund for you. If you need any further assistance, feel free to contact our customer service team.""
+}"
+24991,how could i see the eta of the order {{Order Number}},track_order,check_shipping,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""check_shipping"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""The estimated time of arrival (ETA) for your order {{Order Number}} can be checked by looking at the shipping details on your account dashboard. If you don't see the ETA there, you can also contact customer service for more information.""
+}"
+2685,I don't know how I can update my address,change_shipping_address,set_up_shipping_address,SHIPPING,SHIPPING,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""To update your shipping address, please follow these steps:\n1. Log in to your account.\n2. Click on the 'My Account' or 'Profile' option.\n3. Select 'Edit Profile' or 'Edit Shipping Address'.\n4. Enter your new address details.\n5. Save the changes.\nIf you encounter any issues, you can contact our customer service for assistance.""
+}"
+14310,how to update the info on my user profile?,edit_account,set_up_shipping_address,ACCOUNT,SHIPPING,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""To update your user profile, you can go to the 'My Account' section and click on 'Edit Profile'. From there, you can change your shipping address, billing address, and other personal information. If you need further assistance, you can also contact our customer support team.""
+}"
+25764,i have to see the status of order {{Order Number}},track_order,check_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""To check the status of your order, please provide the Order Number.""
+}"
+13891,"I have got to see how soon can I expect my shipment, help me",delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you track your shipment. Please provide your order number so we can check the expected delivery time.""
+}"
+24171,what do i need to do to change to the gold account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""To change to the Gold account, you need to follow these steps:\n1. Log in to your account.\n2. Click on the 'Settings' or 'Account' option.\n3. Select 'Upgrade to Gold'.\n4. Review the terms and conditions.\n5. Click 'Upgrade'.\n6. Confirm your payment method.\n7. Wait for the account upgrade to be processed.\n8. Check your account for the new Gold status.\n\nIf you encounter any issues, please contact our customer support for assistance.""
+}"
+10981,I have a problem with the deletion of a {{Account Type}} account,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your {{Account Type}} account. To help resolve this, we need more information. Could you please provide details on what problem you're facing? This will help us better understand the situation and provide a solution. Thank you for your patience and understanding.""
+}"
+20100,can ya help me recovering my userprofile pass,recover_password,complaint,ACCOUNT,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you're having trouble with your user profile. To help you recover your password, we recommend trying to reset it through the account recovery process. If you're not sure how to do this, you can contact our customer support team for assistance. They can guide you through the steps to reset your password and help you recover your user profile.""
+}"
+21356,I am experiencing registration issues,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing registration issues. To help resolve this, we recommend checking your email for any confirmation emails we sent. If you don't see them, please check your spam folder. If you still can't find them, please contact our support team at [insert support email or phone number]. We'll do our best to assist you further.""
+}"
+6,"I can no longer afford order {{Order Number}}, cancel it",cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We understand that you cannot afford the order. Unfortunately, we cannot cancel the order directly. Please contact our customer service for assistance. We are here to help you.""
+}"
+10798,i aint registered yet could i open a pro account withyou,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're happy to help! To open a Pro account, you'll need to provide some additional information. Please fill out the form on our website. Once you submit the form, we'll review your details and get back to you shortly. If you have any questions or need further assistance, feel free to contact us.""
+}"
+24311,change to freemium account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry, but we don't have a feature to change the account type. Please contact our support team for assistance.""
+}"
+26617,where could I check the current status of the compensation?,track_refund,check_cancellation_fee,REFUND,REFUND,False,False,True,False,False,wrong_intent;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can check the current status of your compensation by logging into your account and navigating to the 'My Account' section. From there, select 'View Details' for the specific compensation you're interested in. This will provide you with the most up-to-date information on the status of your compensation.""
+}"
+17918,help me reporting an issue wigh online payment,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have an issue with your online payment, please provide the following details: the payment method, the date of the transaction, and a brief description of the problem. This information will assist us in resolving the issue as quickly as possible. Thank you for your patience and understanding.""
+}"
+7737,I'm calling to make a complaint against ur company,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. Please provide a detailed description of the issue so we can address it promptly.""
+}"
+10851,where do I create a gold account?,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""To create a Gold account, you can visit our website and follow these steps:\n1. Go to the 'My Account' section on our website.\n2. Click on 'Create New Account'.\n3. Fill in the required fields, including your email address and password.\n4. Review your information and click 'Create Account'.\n5. You will receive an email with your account details and login instructions.\n6. Once your account is created, you can log in to your account and start using our services.""
+}"
+2071,I need support trying to update my shipping address,change_shipping_address,CHANGE_SHIPPING_ADDRESS,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""CHANGE_SHIPPING_ADDRESS"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""I can help you update your shipping address. Could you please provide your new shipping address details?""
+}"
+16495,i do not know what i need to do to get retsitutions of money,get_refund,REFUND,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""If you need to get a refund, you can check the details of your order and follow the steps provided by the platform. If you are facing issues with the refund process, you can contact customer support for assistance.""
+}"
+2915,I want supports changing my delivery address,change_shipping_address,change_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""change_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you update your delivery address. Please provide your new shipping address details.""
+}"
+24269,assistance using the standard profile,switch_account,contact_customer_service,ACCOUNT,CONTACT,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""contact_customer_service"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I need assistance with my account. Could you guide me on how to proceed?""
+}"
+7033,how to lodge a claim against your company?,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""To lodge a complaint against our company, please contact our customer service team. You can do this by calling us at 1-800-Complain, sending an email to [email@example.com], or filling out our online form on our website. We are here to help and will take your complaint seriously. Please provide as much detail as possible so we can address your issue promptly.""
+}"
+13775,can you show me how soon can I expect my delivery?,delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can provide an estimated delivery date based on your order. Please check your order confirmation for a more precise delivery time.""
+}"
+20688,"I can't remembner my pass, can you help me to retrieve it?",recover_password,password_issue,ACCOUNT,PAYMENT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{""intent"":""password_issue"",""category"":""PAYMENT"",""needs_human"":false,""response"":""I'm sorry to hear that you're having trouble remembering your password. Unfortunately, we don't have a way to retrieve your password directly. However, you can try resetting your password by following these steps: 1. Go to your account settings or login page. 2. Look for a 'Forgot Password' or 'Reset Password' option. 3. Follow the instructions provided. If you still can't access your account, you might need to contact customer support for further assistance.""}"
+9170,can uhelp me to speak with a person,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""I'm here to help. How can I assist you?""
+}"
+21355,is it possible to notify of problems with sign-up?,registration_problems,contact,ACCOUNT,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""We're here to help! If you have any issues with your sign-up, please feel free to contact us directly. We'll do our best to assist you.""}"
+25114,check the current status of purchase {{Order Number}},track_order,ORDER,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To check the current status of your purchase, please visit our website and navigate to the 'My Account' section. From there, select 'View Order History' and enter the Order Number '{{Order Number}}'. This will provide you with the details of your purchase, including the status of your order.""
+}"
+14836,change info on {{Account Type}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information as soon as possible. Please provide your new details.""
+}"
+3381,"I want to see the withdrawal charge, I need help",check_cancellation_fee,check_cancellation_fee,CANCEL,FEEDBACK,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have the ability to check cancellation fees. You can usually find this information on your account dashboard. If you need help with something else, feel free to ask.""
+}"
+9103,how to contact a human agent?,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""To contact a human agent, you can send us an email at [contact@website.com] or use our chatbot by clicking the 'Chat' button on our website. We're here to help.""
+}"
+13171,help me to see how soon can I expect my parcel,delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""You can expect your parcel within 1 to 3 days. For more precise information, please check the tracking status on the official website.""
+}"
+3838,can you show me the withdrawal penalties?,check_cancellation_fee,REFUND,CANCEL,REFUND,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have information on withdrawal penalties. You may want to check with your bank or financial institution for details on withdrawal fees and penalties.""
+}"
+13721,"I have to check how soon can I expect my parcel, help me",delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We recommend checking the tracking number on the carrier's website for the expected delivery time. If you need further assistance, feel free to ask.""
+}"
+14994,can you send me the bill from {{Person Name}}?,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have access to your personal information. Please check your email or contact customer service for your invoice.""
+}"
+22896,why I can't enter the secondary delivery address valid,set_up_shipping_address,shipping,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""shipping"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're having trouble entering your secondary delivery address. To help resolve this issue, we recommend checking your internet connection and try again. If the problem persists, please contact our customer service team for further assistance.""
+}"
+1541,help to switch several products of order {{Order Number}},change_order,switch_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""switch_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""Hello! To switch products in your order, you can follow these steps:\n1. Log in to your account.\n2. Go to the 'My Orders' section.\n3. Find the order by the Order Number.\n4. Click on the 'Edit' option for that order.\n5. Select the products you want to switch.\n6. Click 'Save' to complete the switch.\n\nIf you need further assistance, feel free to ask. Have a great day!""
+}"
+8681,"I would like to call customer assistance, how could I do it?",contact_customer_service,,CONTACT,,True,,False,False,False,wrong_intent;wrong_category;invalid_json;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""Hello! To contact customer assistance, you can call our support line at 1-800-123-4567. Please note that our customer service team is available Monday to Friday, 9:00 AM to 5:00 PM EST. If you need immediate assistance, please leave a message and we'll get back to you as soon as possible. Thank you for choosing our service.""""}"
+9061,contcat an agent,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""I'm here to help. How can I assist you today?""
+}"
+16282,I have to request reimbursements of my money,get_refund,refund,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""refund"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""We are currently unable to process your request for a refund. Please try again later or contact our customer service for assistance.""
+}"
+7503,want help to file a consumer claim,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you need assistance with filing a consumer claim, please provide more details about the issue so we can guide you through the process.""
+}"
+18454,I need help to notify of troubles with payment,payment_issue,payment_issue,PAYMENT,PAYMENT,True,False,True,True,False,wrong_needs_human,"{
+  ""intent"": ""payment_issue"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you're experiencing issues with your payment, please provide more details so we can assist you better. What specifically is not working? Are you receiving any error messages? ""
+}"
+3663,I want help to check the cancellation penalty,check_cancellation_fee,complaint,CANCEL,FEEDBACK,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""complaint"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you need assistance with checking the cancellation penalty, feel free to ask. We'll provide you with the necessary information to proceed.""
+}"
+25571,I am trying to locate order {{Order Number}},track_order,place_order,ORDER,ORDER,False,False,True,True,False,wrong_intent,"{""intent"":""place_order"",""category"":""ORDER"",""needs_human"":false,""response"":""We're sorry, but we don't have any information on an order with the number {{Order Number}}. Could you please provide more details or contact our customer service for assistance?""}"
+42,problems with cancelling order {{Order Number}},cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with cancelling your order. To help resolve this, we need more information. Could you please provide the Order Number so we can look into it further? Once we have this information, we'll be able to assist you more effectively.""
+}"
+15580,"I have got to get my bill #37777, I need assistance",get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To check your invoice, please provide your invoice number. Once I have your number, I can help you locate it. If you need any further assistance, feel free to ask.""
+}"
+19037,i dont know what i need to do to shop a few of ur product,place_order,check_invoice,ORDER,INVOICE,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To shop our products, you can browse through our catalog on our website. If you have a specific product in mind, you can search for it by entering its name or category. Once you find the product you're interested in, you can add it to your cart and proceed to checkout. If you need help with the checkout process, you can visit our FAQ section for more information.""
+}"
+26454,can you help me see the compensation status?,track_refund,check_cancellation_fee,REFUND,FEEDBACK,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have the ability to check cancellation fees. You can usually find this information on your account dashboard. If you need help with something else, feel free to ask.""
+}"
+20172,is it possible to reset the keyof my user account,recover_password,registration_problems,ACCOUNT,ACCOUNT,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We don't currently offer a way to reset the `keyof` on your user account. If you're having trouble accessing your account, you might want to check our help center for troubleshooting tips. Otherwise, you can try contacting our support team for assistance.""
+}"
+18289,can you help me notify of a payment issue?,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We'll send you an email notification if we notice any payment issues. In the meantime, please try to resolve the issue yourself. If you need further assistance, feel free to contact our customer support.""
+}"
+5280,want help seeing ur accepted payment metjods,check_payment_methods,CHECK_PAYMENT_METHODS,PAYMENT,PAYMENT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHECK_PAYMENT_METHODS"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We can help you see your accepted payment methods. Please provide your payment method details to proceed.""
+}"
+10311,create new freemium account for daughter,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry, but we don't currently offer a freemium account option for new users. We recommend signing up for a paid plan instead.""
+}"
+14596,change info on {{Account Category}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information right away. Please provide your new details.""
+}"
+17855,"I have to receive the newsletter, how could I do it?",newsletter_subscription,contact,SUBSCRIPTION,NEWSLETTER,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{""intent"":""contact"",""category"":""NEWSLETTER"",""needs_human"":false,""response"":""To subscribe to our newsletter, please visit our website and click on the 'Subscribe to Newsletter' option. If you have any issues or need further assistance, feel free to contact our customer service team.""}"
+23206,I have troubles submitting the shipping address,set_up_shipping_address,shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're having trouble submitting your shipping address. Please try again. If the issue persists, you can contact our customer service for further assistance.""
+}"
+2713,I have an error updating my address,change_shipping_address,shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to update your shipping address. Please check your email for a confirmation message. If you don't see it, you can also check your account settings for updates. If you need further assistance, feel free to contact our support team.""
+}"
+21461,where can i report registration errors,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""You can report registration errors by contacting our customer support team. We'll help you resolve the issue as quickly as possible.""
+}"
+24380,I want help to change to the standard account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you need assistance with changing your account type, please provide more details so we can assist you effectively.""
+}"
+14348,updating data on platinum account,edit_account,set_up_shipping_address,ACCOUNT,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your shipping address on your Platinum account. You'll need to provide your new shipping details to proceed.""
+}"
+7910,file consumer claim against your organization,complaint,complaint,FEEDBACK,CONTACT,True,True,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": true,
+  ""response"": ""We're here to help. Please provide a detailed description of the issue so we can address it promptly.""
+}"
+20403,where do i recover the pin of my profile,recover_password,recover_password,ACCOUNT,PASSWORD,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""recover_password"",
+  ""category"": ""PASSWORD"",
+  ""needs_human"": false,
+  ""response"": ""To recover your password, please follow these steps: 1. Go to your account settings. 2. Locate the 'Forgot Password' or 'Reset Password' option. 3. Click on it to proceed. 4. Enter your email address associated with your account. 5. Click on 'Reset Password' again. 6. You will receive an email with instructions to reset your password. 7. Follow the instructions in the email to complete the password reset. If you still have issues, please contact our support team for further assistance.""
+}"
+15839,I do not know what I need to do to get my bill #37777,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To get your bill #37777, you need to log into your account and navigate to the 'My Account' section. From there, you can view your invoices. If you're having trouble finding it, you can also contact our customer service for assistance.""
+}"
+6643,can I see in which cases can I ask for a reimbursement?,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can request a reimbursement in cases where the product is defective, the product does not match the description, the product is missing, or the product is damaged during shipping. For more details, please refer to our terms and conditions.""
+}"
+6623,in what situations can I request to be refunded ?,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can request a refund in the following situations:\n- The product is defective or does not work as advertised.\n- The product is missing or damaged when you receive it.\n- The product does not match the description on the website.\n- The product is not what you ordered.\n- The seller is not fulfilling their obligations under the terms of the sale.""
+}"
+1102,problem with adding a product to order {{Order Number}},change_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We've received your order. Please check your order number to proceed. If you have any issues, feel free to contact our customer service.""
+}"
+6515,need help seeing in which situations can I request refunds,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""Refunds are typically available for items that are defective, damaged, or not as described. You can request a refund if you are not satisfied with the product or service. For more details, please check our refund policy.""
+}"
+25286,could you help me see the status of order {{Order Number}}?,track_order,check_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check the status of your order. Please provide the order number so I can assist you further.""
+}"
+5984,help me  to see in what situations can I ask for a refund,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can request a refund in the following situations:\n\n- The product is defective or does not work as advertised.\n- The product is missing or damaged when you receive it.\n- The product does not match the description on the website or in the store.\n- The product is not what you ordered.\n\nIf you have any questions or need further assistance, feel free to ask.""
+}"
+24975,where can i see the ETA of purchase {{Order Number}},track_order,check_delivery,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""check_delivery"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""You can view the ETA for your purchase by checking the tracking information on the website. If you need further assistance, please contact our customer service.""
+}"
+13719,"I have to see when will my product arrive, can you help me?",delivery_period,check_shipping,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{""intent"":""check_shipping"",""category"":""DELIVERY"",""needs_human"":false,""response"":""We can provide you with the estimated delivery date based on your shipping address. Please share your shipping details so we can check the expected delivery time.""}"
+15532,I don't know how I can download my invoice #00108,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To download your invoice, you can follow these steps:\n1. Log in to your account.\n2. Click on the 'My Account' or 'My Profile' section.\n3. Look for an option to 'Download' or 'Print' your invoice.\n4. Select the invoice you want to download and click on 'Download'.\n5. Save the file to your computer.\nIf you are still having trouble, please check your email for an attachment or contact our customer service for further assistance.""
+}"
+10741,could you help me to create a {{Account Type}} account for my fiance?,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have the ability to assist with creating accounts. You may want to try contacting the support team directly for assistance.""
+}"
+15359,I do not know what I need to do to get bill #85632,get_invoice,INVOICE,INVOICE,INVOICE,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""INVOICE"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To get more information about your invoice, you can check the details provided in your email or contact our customer service team. They can help you understand the invoice and provide any necessary information.""
+}"
+16641,would it be possible to obtain compensations of money?,get_refund,payment_issue,REFUND,PAYMENT,True,False,True,True,False,wrong_intent;wrong_category;wrong_needs_human,"{
+  ""intent"": ""payment_issue"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We are unable to provide compensation for financial losses. Please contact customer service for assistance.""
+}"
+1363,help swapping an article of purchase113542617735902,change_order,CHANGE_SHIPPING_ADDRESS,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""CHANGE_SHIPPING_ADDRESS"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you swap your purchase. Please provide your order number and the new shipping address. We'll assist you with the process.""
+}"
+24775,i have got to switch to the {{Account Type}} account,switch_account,set_up_shipping_address,ACCOUNT,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To switch to your new account type, please follow these steps:\n1. Log in to your current account.\n2. Click on the 'Account' or 'Settings' option.\n3. Select 'Switch Account Type'.\n4. Choose your preferred account type from the list.\n5. Click 'Save' or 'Next' to complete the switch.""
+}"
+14668,change info on {{Account Type}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information as soon as possible. Please provide your new details.""
+}"
+21650,I need help to  report problems with registrations,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you're experiencing issues with your registration, please provide more details so we can assist you better. What specifically is not working? Any error messages you see? ""
+}"
+10598,opening premium account for wife,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We'll help you set up your premium account. Please provide your personal information so we can proceed with the setup.""
+}"
+9679,what do I have to do to contact a person?,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""To contact a person, you can use the contact information provided on our website or through our customer service email. You can also send us a message on our social media platforms. For more details, please visit our FAQ section or contact our support team.""
+}"
+1274,change purxhase {{Order Number}},change_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to change the purchase of Order Number [Order Number]. Our team is working on it and will update you as soon as possible. Please note that changes to your order may take some time to process.""
+}"
+5136,assistance checking the accepted payment options,check_payment_methods,CHECK_PAYMENT_METHODS,PAYMENT,PAYMENT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHECK_PAYMENT_METHODS"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""To check your payment options, please review the list below:\n- Credit Card\n- Debit Card\n- PayPal\n- Bank Transfer\n- Other Payment Methods""
+}"
+3264,how can I checkthe cancellation charges?,check_cancellation_fee,check_cancellation_fee,CANCEL,FEEDBACK,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""To check the cancellation charges, you can log into your account and look for the cancellation fee information. If you need further assistance, you can contact our customer service.""
+}"
+11527,how can I  close my {{Account Category}} account?,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""To close your account, please follow these steps:\n1. Log in to your account.\n2. Click on the 'Settings' or 'Account' option.\n3. Select 'Close Account'.\n4. Review the confirmation message and proceed.\n5. If prompted, enter your password to complete the process.\n6. Once closed, you can no longer access your account.""
+}"
+23761,is it possible to enter a new shipping address?,set_up_shipping_address,change_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""change_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Yes, you can enter a new shipping address. Please provide the new address details.""
+}"
+248,problems with cancelling order {{Order Number}},cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with cancelling your order. To help resolve this, we need more information. Could you please provide the Order Number so we can look into it further? Once we have this information, we'll be able to assist you more effectively.""
+}"
+13437,need assistance to check when my product is gonna arrive,delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you track your order. Please provide your order number so we can check the delivery status for you.""
+}"
+19966,I would like to recover the key of my user account,recover_password,recover_password,ACCOUNT,PASSWORD,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""recover_password"",
+  ""category"": ""PASSWORD"",
+  ""needs_human"": false,
+  ""response"": ""We recommend you reset your password by clicking on the 'Forgot Password' option. If you are unable to do so, please contact our support team for assistance.""
+}"
+16161,i dont know how to get a reimbursement of my money,get_refund,REFUND,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""If you need a reimbursement of your money, you can contact our customer service to discuss the issue. They can help you understand the refund policy and guide you through the process. Please provide your order number and any other relevant information so they can assist you effectively.""
+}"
+5540,I don't know how I could list your payment modalities,check_payment_methods,contact,PAYMENT,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you have any questions about our payment methods, feel free to ask. We're here to help. You can also check our FAQ section for more information.""
+}"
+7969,help me to see at what time customer support available is,contact_customer_service,check_shipping_address,CONTACT,DELIVERY,True,False,True,False,False,wrong_intent;wrong_category;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""check_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Customer support is available during our business hours. Please check our website for the current hours.""
+}"
+8245,what do I need to do to talk to customer assistance?,contact_customer_service,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""You can contact customer assistance by providing your account details or by using the provided support channels. For immediate assistance, you can call our customer service hotline or send an email to [email@example.com]. We are here to help.""}"
+19649,I do not know what to do to earn several of yoru item,place_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you're looking to order multiple items, you can add them to your cart and proceed to checkout. Make sure to select the correct quantities for each item. Once you've added all the items to your cart, click the 'Checkout' button to continue. If you need help with the checkout process, feel free to ask. We're here to help! ""
+}"
+12773,I need help checking what bloody delivery methods are there,delivery_options,CONTACT,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We offer various delivery methods to ensure your order arrives safely. Please check our website for a detailed list of available options.""
+}"
+6920,"I would like to make a bloody complaint, could you help me?",complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""I'm here to help. If you'd like to make a complaint, you can start by providing details about the issue. What happened? When did it happen? How did it impact you? Once you've shared this information, I'll assist you in filing a complaint with the appropriate authorities or entities. Please keep in mind that your complaint will be handled confidentially and in accordance with the laws and regulations of the relevant jurisdiction.""
+}"
+22858,how to send my feedback about ur company,review,feedback,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We value your feedback and appreciate your thoughts on our company. To provide feedback, you can use our online form on our website. Simply go to the 'Contact Us' section and fill out the feedback form. We'll review your feedback and take appropriate action to improve our services. Thank you for your input!""
+}"
+12762,"I need to see what delivery methods you offer, help me",delivery_options,check_delivery_options,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We offer various delivery methods. Please choose one that best suits your needs.""
+}"
+26485,"I have to see my restitution status, how to do it?",track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{""intent"":""check_refund_policy"",""category"":""REFUND"",""needs_human"":false,""response"":""You can check your refund status by logging into your account and navigating to the 'My Account' section. From there, select 'Refunds' or 'History' to view your past transactions and any pending refunds.""}"
+14499,change info on {{Account Category}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information right away. Please provide your new details.""
+}"
+26635,how to see the status of my restitution,track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To check the status of your refund, please visit our website and navigate to the 'My Account' section. From there, select 'My Orders' and look for your order. If you need further assistance, you can also contact our customer service team.""
+}"
+1985,i cant correct purchase {{Order Number}},change_order,place_order,ORDER,ORDER,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""place_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you couldn't correct your purchase. If you need to make changes to your order, please contact our customer service team for assistance. They can help you update your order details.""
+}"
+9023,wanna chat with a person,contact_human_agent,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I'm here to help. How can I assist you today?""
+}"
+25443,how to see the status of order {{Order Number}}?,track_order,check_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""To check the status of your order, you can log into your account and navigate to the 'My Orders' section. From there, select the order number to view its current status. If you need further assistance, please contact our customer service.""
+}"
+13215,I need help to check when my package is going to arrive,delivery_period,TRACK,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you track your package. Please provide your tracking number so we can check the delivery status.""
+}"
+25309,i need help checking the status or purchase {{Order Number}},track_order,check_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""To check the status of your order, please visit our website and navigate to the 'My Account' section. From there, select 'View Orders' and enter the Order Number. This will show you the details of your purchase. If you need further assistance, feel free to ask.""
+}"
+15911,is it possible to ask for a refund of my money?,get_refund,refund,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""refund"",""category"":""REFUND"",""needs_human"":false,""response"":""Yes, you can request a refund of your money. Please provide your order number and a brief reason for the refund so we can process it efficiently.""}"
+4923,help me seeing your available payment options,check_payment_methods,PAYMENT,PAYMENT,PAYMENT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We offer various payment methods to make your purchase easier. You can use credit/debit cards, PayPal, or other secure payment options. Please check your available payment methods in your account settings.""
+}"
+25304,check the current status of purchase {{Order Number}},track_order,ORDER,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To check the current status of your purchase, please visit our website and navigate to the 'My Account' section. From there, select 'View Order History' and enter the Order Number '{{Order Number}}'. This will provide you with the details of your purchase, including the status of your order.""
+}"
+518,problems with cancelling order {{Order Number}},cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with cancelling your order. To help resolve this, we need more information. Could you please provide the Order Number so we can look into it further? Once we have this information, we'll be able to assist you more effectively.""
+}"
+1221,assistance to delete something from purcahse {{Order Number}},change_order,ORDER,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're having trouble with your order. To proceed, please provide your Order Number so we can assist you further. If you need immediate help, you can contact our customer service team for assistance.""
+}"
+21488,issue creating account,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with creating your account. To help resolve this, we recommend checking your email for any validation emails we sent to your account. If you don't see any validation emails, please try again. If you continue to have issues, feel free to contact our support team for further assistance.""
+}"
+14275,correct information on Proaccount,edit_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your Proaccount registration. To help resolve this, we need more information. Could you please provide the email address associated with your Proaccount? This will help us verify your account and provide the correct information.""
+}"
+21345,i do not know what to do to notify of a sign-up issue,registration_problems,registration_problems,ACCOUNT,CONTACT,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""If you're experiencing issues with your account registration, please check your email for a confirmation message. If you don't see it, you can try contacting our support team by clicking on the 'Contact Us' option. We're here to help. Please provide your email address so we can send you a message.""
+}"
+22360,is there an address to leave a comment for a service?,review,contact,FEEDBACK,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Yes, you can leave a comment for a service by visiting our website and clicking on the 'Contact Us' option. We'll be happy to help you.""
+}"
+8775,can you help me to speak to customer assistance?,contact_customer_service,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""Hello! I'm here to help. If you need to speak to customer assistance, you can call us at 1-800-HELP-HERE or send an email to support@ourwebsite.com. Which would you prefer?""}"
+17686,how to unsubscribe to your newsletter?,newsletter_subscription,unsubscribe,SUBSCRIPTION,SUBSCRIPTION,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""unsubscribe"",
+  ""category"": ""SUBSCRIPTION"",
+  ""needs_human"": false,
+  ""response"": ""To unsubscribe from our newsletter, please visit our website and click on the 'Unsubscribe' option. If you have any trouble, feel free to contact our customer service team.""
+}"
+7419,can I file a consumer claim against your organization?,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{""intent"":""complaint"",""category"":""CONTACT"",""needs_human"":false,""response"":""We're here to help. If you have a complaint, please provide specific details so we can address it promptly.""}"
+11628,can you help me to remove my standard account?,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you're experiencing issues with your account. To proceed, you'll need to contact our support team directly. Please provide your account information so we can assist you further. If you have any questions or need help, feel free to ask.""
+}"
+16072,i paid {{Currency Symbol}}{{Refund Amount}} for an item can ya help me obtain a rebate,get_refund,REFUND,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your purchase. To help you obtain a rebate, we recommend reaching out to the retailer directly. They may be able to provide more information or offer a solution. If you need further assistance, please contact our customer service team.""
+}"
+7602,I don't know how I can file a consumer claim,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""If you feel that your rights have been violated, you can file a complaint with the relevant authorities or consumer protection agency. For more information, you can visit the official website of the agency or contact them directly. They will provide you with the necessary steps to take.""
+}"
+26096,can uhelp me see my reimbursement current status,track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check the status of your refund. Please provide your order number or the transaction ID so I can look up your current status.""
+}"
+10313,I have to open an pro account for my dad,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're glad to hear that you want to help your dad open an account. If you need any assistance, feel free to ask. We're here to help.""
+}"
+21467,I want assistance to inform of an issue with a signup,registration_problems,CONTACT,ACCOUNT,REGISTRATION_PROBLEMS,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""REGISTRATION_PROBLEMS"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have any issues with your signup, please feel free to contact us directly. We'll do our best to assist you.""
+}"
+2040,help changimg my address,change_shipping_address,change_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""change_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you update your shipping address. Please provide your new shipping address details.""
+}"
+1859,help to swap several items of order {{Order Number}},change_order,ORDER,ORDER,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Hello! To swap items in your order {{Order Number}}, please contact our customer service team. They can assist you with the process. If you need immediate help, you can also send us an email or use our live chat option. We're here to help. Thank you for choosing our service.""
+}"
+23749,problem entering the seocndary shipping address,set_up_shipping_address,shipping,SHIPPING,shipping,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""shipping"",
+  ""category"": ""shipping"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to update your shipping address. Please provide your new shipping address details so we can proceed. If you need help, feel free to ask.""
+}"
+6929,wanna lodge a consumer reclamation against ur company,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have a complaint, please provide specific details so we can address your concerns. We strive to provide excellent service to all our customers.""
+}"
+23543,i have an issue setting up a different delivery address,set_up_shipping_address,SET_UP_SHIPPING_ADDRESS,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""SET_UP_SHIPPING_ADDRESS"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We'll help you set up your new shipping address. Please provide your current address details so we can proceed.""
+}"
+16319,i do not know how i can obtain compensations of my money,get_refund,,REFUND,,True,,False,False,True,wrong_intent;wrong_category;invalid_json;wrong_needs_human;generation_truncated,"{
+  ""intent"": ""complaint"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your payment. To help resolve this, we recommend checking your bank statements to see if your payment has been declined or if there's a transaction fee. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can provide them with your account details to see if there's a problem. If you've already contacted your bank, you can"
+12520,can I see what methods for delivery I can choose?,delivery_options,CHECK_DELIVERY_OPTIONS,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHECK_DELIVERY_OPTIONS"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""You can choose from various delivery methods such as standard shipping, express shipping, or international shipping. For more details, please visit our website's 'Delivery Options' section.""
+}"
+14363,correcting data on standard account,edit_account,registration_problems,ACCOUNT,ACCOUNT,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll take care of it right away. Please provide your account details so we can correct the issue.""
+}"
+15626,is it possible to get my bill #00108?,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{""intent"":""check_invoice"",""category"":""INVOICE"",""needs_human"":false,""response"":""Yes, we can provide your invoice #00108. Please check your email or contact our customer service for more details.""}"
+23474,help me submitting the new delivery address,set_up_shipping_address,set_up_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you update your shipping address. Please provide your current address and the new address you'd like to use.""
+}"
+11174,question about the removal of my standard account,delete_account,CONTACT,ACCOUNT,CONTACT,True,False,True,False,False,wrong_intent;wrong_category;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you have any questions about removing your standard account, please feel free to contact our customer service team. We're here to help. You can reach us by phone, email, or live chat. We'll be happy to assist you with any concerns you may have. Thank you for using our service.""
+}"
+25762,I ma trying to see the status of order {{Order Number}},track_order,check_order,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""To check the status of your order, please visit our website and navigate to the 'My Account' section. From there, select 'View Orders' and you'll see the details of your order. If you need further assistance, feel free to contact our customer service.""
+}"
+23755,I'm trying to enter an shipping address,set_up_shipping_address,set_up_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you set up your shipping address. Please provide your new shipping address details.""
+}"
+19912,i want asistance to retrieve my fucking password,recover_password,complaint,ACCOUNT,PAYMENT,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""complaint"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you're having trouble with your password. To help you, we need more information. Could you please provide your email address or username? This will help us locate your account and assist you in retrieving your password.""
+}"
+18177,I do not know what to do to notify of problems with payment,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""If you're experiencing issues with your payment, you can try contacting customer support for assistance. You can do this by visiting our website and clicking on the 'Contact Us' option. Alternatively, you can call our customer service hotline. We're here to help and will provide you with the necessary information to resolve your issue. Please provide your contact details so we can get back to you as soon as possible.""
+}"
+12591,I need to check what shipment options I can choose,delivery_options,check_delivery_options,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""You can choose from standard shipping, express shipping, or international shipping. Standard shipping is available within your local area, express shipping is available for faster delivery, and international shipping is available for orders to other countries.""
+}"
+9725,can i chat with a person,contact_human_agent,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""You can chat with a person by contacting our customer service team. They are available to assist you during our business hours.""}"
+1890,can you help me switch an item of order {{Order Number}}?,change_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""Yes, I can help you switch an item in your order. Please provide the Order Number so I can assist you further.""
+}"
+2443,i chose a wrong address by mistake colud ya modify it,change_shipping_address,contact,SHIPPING,shipping,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""shipping"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you made a mistake. To correct your shipping address, please provide your new address details. You can either send them via email or call us at 1-800-123-4567. We'll assist you in updating your shipping information.""
+}"
+23142,is it possible to set my delivery address up?,set_up_shipping_address,set_up_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Yes, you can set up your delivery address. Please provide your new shipping address details.""
+}"
+362,I need assistance cancelling purcjase {{Order Number}},cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry to hear that you're having trouble with your purchase. To proceed, we need your order number. Please provide it so we can assist you further.""
+}"
+25930,help checking if there is anything wrong with the refund,track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To check if there's anything wrong with the refund policy, you can visit our website and look for the 'Refund Policy' section. If you need further assistance, feel free to ask.""
+}"
+15491,wanna get the bills from {{Person Name}} how can i do it,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""You can check the bills from {{Person Name}} by logging into their account and navigating to the invoice section. If you don't have their account details, you can request them to provide them.""
+}"
+20031,where do I retrieve my user password?,recover_password,set_up_shipping_address,ACCOUNT,SHIPPING,False,False,True,True,False,wrong_intent;wrong_category,"{""intent"":""set_up_shipping_address"",""category"":""SHIPPING"",""needs_human"":false,""response"":""To retrieve your user password, you can reset your account settings. This typically involves logging into your account and navigating to the 'My Account' or 'Settings' section. From there, you should be able to find an option to reset your password. If you're still having trouble, you can contact our customer support for assistance.""}"
+2641,could you tell me more about changing my delivery address?,change_shipping_address,CHANGE_SHIPPING_ADDRESS,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""CHANGE_SHIPPING_ADDRESS"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Sure, I can help you with that. To change your delivery address, you'll need to provide your new shipping details. Please enter your new address, including the street name, apartment number, city, state, and zip code. If you have a preferred country, please specify that as well. Once you provide these details, we'll update your shipping address and send you a new shipping label. If you need any further assistance, feel free to ask.""
+}"
+8315,can ya help me see what hours i can reach customer service,contact_customer_service,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Customer service hours are typically available from 9 AM to 5 PM, Monday through Friday. For the most accurate information, please visit our website or contact us directly.""
+}"
+16798,how could i get a retsitution of my money,get_refund,REFUND,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To get a refund of your money, you can follow these steps:\n1. Log in to your account.\n2. Go to the 'My Account' or 'My Orders' section.\n3. Find the order you want to return.\n4. Click on the 'Return' or 'Refund' option.\n5. Fill in the necessary details and upload any required documents.\n6. Submit the request and wait for the refund to be processed.\nIf you need further assistance, you can contact our customer service team for more information.""
+}"
+2467,I cannot edit my shipping address,change_shipping_address,set_up_shipping_address,SHIPPING,SHIPPING,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to edit your shipping address. Please try again later. If you continue to have issues, feel free to contact our support team.""
+}"
+9512,can uhelp me to chat with somebody,contact_human_agent,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I'm here to help. How can I assist you today?""
+}"
+14152,change info on {{Account Category}} account,edit_account,CHANGE,ACCOUNT,ACCOUNT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information right away. Please provide your new details.""
+}"
+2366,can ya tell me about modiyfing my address,change_shipping_address,change_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""change_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Sure, I can help you update your shipping address. Please provide your new address details, including street, city, state, and zip code.""
+}"
+7554,I want to make a consumer claim,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have a complaint, please provide as much detail as possible so we can address your issue promptly. You can contact us via phone, email, or live chat.""
+}"
+14795,i have got to update the info included on my user profile,edit_account,set_up_shipping_address,ACCOUNT,SHIPPING,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""To update your user profile, you can go to the 'My Account' section and select 'Edit Profile'. This will allow you to change your shipping address and other personal information. If you need further assistance, you can also contact our support team.""
+}"
+24505,I want assistance switching to the premium account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help! If you need assistance with switching to the premium account, feel free to ask. Our team is ready to assist you.""
+}"
+8516,I want to see at what time I can call customer service,contact_customer_service,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""You can call our customer service at any time. We are available 24/7.""
+}"
+6927,i need assistance filing a consumer claim against ur company,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you need to file a complaint, please provide the details and we'll assist you accordingly. For immediate assistance, you can contact our customer service team at [customer service email] or [customer service phone number].""
+}"
+15835,I do not know what I need to do to download the bill #00108,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To download the bill #00108, you can go to the 'My Account' section of our website and click on 'Download Bill'. This will provide you with the necessary information to proceed with downloading the bill. If you encounter any issues, feel free to contact our customer service for further assistance.""
+}"
+26319,assistance checking the restitution current status,track_refund,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To check the current status of your refund, you can log into your account and look for the 'My Account' section. Here, you'll find an option to view your past transactions, including refunds. If you need further assistance, please contact our customer service.""
+}"
+8332,do uhavea toll-free number to speak to customer assistance,contact_customer_service,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""You can reach our customer support team by calling our toll-free number at 1-800-123-4567. A representative will be available to assist you during business hours.""}"
+24543,help using the freemium account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're glad you're here! If you're having trouble with your account, you can try checking your email for a confirmation link or contact our support team for assistance. We're here to help.""
+}"
+3650,seeing cancellation fees,check_cancellation_fee,check_cancellation_fee,CANCEL,FEEDBACK,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We're checking to see if there are any cancellation fees associated with your order. Once we have the details, we'll inform you. In the meantime, you can continue to track your order.""
+}"
+13153,need to see how long it usually take for the item to arrive,delivery_period,shipping_period,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""shipping_period"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We typically take 5 to 7 business days to deliver your item. For more precise information, you can check the shipping carrier's website or contact our customer service for updates.""
+}"
+12654,"I need to see what damn shipment options I have, help me",delivery_options,check_delivery_options,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check your shipment options. Please provide your tracking number so I can assist you further.""
+}"
+18821,need help to notify of problems with paymenst,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have any issues with your payments, please provide more details so we can assist you better. This includes the payment method, the date of the transaction, and any error messages you received. We'll get back to you as soon as possible.""
+}"
+5051,help me to see your accepted payment modalities,check_payment_methods,CHECK_PAYMENT_METHODS,PAYMENT,PAYMENT,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""CHECK_PAYMENT_METHODS"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We offer various payment methods to make your purchase convenient. Please choose the one that suits your needs.""
+}"
+12235,I do not know how to check the delivery methods,delivery_options,check_delivery_options,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To check your delivery options, please visit our website and select the shipping method that best suits your needs. If you have any questions, feel free to contact our customer service team.""
+}"
+2512,"the  address changed, modify it",change_shipping_address,change_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""change_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We've received your updated shipping address. Please proceed to checkout to complete your order.""
+}"
+19622,i dont know how i can shop several of ur product,place_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""You can shop multiple products by adding them to your cart and proceeding to checkout. If you need help with adding items to your cart, feel free to ask.""
+}"
+18761,I need assistance reporting errors  with online payment,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have any issues with your online payment, please provide the details so we can assist you. What specifically is not working? ""
+}"
+12931,how do i check how son can i expect my item,delivery_period,check_invoice,DELIVERY,INVOICE,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""You can check your invoice by logging into your account and navigating to the 'My Account' section. From there, select 'View Invoice' to view your order details and expected delivery time.""
+}"
+8631,where could I see what hours I can reach customer service?,contact_customer_service,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""You can typically reach our Customer Service team during regular business hours. For the most accurate information, please check our website's 'Contact Us' page or call our customer service hotline. We are available Monday through Friday, 9:00 AM to 5:00 PM (UTC).""
+}"
+11561,I don't know how I could delete my standard account,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""If you're having trouble deleting your account, you can try contacting our customer support team. We'll be happy to help you resolve the issue. Please provide your account information so we can assist you further.""
+}"
+8895,assistance checking what hours i can reach customer sdupport,contact_customer_service,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Customer support is available 24/7. You can reach us at [phone number] or [email].""
+}"
+17102,wanna know about canceling the newsletter subscription,newsletter_subscription,complaint,SUBSCRIPTION,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""To cancel your newsletter subscription, please visit our website and navigate to the 'My Account' section. From there, select 'Manage Subscriptions' and choose to unsubscribe. If you have any issues or need further assistance, feel free to contact our support team.""
+}"
+11711,i dont know how i can remove my premium account,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""If you're having trouble removing your premium account, you can try contacting our customer support team. They can help you troubleshoot the issue and provide the necessary assistance. Please provide your account information so we can assist you further.""
+}"
+11791,I have a problem wiyh my standard account termination,delete_account,complaint,ACCOUNT,ACCOUNT,True,False,True,False,False,wrong_intent;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. Please provide more details about the issue so we can assist you better.""
+}"
+19902,where can i find information about the pin code recovery,recover_password,contact,ACCOUNT,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""You can find information about pin code recovery by visiting the official website of the Indian government or by contacting the local government office. For more detailed assistance, you can also visit the official website of the Indian government.""
+}"
+6087,help me see in what cases can I reuest my money back,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can request a refund if the product you purchased is defective, the product does not match the description, the product is missing, the product is damaged, or the product does not work as expected. You can also request a refund if the seller fails to deliver the product within the agreed time frame. To request a refund, you need to contact the seller and provide the necessary information.""
+}"
+20697,i want help to recover the password of my user account,recover_password,complaint,ACCOUNT,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{""intent"":""complaint"",""category"":""CONTACT"",""needs_human"":false,""response"":""We're here to help. If you need assistance with recovering your password, please provide your email address and we'll guide you through the process.""}"
+9399,can i speak with an assistant,contact_human_agent,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{""intent"":""contact"",""category"":""CONTACT"",""needs_human"":false,""response"":""Hello! You can speak with an assistant by clicking the 'Contact' option in the main menu. If you need immediate assistance, please provide more details so I can guide you further.""}"
+17556,tell me more about unsubscribing from your newsletter,newsletter_subscription,contact,SUBSCRIPTION,NEWSLETTER,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""NEWSLETTER"",
+  ""needs_human"": false,
+  ""response"": ""To unsubscribe from our newsletter, please visit our website and click on the 'Unsubscribe' option. If you have any issues or need further assistance, feel free to contact our customer service team.""
+}"
+2091,I have entered a wrong delivery address,change_shipping_address,shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that. Please enter your correct shipping address. If you need help, feel free to contact our customer service team.""
+}"
+3629,I don't know how I can see the early termination penalties,check_cancellation_fee,check_refund_policy,CANCEL,REFUND,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To see the early termination penalties, please review the terms and conditions section of our website. If you have any questions, feel free to contact our customer service team.""
+}"
+21145,I'm trying to notify of errors with signup,registration_problems,registration_problems,ACCOUNT,CONTACT,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your signup. Please provide more details so we can assist you better. This will help us understand the problem and provide a solution. Thank you for your patience and understanding.""
+}"
+18208,i do not know whzt to do to inform of a problem with payment,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""If you're experiencing issues with your payment, you can try contacting our customer service team. You can do this by visiting our website and clicking on the 'Contact Us' option. Alternatively, you can call our customer service hotline. We're here to help and will do our best to resolve your issue. Please provide as much detail as possible so we can assist you more effectively. We appreciate your patience and understanding.""
+}"
+12968,"I need to see when will my package arrive, help me",delivery_period,check_delivery,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can help you check your package's delivery time. Please provide your tracking number so we can look up the information for you.""
+}"
+23115,I need assistance to enter the new shipping address,set_up_shipping_address,set_up_shipping_address,SHIPPING,DELIVERY,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To set up your new shipping address, please follow these steps:\n1. Log in to your account.\n2. Go to the 'My Account' section.\n3. Click on 'Edit Account'.\n4. Scroll down to 'Shipping Address' and enter your new address details.\n5. Save your changes.\nIf you encounter any issues, feel free to contact our customer service for further assistance.""
+}"
+22112,I want help to leave feedback for your services,review,feedback,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We'd love to hear your feedback! Please provide a brief comment or suggestion. We'll use it to improve our services. Thank you for your input.""
+}"
+22193,can you help me leave my feedback about your products?,review,feedback,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""Sure, I'd be happy to help you leave feedback. Please provide some details about your experience with our products.""
+}"
+15280,I don't know what I have to do to download bill #00108,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To download Bill #00108, you need to log in to your account and navigate to the 'Invoices' section. From there, you should be able to find the specific bill by its number. If you're having trouble, you can also contact our customer service for assistance.""
+}"
+1736,want help deleting several articles from  purchase {{Order Number}},change_order,DELETE,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""DELETE"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're having trouble with your order. To proceed, please provide your Order Number. Once we have your Order Number, we can assist you in deleting the articles. Please note that we need this information to complete the process. If you have any questions or need further assistance, feel free to ask.""
+}"
+17923,notifyu of payment issues,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We'll keep you informed of any payment issues that arise. Please provide your payment method details so we can assist you effectively.""
+}"
+17848,I want help to unsubscribe to your company newsletter,newsletter_subscription,complaint,SUBSCRIPTION,SUBSCRIPTION,False,False,True,False,False,wrong_intent;intent_category_mismatch,"{
+  ""intent"": ""complaint"",
+  ""category"": ""SUBSCRIPTION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that. To unsubscribe from our newsletter, please visit the 'Unsubscribe' option on our website. If you have any other questions or concerns, feel free to contact our customer service team.""
+}"
+10025,I don't know what to do to create a standard account,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""Creating a standard account involves providing some basic information. You can start by signing up on our website. Click on the 'Create Account' button, fill in the required fields, and proceed through the registration process. If you need help with the registration, feel free to ask. We're here to help.""
+}"
+10167,i do not have a goddamn pro acciunt yet help to create one,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're glad you're interested in creating an account. To proceed, please provide your email address and a password. We'll send you a verification code to your email to complete the registration process. Once we receive your email, we'll send you a code to verify your account. Please check your spam folder if you don't see the verification code.""
+}"
+24255,using standard account,switch_account,registration_problems,ACCOUNT,ACCOUNT,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you're having trouble with your account, please provide more details so we can assist you better.""
+}"
+20832,assistance to reset the pin of my account,recover_password,set_up_shipping_address,ACCOUNT,ORDER,False,False,True,False,False,wrong_intent;wrong_category;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We recommend resetting your account password to access your account settings. If you need further assistance, please contact our customer service team.""
+}"
+7434,I would like to lodge a consumer claim against your business,complaint,complaint,FEEDBACK,CONTACT,True,False,True,False,False,wrong_category;intent_category_mismatch;wrong_needs_human,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have a complaint, please provide specific details so we can address it promptly. You can contact us via email or phone for further assistance.""
+}"
+16827,what do I have to do to demand reimbursements of my money?,get_refund,refund,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""refund"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To demand a refund, you need to follow these steps:\n1. Check your order details to see if the item is eligible for a refund.\n2. Log into your account and look for a 'Refund' or 'Request Refund' option.\n3. Fill out the form with your order details and reason for the refund.\n4. Submit the form and wait for the refund to be processed.\n5. If the refund is not processed within a reasonable time, you can contact customer support for further assistance.""
+}"
+21623,i dont know how i can inform of sign-up problems,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your account registration. If you need assistance, please contact our support team for further assistance.""
+}"
+1261,change purxhase {{Order Number}},change_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to change the purchase of Order Number [Order Number]. Our team is working on it and will update you as soon as possible. Please note that changes to your order may take some time to process.""
+}"
+13369,wanna see how soon can i expect the shipment help me,delivery_period,shipping,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""shipping"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We can provide an estimated delivery date based on your shipping address. Please enter your shipping address to get an accurate estimate.""
+}"
+9849,helo to contact an assistant,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! How can I assist you today? Please provide more details so I can help you effectively.""
+}"
+11592,I need information about the removal of a standard account,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your account. To help resolve this, we recommend checking your account settings and contacting our support team for further assistance. You can find our support team by clicking on the 'Contact Us' option on our website. We're here to help.""
+}"
+15023,I do not know what I need to do to download bill #85632,get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To download the bill, you need to log in to your account and navigate to the 'My Account' section. From there, you should be able to find the option to download the bill. If you're having trouble finding it, you can also contact customer service for assistance.""
+}"
+8392,can you help me get in touch with customer service?,contact_customer_service,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Yes, I can help you get in touch with our customer service team. Please provide your contact details so we can assist you.""
+}"
+17659,i have to cancel the subscription to ur company newsletter,newsletter_subscription,complaint,SUBSCRIPTION,FEEDBACK,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""complaint"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with our newsletter. To proceed, please provide your email address so we can send you a cancellation confirmation.""
+}"
+6362,can huelp me check ur refund policy,check_refund_policy,REFUND,REFUND,REFUND,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""Our refund policy allows you to request a refund within 30 days of purchase for items not received or for items that are defective. Please provide your order number and the reason for the refund so we can process it quickly.""
+}"
+25292,want assistance to see order {{Order Number}} syatus,track_order,check_invoice,ORDER,INVOICE,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check the details of your order. Please provide the Order Number so I can assist you further.""
+}"
+18850,I don't know what to do to inform of problems with payment,payment_issue,PAYMENT,PAYMENT,PAYMENT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""If you're experiencing issues with your payment, you can try contacting our customer service team. You can do this by visiting our website and clicking on the 'Contact Us' option. Alternatively, you can call our customer service hotline. We're here to help and will provide you with the necessary information to resolve your issue. Please provide your contact details so we can assist you promptly.""
+}"
+22739,assistance to write a comment for ur company,review,contact,FEEDBACK,CONTACT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you need assistance with writing a comment for our company, feel free to reach out. We're here to help. Please provide more details so we can assist you better.""
+}"
+16551,i do not know what to do to rerquest a compensation of money,get_refund,refund,REFUND,REFUND,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""refund"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""If you need to request a compensation of money, you can follow these steps:\n1. Log in to your account.\n2. Go to the 'My Account' or 'My Orders' section.\n3. Find the order you want to request compensation for.\n4. Click on the 'Request Compensation' option.\n5. Fill in the required details and submit the request.\n6. Follow the instructions to complete the compensation process.\n\nIf you are facing any issues or need further assistance, please contact our customer service team for support.""
+}"
+22247,can I leave feedback about a servic?,review,feedback,FEEDBACK,FEEDBACK,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""Sure, you can provide feedback about the service. Please share your thoughts and any suggestions you have. We value your input and strive to improve our offerings.""
+}"
+18044,"my card was declined, inform of an error with payments",payment_issue,payment_issue,PAYMENT,PAYMENT,True,False,True,True,False,wrong_needs_human,"{
+  ""intent"": ""payment_issue"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that your payment was declined. If you'd like to proceed with a new payment method, we can help you set that up. Please provide your card details so we can try again.""
+}"
+12871,help to check what options for delivery are there,delivery_options,check_delivery_options,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""We offer various delivery options. You can choose from standard shipping, express shipping, or international shipping. Please select the option that best suits your needs.""
+}"
+12048,"I want to see what shipping options I can choose, help me",delivery_options,set_up_shipping_address,DELIVERY,DELIVERY,False,False,True,False,False,wrong_intent;intent_category_mismatch,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""You can choose from our standard shipping options, which include standard shipping, express shipping, and international shipping. For more details, please visit our website's shipping page.""
+}"
+10566,help to create a {{Account Category}} account for my fiance,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""Hello! To help you create an account for your fiancé, we need more information. Could you please provide your full name and email address? This will help us process your request more efficiently.""
+}"
+20366,"I lost my password, I need help recovering it",recover_password,password_recovery,ACCOUNT,PAYMENT,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{""intent"":""password_recovery"",""category"":""PAYMENT"",""needs_human"":false,""response"":""We recommend trying the password recovery option on your account. If you are unable to recover your password, please contact our customer support team for further assistance.""}"
+3507,I do not know how to check the withdrawal charges,check_cancellation_fee,check_cancellation_fee,CANCEL,FEEDBACK,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""To check the withdrawal charges, you can visit the 'My Account' section of our website. Click on 'My Account' and then select 'Withdrawal Charges'. This will show you the details of your withdrawal charges. If you need further assistance, feel free to ask.""
+}"
+11129,could you help me deleting a platinum account?,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have the authority to delete your account. Please contact our support team for assistance.""
+}"
+312,problems with cancelling order {{Order Number}},cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with cancelling your order. To help resolve this, we need more information. Could you please provide the Order Number so we can look into it further? Once we have this information, we'll be able to assist you more effectively.""
+}"
+15480,I do not know how to get my bill from {{Person Name}},get_invoice,check_invoice,INVOICE,INVOICE,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To check your invoice, you can log into your account and view the details. If you have forgotten your password, you can reset it by following the instructions on our website.""
+}"
+21444,notifying o issues with signup,registration_problems,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your account registration. Our team is working to resolve the problem as quickly as possible. In the meantime, you can try to sign in again or contact our support team directly for further assistance. We appreciate your patience and understanding.""
+}"
+9745,I have got to talk with an operator,contact_human_agent,CONTACT,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I'm here to help. You can speak to an operator directly. Press 1 for a human operator.""
+}"
+10729,i have problems with opening a pro account,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your account registration. To help resolve the problem, we recommend checking your email for any confirmation emails we sent during the registration process. If you didn't receive an email, please try again. If you still have trouble, feel free to contact our support team for further assistance.""
+}"
+17239,help me cancel the subscription to ur newsletter,newsletter_subscription,complaint,SUBSCRIPTION,FEEDBACK,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""complaint"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your subscription. To help resolve this, we recommend checking your email settings or contacting our support team directly. You can find our support team by clicking on the 'Contact Us' option on our website. We'll be happy to assist you further.""
+}"
+18218,I want help to notify of errors with payments,payment_issue,payment_issue,PAYMENT,PAYMENT,True,False,True,True,False,wrong_needs_human,"{
+  ""intent"": ""payment_issue"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you're experiencing issues with your payment, please provide more details so we can assist you better. This includes the payment method you're using, the error message you're receiving, and any other relevant information. We'll get back to you as soon as possible.""
+}"
+24669,i want help to use the fucking premium account,switch_account,registration_problems,ACCOUNT,ACCOUNT,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you're having trouble with your premium account, please provide more details so we can assist you better. What specifically are you experiencing issues with? ""
+}"
+8309,I don't know what to do to speak with customer assistance,contact_customer_service,contact,CONTACT,CONTACT,True,False,True,False,False,wrong_intent;invalid_enum;wrong_needs_human,"{
+  ""intent"": ""contact"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""You can speak with customer assistance by calling our support hotline at 1-800-123-4567 or by visiting our website's 'Contact Us' page. We're here to help.""
+}"
+17578,I do not know how I can sign up to the newsletter,newsletter_subscription,registration_problems,SUBSCRIPTION,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""To sign up for our newsletter, please visit our website and enter your email address. We'll send you updates and offers directly to your inbox.""
+}"
+10192,I don't know what I have to do to open a {{Account Type}} account,create_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""If you're having trouble opening an account, you can try checking our FAQ section for common issues. If you still can't find the solution, you can contact our support team for further assistance.""
+}"
+26623,I try to see my compensation current status,track_refund,check_invoice,REFUND,INVOICE,False,False,True,True,False,wrong_intent;wrong_category,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""You can check your current invoice status by logging into your account and navigating to the 'My Account' section. From there, select 'View Invoices' to see your current invoice details.""
+}"
+26003,"I need to track the compensation, how can I do it?",track_refund,TRACK,REFUND,TRACKING,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""TRACK"",
+  ""category"": ""TRACKING"",
+  ""needs_human"": false,
+  ""response"": ""To track your compensation, you can check the status of your order on our website. If you have the order number, you can search for it by entering it into the search bar. Alternatively, you can contact our customer service for further assistance.""
+}"
+23924,using freemium account,switch_account,registration_problems,ACCOUNT,REGISTRATION,False,False,True,False,False,wrong_intent;wrong_category;invalid_enum,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're glad you're interested in our platform. If you have any registration issues, please feel free to contact our support team. We'll be happy to help you resolve any problems you're experiencing.""
+}"
+11597,wannaclose a pro account,delete_account,cancel_order,ACCOUNT,ORDER,True,False,True,True,False,wrong_intent;wrong_category;wrong_needs_human,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you'd like to close your Pro account. Unfortunately, we don't have a direct option to close an account from the platform. We recommend reaching out to our support team for assistance. They can provide guidance on the process and help you proceed with the cancellation. Please provide your email or phone number so we can connect you to the right person. We're here to help.""
+}"
+899,"I can no longer afford order {{Order Number}}, cancel it",cancel_order,cancel_order,ORDER,CANCEL,False,False,True,False,False,wrong_category;intent_category_mismatch,"{
+  ""intent"": ""cancel_order"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""We understand that you cannot afford the order. Unfortunately, we cannot cancel the order directly. Please contact our customer service for assistance. We are here to help you.""
+}"
+11215,I have a problem with the deletion of a {{Account Type}} account,delete_account,registration_problems,ACCOUNT,ACCOUNT,True,False,True,True,False,wrong_intent;wrong_needs_human,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We're sorry to hear that you're experiencing issues with your {{Account Type}} account. To help resolve this, we need more information. Could you please provide details on what problem you're facing? This will help us better understand the situation and provide a solution. Thank you for your patience and understanding.""
+}"
+26316,how to see the reimbursement current status,track_refund,check_refund_policy,REFUND,REFUND,False,False,True,True,False,wrong_intent,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""To check the current status of your refund, you can log into your account and look for the 'Refunds' section. If you don't see it, you can also contact our customer service for assistance.""
+}"
+1017,need help with switching an item of purchase {{Order Number}},change_order,ORDER,ORDER,ORDER,False,False,True,False,False,wrong_intent;invalid_enum,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""Hello! If you need help with switching an item in your purchase order, please provide the Order Number. We'll assist you with the process. Thank you!""
+}"

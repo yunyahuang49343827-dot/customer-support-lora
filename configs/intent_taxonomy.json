@@ -1,0 +1,147 @@
+{
+  "contract_version": "1.0.0",
+  "dataset_name": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+  "source_artifacts": [
+    "artifacts/stage1/intent_distribution.csv",
+    "artifacts/stage1/category_intent_mapping.csv"
+  ],
+  "intent_count": 27,
+  "mapping_is_deterministic": true,
+  "intents": [
+    {
+      "intent": "cancel_order",
+      "count": 998,
+      "category": "ORDER"
+    },
+    {
+      "intent": "change_order",
+      "count": 997,
+      "category": "ORDER"
+    },
+    {
+      "intent": "change_shipping_address",
+      "count": 973,
+      "category": "SHIPPING"
+    },
+    {
+      "intent": "check_cancellation_fee",
+      "count": 950,
+      "category": "CANCEL"
+    },
+    {
+      "intent": "check_invoice",
+      "count": 1000,
+      "category": "INVOICE"
+    },
+    {
+      "intent": "check_payment_methods",
+      "count": 999,
+      "category": "PAYMENT"
+    },
+    {
+      "intent": "check_refund_policy",
+      "count": 997,
+      "category": "REFUND"
+    },
+    {
+      "intent": "complaint",
+      "count": 1000,
+      "category": "FEEDBACK"
+    },
+    {
+      "intent": "contact_customer_service",
+      "count": 1000,
+      "category": "CONTACT"
+    },
+    {
+      "intent": "contact_human_agent",
+      "count": 999,
+      "category": "CONTACT"
+    },
+    {
+      "intent": "create_account",
+      "count": 997,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "delete_account",
+      "count": 995,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "delivery_options",
+      "count": 995,
+      "category": "DELIVERY"
+    },
+    {
+      "intent": "delivery_period",
+      "count": 999,
+      "category": "DELIVERY"
+    },
+    {
+      "intent": "edit_account",
+      "count": 1000,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "get_invoice",
+      "count": 999,
+      "category": "INVOICE"
+    },
+    {
+      "intent": "get_refund",
+      "count": 997,
+      "category": "REFUND"
+    },
+    {
+      "intent": "newsletter_subscription",
+      "count": 999,
+      "category": "SUBSCRIPTION"
+    },
+    {
+      "intent": "payment_issue",
+      "count": 999,
+      "category": "PAYMENT"
+    },
+    {
+      "intent": "place_order",
+      "count": 998,
+      "category": "ORDER"
+    },
+    {
+      "intent": "recover_password",
+      "count": 995,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "registration_problems",
+      "count": 999,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "review",
+      "count": 997,
+      "category": "FEEDBACK"
+    },
+    {
+      "intent": "set_up_shipping_address",
+      "count": 997,
+      "category": "SHIPPING"
+    },
+    {
+      "intent": "switch_account",
+      "count": 1000,
+      "category": "ACCOUNT"
+    },
+    {
+      "intent": "track_order",
+      "count": 995,
+      "category": "ORDER"
+    },
+    {
+      "intent": "track_refund",
+      "count": 998,
+      "category": "REFUND"
+    }
+  ]
+}

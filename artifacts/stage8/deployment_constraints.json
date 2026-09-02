@@ -1,0 +1,41 @@
+{
+  "approved_scope": [
+    "structured classification",
+    "schema-constrained routing",
+    "escalation decision support",
+    "intent classification",
+    "category classification",
+    "structured JSON generation",
+    "customer-support workflow classification"
+  ],
+  "candidate": "candidate_01",
+  "human_review_recommended_for": [
+    "complaints",
+    "refunds",
+    "payment issues",
+    "account deletion",
+    "sensitive/high-impact actions"
+  ],
+  "not_approved_as": [
+    "enterprise factual authority",
+    "backend action executor",
+    "authoritative refund/policy engine",
+    "authoritative delivery/payment information source"
+  ],
+  "requires_backend_tools_for": [
+    "refund execution",
+    "order cancellation",
+    "address update",
+    "account modification",
+    "live status lookup"
+  ],
+  "requires_external_grounding_for": [
+    "company policies",
+    "payment methods",
+    "fees",
+    "timelines",
+    "contact details",
+    "live refund/order status"
+  ],
+  "unrestricted_production_approval": false
+}

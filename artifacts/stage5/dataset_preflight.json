@@ -1,0 +1,28 @@
+{
+  "config_sha256": "5688b536882b420e49c708f6f86c87acfb50682d892a99e686a52cbb909abe69",
+  "disallowed_dataset_content_accessed": false,
+  "max_seq_length": 1024,
+  "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+  "provenance_rule": "All formal rows are direct transformations of the complete allowed frozen Train/Validation files; no other split content is opened.",
+  "source_files_opened": [
+    "data/processed/train.jsonl",
+    "data/processed/validation.jsonl"
+  ],
+  "source_index_overlap": 0,
+  "train": {
+    "chat_valid": true,
+    "policy_mismatch_count": 0,
+    "rows": 2700,
+    "schema_invalid_count": 0,
+    "source_sha256": "ce35cd9ff927521a9ff5c2454b16a0012b22aa232c5c33c9b6a857f6cc57bf28",
+    "training_sha256": "10af63d3f75be188138cf886b08e144f22e7641fe7b157df7eadc239b8462cdd"
+  },
+  "validation": {
+    "chat_valid": true,
+    "policy_mismatch_count": 0,
+    "rows": 300,
+    "schema_invalid_count": 0,
+    "source_sha256": "d9a2035ebebb2eb739ecb7e5bc6d589927a0359416b0a05dde5e793a39410175",
+    "training_sha256": "29652285005114fd720b3485d29d3ae0cff04741184e702d6dae93c5d0b18e73"
+  }
+}

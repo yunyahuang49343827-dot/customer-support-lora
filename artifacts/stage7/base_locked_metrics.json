@@ -1,0 +1,41 @@
+{
+  "error_tag_counts": {
+    "extra_text_after_json": 1,
+    "extra_text_before_json": 1,
+    "intent_category_mismatch": 45,
+    "invalid_enum": 143,
+    "invalid_json": 2,
+    "wrong_category": 115,
+    "wrong_intent": 216,
+    "wrong_needs_human": 63
+  },
+  "evaluated_rows": 300,
+  "operational": {
+    "latency_sample_count": 300,
+    "mean_latency_ms": 1121.592696,
+    "median_latency_ms": 1078.23727,
+    "p95_latency_ms": 1587.030367
+  },
+  "primary": {
+    "intent_accuracy_percent": 28.0,
+    "json_valid_rate_percent": 99.333333,
+    "schema_compliance_percent": 36.666667
+  },
+  "secondary": {
+    "category_accuracy_percent": 61.666667,
+    "escalation_accuracy_percent": 79.0,
+    "escalation_false_negative_count": 61,
+    "escalation_false_positive_count": 0,
+    "escalation_invalid_or_missing_count": 2,
+    "escalation_positive_class": {
+      "f1_percent": 14.084507,
+      "false_negative": 61,
+      "false_positive": 0,
+      "invalid_or_missing": 2,
+      "precision_percent": 100.0,
+      "recall_percent": 7.575758,
+      "true_negative": 232,
+      "true_positive": 5
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "base": [
+    {
+      "count": 11,
+      "ground_truth_intent": "create_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 10,
+      "ground_truth_intent": "get_invoice",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 8,
+      "ground_truth_intent": "delete_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 8,
+      "ground_truth_intent": "switch_account",
+      "predicted_intent": "registration_problems"
+    },
+    {
+      "count": 6,
+      "ground_truth_intent": "track_refund",
+      "predicted_intent": "check_refund_policy"
+    },
+    {
+      "count": 4,
+      "ground_truth_intent": "newsletter_subscription",
+      "predicted_intent": "complaint"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "change_shipping_address",
+      "predicted_intent": "set_up_shipping_address"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "edit_account",
+      "predicted_intent": "set_up_shipping_address"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "recover_password",
+      "predicted_intent": "complaint"
+    },
+    {
+      "count": 2,
+      "ground_truth_intent": "edit_account",
+      "predicted_intent": "registration_problems"
+    }
+  ],
+  "lora": [
+    {
+      "count": 6,
+      "ground_truth_intent": "set_up_shipping_address",
+      "predicted_intent": "change_shipping_address"
+    },
+    {
+      "count": 4,
+      "ground_truth_intent": "check_refund_policy",
+      "predicted_intent": "get_refund"
+    },
+    {
+      "count": 3,
+      "ground_truth_intent": "get_invoice",
+      "predicted_intent": "check_invoice"
+    },
+    {
+      "count": 2,
+      "ground_truth_intent": "track_refund",
+      "predicted_intent": "check_cancellation_fee"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "check_invoice",
+      "predicted_intent": "get_invoice"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "check_refund_policy",
+      "predicted_intent": "track_refund"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "contact_human_agent",
+      "predicted_intent": "contact_customer_service"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "registration_problems",
+      "predicted_intent": "create_account"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "review",
+      "predicted_intent": "contact_customer_service"
+    },
+    {
+      "count": 1,
+      "ground_truth_intent": "review",
+      "predicted_intent": "contact_human_agent"
+    }
+  ]
+}

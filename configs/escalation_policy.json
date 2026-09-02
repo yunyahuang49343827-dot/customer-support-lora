@@ -1,0 +1,146 @@
+{
+  "contract_version": "1.0.0",
+  "dataset_name": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+  "ground_truth_source": "Deterministic Stage C2 policy by canonical intent; Bitext provides no needs_human label.",
+  "derived_from_response_text": false,
+  "manual_confirmation_required": false,
+  "true_intent_count": 6,
+  "false_intent_count": 21,
+  "intents": [
+    {
+      "intent": "cancel_order",
+      "needs_human": false,
+      "rationale": "The assistant can provide safe self-service cancellation guidance but must not claim that it cancelled the order."
+    },
+    {
+      "intent": "change_order",
+      "needs_human": false,
+      "rationale": "The assistant can explain available self-service order-change steps but must not claim that it changed the order."
+    },
+    {
+      "intent": "change_shipping_address",
+      "needs_human": false,
+      "rationale": "The assistant can guide the customer to the authorized address-change workflow without claiming that the destination was changed."
+    },
+    {
+      "intent": "check_cancellation_fee",
+      "needs_human": false,
+      "rationale": "This is an informational fee inquiry; the assistant can explain how to find applicable terms without executing a cancellation."
+    },
+    {
+      "intent": "check_invoice",
+      "needs_human": false,
+      "rationale": "Checking invoice details is a status or information request that can be answered with guidance without a manual decision."
+    },
+    {
+      "intent": "check_payment_methods",
+      "needs_human": false,
+      "rationale": "Available payment methods are FAQ-style information and do not require a human decision."
+    },
+    {
+      "intent": "check_refund_policy",
+      "needs_human": false,
+      "rationale": "Refund-policy questions are informational; the assistant may explain general steps while avoiding unsupported company-specific claims."
+    },
+    {
+      "intent": "complaint",
+      "needs_human": true,
+      "rationale": "A complaint normally requires acknowledgement, case-specific review, or remediation authority beyond generic automated guidance."
+    },
+    {
+      "intent": "contact_customer_service",
+      "needs_human": true,
+      "rationale": "The customer explicitly asks to contact customer service, so the response should facilitate human assistance."
+    },
+    {
+      "intent": "contact_human_agent",
+      "needs_human": true,
+      "rationale": "The customer explicitly requests a human agent and that preference must be honored."
+    },
+    {
+      "intent": "create_account",
+      "needs_human": false,
+      "rationale": "Account creation can be supported with self-service instructions; the assistant must not claim that it created the account."
+    },
+    {
+      "intent": "delete_account",
+      "needs_human": true,
+      "rationale": "Account deletion is destructive and requires authenticated, authorized handling or a controlled deletion workflow."
+    },
+    {
+      "intent": "delivery_options",
+      "needs_human": false,
+      "rationale": "Delivery-option questions are informational and can be answered with general guidance."
+    },
+    {
+      "intent": "delivery_period",
+      "needs_human": false,
+      "rationale": "A delivery-time inquiry is informational or status-oriented and does not inherently require manual intervention."
+    },
+    {
+      "intent": "edit_account",
+      "needs_human": false,
+      "rationale": "Routine profile-edit guidance can be self-service; the assistant must not claim to have changed account data."
+    },
+    {
+      "intent": "get_invoice",
+      "needs_human": false,
+      "rationale": "The assistant can explain how to retrieve an invoice without fabricating or issuing one itself."
+    },
+    {
+      "intent": "get_refund",
+      "needs_human": true,
+      "rationale": "Granting a refund changes a financial transaction and generally requires eligibility review and authorized execution."
+    },
+    {
+      "intent": "newsletter_subscription",
+      "needs_human": false,
+      "rationale": "Newsletter subscription is a low-risk self-service action for which guidance is sufficient."
+    },
+    {
+      "intent": "payment_issue",
+      "needs_human": true,
+      "rationale": "A payment problem may involve a billing dispute, failed charge, or unauthorized transaction and requires secure case-specific review."
+    },
+    {
+      "intent": "place_order",
+      "needs_human": false,
+      "rationale": "The assistant can guide the customer through self-service checkout but must not claim that an order or payment was completed."
+    },
+    {
+      "intent": "recover_password",
+      "needs_human": false,
+      "rationale": "Password recovery should use the secure self-service reset flow; the assistant must not request credentials or claim to reset the password."
+    },
+    {
+      "intent": "registration_problems",
+      "needs_human": false,
+      "rationale": "Registration troubleshooting can begin with clear self-service steps and does not always require escalation."
+    },
+    {
+      "intent": "review",
+      "needs_human": false,
+      "rationale": "Submitting or discussing a review is low-risk and can be handled with guidance without manual authority."
+    },
+    {
+      "intent": "set_up_shipping_address",
+      "needs_human": false,
+      "rationale": "Setting up a shipping address can be explained as a routine self-service account or checkout step."
+    },
+    {
+      "intent": "switch_account",
+      "needs_human": false,
+      "rationale": "Switching between accounts can be handled with sign-out and sign-in guidance without exposing credentials or executing the switch."
+    },
+    {
+      "intent": "track_order",
+      "needs_human": false,
+      "rationale": "Order tracking is a status inquiry and can be answered with retrieval guidance without a manual decision."
+    },
+    {
+      "intent": "track_refund",
+      "needs_human": false,
+      "rationale": "Refund tracking is a status inquiry; escalation is not required unless a separate dispute is presented."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "dev": {
+      "locked": false,
+      "path": "data/processed/dev.jsonl",
+      "sha256": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6"
+    },
+    "locked_test": {
+      "locked": true,
+      "path": "data/processed/locked_test.jsonl",
+      "sha256": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac"
+    },
+    "train": {
+      "locked": false,
+      "path": "data/processed/train.jsonl",
+      "sha256": "ce35cd9ff927521a9ff5c2454b16a0012b22aa232c5c33c9b6a857f6cc57bf28"
+    },
+    "validation": {
+      "locked": false,
+      "path": "data/processed/validation.jsonl",
+      "sha256": "d9a2035ebebb2eb739ecb7e5bc6d589927a0359416b0a05dde5e793a39410175"
+    }
+  },
+  "locked_test": {
+    "first_authorized_behavioral_use": "Stage C7 after Stage C6.5 freeze",
+    "frozen": true,
+    "path": "data/processed/locked_test.jsonl",
+    "revision_id": "stage3_source_response_quality_gate_v1",
+    "sha256": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+    "supersedes_sha256": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "adapter": {
+    "adapter_config_sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+    "file_count": 11,
+    "files": [
+      {
+        "relative_path": "0000150_adapters.safetensors",
+        "sha256": "2c1f21a922dd87c60036d48904bdc647f53cf1c54f64fc9ec176441529950e0d",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0000300_adapters.safetensors",
+        "sha256": "6c6964d79ce497a13181ee1555841a5e2d964f313ee91a62d6efc436c00ec3df",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0000450_adapters.safetensors",
+        "sha256": "b6289ed5d5d78291271c929b447a30d68b94ed52889ecc3fc65d121ad1c99415",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0000600_adapters.safetensors",
+        "sha256": "85412b7a107720d5b0e70d68d64478b1ebba2ec2ea8df6d588b0b8220574f11a",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0000750_adapters.safetensors",
+        "sha256": "bc546fb1bcf5ee8e741cc6d06cfec834e822ac3529e940b9decad4cc8664678d",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0000900_adapters.safetensors",
+        "sha256": "559026eab91ad979dbb0a0f7270993c54e3ad74d4a7aa6cd95770c7088d1362d",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0001050_adapters.safetensors",
+        "sha256": "bf6bcb5d9ce734dc615e79e8801a64b0fdb3df3030c9aa35103858a347a1f0b7",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0001200_adapters.safetensors",
+        "sha256": "6642de9c4dc9ebc5a01511c4d29a248e8121b60244e351ac2d94f725c86da3db",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "0001350_adapters.safetensors",
+        "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "size_bytes": 21126646
+      },
+      {
+        "relative_path": "adapter_config.json",
+        "sha256": "ad7d87f1e16288d89a80b151a84524475297ebbaf320f73a0d5201dfdc10a91b",
+        "size_bytes": 1222
+      },
+      {
+        "relative_path": "adapters.safetensors",
+        "sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+        "size_bytes": 21126646
+      }
+    ],
+    "final_adapter_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+    "final_checkpoint_sha256": "da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16",
+    "path": "artifacts/stage5/candidate_01/adapter",
+    "total_bytes": 211267682
+  },
+  "adapter_load_validation": {
+    "adapter_inventory_unchanged_after_load": true,
+    "adapter_path": "artifacts/stage5/candidate_01/adapter",
+    "architecture": "Qwen2ForCausalLM",
+    "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "generation_performed": false,
+    "lora_tensor_count": 224,
+    "quantization": {
+      "bits": 4,
+      "group_size": 64
+    },
+    "requested_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "resolved_snapshot_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "success": true
+  },
+  "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "candidate": "candidate_01",
+  "candidate02_outputs": [],
+  "dataset_hashes": {
+    "dev": {
+      "access_mode": "raw_binary_integrity_check",
+      "path": "data/processed/dev.jsonl",
+      "row_count": 300,
+      "sha256": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6",
+      "size_bytes": 295176
+    },
+    "locked_test": {
+      "access_mode": "raw_binary_sha256_and_newline_count_only",
+      "path": "data/processed/locked_test.jsonl",
+      "row_count": 300,
+      "sha256": "b7f7af8c5e366c743fafd68c8c8f3e7a2b101dfce53e63bf1f7a8ead0bce1fac",
+      "size_bytes": 302322
+    },
+    "train": {
+      "access_mode": "raw_binary_integrity_check",
+      "path": "data/processed/train.jsonl",
+      "row_count": 2700,
+      "sha256": "ce35cd9ff927521a9ff5c2454b16a0012b22aa232c5c33c9b6a857f6cc57bf28",
+      "size_bytes": 2669503
+    },
+    "validation": {
+      "access_mode": "raw_binary_integrity_check",
+      "path": "data/processed/validation.jsonl",
+      "row_count": 300,
+      "sha256": "d9a2035ebebb2eb739ecb7e5bc6d589927a0359416b0a05dde5e793a39410175",
+      "size_bytes": 290658
+    }
+  },
+  "evaluation_contract": {
+    "error_taxonomy": [
+      "wrong_intent",
+      "wrong_category",
+      "invalid_json",
+      "missing_key",
+      "extra_key",
+      "invalid_enum",
+      "intent_category_mismatch",
+      "wrong_needs_human",
+      "empty_response",
+      "extra_text_before_json",
+      "extra_text_after_json",
+      "generation_truncated"
+    ],
+    "escalation_metrics": [
+      "precision",
+      "recall",
+      "f1",
+      "true_positive",
+      "false_positive",
+      "false_negative",
+      "true_negative",
+      "invalid_or_missing"
+    ],
+    "evaluator_source_hashes": [
+      {
+        "path": "src/evaluation/base_baseline.py",
+        "sha256": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+        "size_bytes": 24257
+      },
+      {
+        "path": "src/evaluation/contracts.py",
+        "sha256": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+        "size_bytes": 3328
+      },
+      {
+        "path": "src/evaluation/development_evaluation.py",
+        "sha256": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+        "size_bytes": 28726
+      }
+    ],
+    "operational_metrics": [
+      "mean_latency_ms",
+      "median_latency_ms",
+      "p95_latency_ms"
+    ],
+    "primary_metrics": [
+      "intent_accuracy",
+      "category_accuracy",
+      "json_valid_rate",
+      "schema_compliance",
+      "escalation_accuracy"
+    ],
+    "response_qa_rubric": "reports/stage6_manual_response_qa_instructions.md",
+    "same_denominator_rule": "All attempted examples remain in metric denominators."
+  },
+  "freeze_status": "PASS",
+  "inference_contract": {
+    "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "candidate_adapter": "artifacts/stage5/candidate_01/adapter",
+    "chat_template": "base_model_tokenizer.apply_chat_template",
+    "contract_version": "stage6_5_frozen_inference_v1",
+    "decoding": {
+      "concurrency": 1,
+      "max_generated_tokens": 512,
+      "seed": 42,
+      "strategy": "deterministic_greedy",
+      "temperature": 0.0,
+      "warmup_runs": 0
+    },
+    "escalation_metric_aggregator": "src.evaluation.development_evaluation.escalation_metrics",
+    "evaluator": "src.evaluation.base_baseline.evaluate_prediction",
+    "evaluator_source_hashes": [
+      {
+        "path": "src/evaluation/base_baseline.py",
+        "sha256": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+        "size_bytes": 24257
+      },
+      {
+        "path": "src/evaluation/contracts.py",
+        "sha256": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+        "size_bytes": 3328
+      },
+      {
+        "path": "src/evaluation/development_evaluation.py",
+        "sha256": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+        "size_bytes": 28726
+      }
+    ],
+    "json_surrounding_text_detection": "src.evaluation.base_baseline._surrounding_text_tags",
+    "metric_aggregator": "src.evaluation.base_baseline.aggregate_metrics",
+    "parser": "src.evaluation.base_baseline._strict_json_object",
+    "path": "artifacts/stage6_5/frozen_inference_contract.json",
+    "per_model_difference": "Candidate 01 loads only the frozen adapter; every other inference setting is identical.",
+    "prompt": {
+      "path": "prompts/base_system_prompt.txt",
+      "sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b"
+    },
+    "sha256": "1225f7169ea6f2394e40478dcb1df572768d44c08f73f990866393b0d0b26752"
+  },
+  "known_limitations": [
+    "QLoRA significantly improved structured classification behavior, but manual QA found that generated responses can still contain unsupported policy or capability claims. Therefore, the fine-tuned model should not be treated as an enterprise factual authority.",
+    "QLoRA 顯著改善 structured classification behavior，但人工 QA 發現生成式 response 仍可能產生 unsupported policy/capability claims，因此模型不應直接被視為企業 factual authority。"
+  ],
+  "locked_content_accessed": false,
+  "locked_content_accessed_for_evaluation": false,
+  "locked_content_parsed": false,
+  "locked_inference_performed": false,
+  "manual_response_qa": {
+    "approval": "candidate_01_approved_for_freeze",
+    "confirmation_source": "Stage C6.5 user authorization",
+    "known_limitation_controls_freeze_note": true,
+    "status": "user_confirmed_complete_with_known_limitations",
+    "worksheet_overall_blank_count": 68,
+    "worksheet_path": "artifacts/stage6/manual_response_review.csv",
+    "worksheet_rows": 68,
+    "worksheet_scores_synthesized_or_backfilled": false
+  },
+  "promotion_gate": {
+    "category_material_regression_drop_pp": 3.0,
+    "critical_behavioral_regression_allowed": false,
+    "escalation_material_regression_drop_pp": 3.0,
+    "intent_accuracy_minimum_improvement_pp": 3.0,
+    "json_valid_maximum_regression_pp": 1.0,
+    "latency_is_promotion_criterion": false,
+    "material_response_safety_regression_allowed": false,
+    "response_qa": {
+      "assessment": "human_qa",
+      "pass_when": "No clear increase in Irrelevant, unsafe/fabricated-policy, or unsupported-action responses."
+    },
+    "schema_compliance_maximum_regression_pp": 1.0,
+    "source": {
+      "path": "configs/promotion_gate.json",
+      "sha256": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "size_bytes": 1866
+    },
+    "thresholds_may_change_after_locked_results": false
+  },
+  "prompt": {
+    "path": "prompts/base_system_prompt.txt",
+    "sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+    "size_bytes": 1852
+  },
+  "schema_taxonomy": {
+    "category_count": 11,
+    "escalation_false_intent_count": 21,
+    "escalation_true_intents": [
+      "complaint",
+      "contact_customer_service",
+      "contact_human_agent",
+      "delete_account",
+      "get_refund",
+      "payment_issue"
+    ],
+    "files": [
+      {
+        "path": "configs/output_schema.json",
+        "sha256": "6a3d0900b3485e5a24205ea5f7ae42360d598a6c7a7fc6d97cde2d8fde88daa2",
+        "size_bytes": 10470
+      },
+      {
+        "path": "configs/intent_taxonomy.json",
+        "sha256": "8e99fdfcdd90a2bcc2dd733503e936d5f0785ef4548468fa5923b4d965e3422f",
+        "size_bytes": 2927
+      },
+      {
+        "path": "configs/category_taxonomy.json",
+        "sha256": "694f2c4a56fe662d795a1315781ed7c86f68114012ea0012ead43cefc4a5ba79",
+        "size_bytes": 2089
+      },
+      {
+        "path": "configs/escalation_policy.json",
+        "sha256": "c07898c29254bc584c944007bc2fd2785c9db1e70fedda0aeb7c0ec7c2ef0f2d",
+        "size_bytes": 6072
+      }
+    ],
+    "intent_count": 27,
+    "intent_to_category_mapping": {
+      "cancel_order": "ORDER",
+      "change_order": "ORDER",
+      "change_shipping_address": "SHIPPING",
+      "check_cancellation_fee": "CANCEL",
+      "check_invoice": "INVOICE",
+      "check_payment_methods": "PAYMENT",
+      "check_refund_policy": "REFUND",
+      "complaint": "FEEDBACK",
+      "contact_customer_service": "CONTACT",
+      "contact_human_agent": "CONTACT",
+      "create_account": "ACCOUNT",
+      "delete_account": "ACCOUNT",
+      "delivery_options": "DELIVERY",
+      "delivery_period": "DELIVERY",
+      "edit_account": "ACCOUNT",
+      "get_invoice": "INVOICE",
+      "get_refund": "REFUND",
+      "newsletter_subscription": "SUBSCRIPTION",
+      "payment_issue": "PAYMENT",
+      "place_order": "ORDER",
+      "recover_password": "ACCOUNT",
+      "registration_problems": "ACCOUNT",
+      "review": "FEEDBACK",
+      "set_up_shipping_address": "SHIPPING",
+      "switch_account": "ACCOUNT",
+      "track_order": "ORDER",
+      "track_refund": "REFUND"
+    },
+    "json_schema_draft": "https://json-schema.org/draft/2020-12/schema"
+  },
+  "stage": "C6.5",
+  "stage7_inference_performed": false,
+  "stage7_outputs": [],
+  "training_after_freeze": false,
+  "training_performed_during_freeze": false
+}

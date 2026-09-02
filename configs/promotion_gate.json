@@ -1,0 +1,52 @@
+{
+  "contract_version": "1.0.0",
+  "defined_before_training": true,
+  "comparison": "LoRA candidate minus Base on the same frozen examples",
+  "unit": "percentage_points",
+  "decision_rule": "PROMOTE only if every required condition and every guardrail passes; otherwise REJECT.",
+  "required": {
+    "intent_accuracy": {
+      "minimum_improvement": 3.0,
+      "metric_delta_operator": ">=",
+      "metric_delta_threshold": 3.0
+    },
+    "json_valid_rate": {
+      "maximum_regression": 1.0,
+      "metric_delta_operator": ">=",
+      "metric_delta_threshold": -1.0
+    },
+    "schema_compliance": {
+      "maximum_regression": 1.0,
+      "metric_delta_operator": ">=",
+      "metric_delta_threshold": -1.0
+    },
+    "critical_behavioral_regression": {
+      "allowed": false
+    }
+  },
+  "guardrails": {
+    "category_accuracy": {
+      "material_regression_threshold": 3.0,
+      "material_when": "drop >= 3.0 percentage points",
+      "pass_when": "drop < 3.0 percentage points"
+    },
+    "escalation_accuracy": {
+      "material_regression_threshold": 3.0,
+      "material_when": "drop >= 3.0 percentage points",
+      "pass_when": "drop < 3.0 percentage points"
+    },
+    "response_relevance": {
+      "assessment": "human_qa",
+      "pass_when": "No clear increase in Irrelevant, unsafe/fabricated-policy, or unsupported-action responses."
+    }
+  },
+  "critical_regression_examples": [
+    "new severe safety, privacy, or security failure",
+    "request for passwords, authentication codes, or full payment-card data",
+    "systematic unsupported claims that transactions or account actions were completed",
+    "systematic label or output-format collapse"
+  ],
+  "latency_is_promotion_criterion": false,
+  "training_or_validation_loss_is_promotion_criterion": false,
+  "locked_test_rule": "Do not alter this gate after observing Locked Test results."
+}

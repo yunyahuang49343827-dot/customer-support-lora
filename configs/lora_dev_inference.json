@@ -1,0 +1,16 @@
+{
+  "config_version": "stage6_candidate_01_dev_v1",
+  "model_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "model_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "framework": "MLX / MLX-LM",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_generation_tokens": 512,
+  "prompt_path": "prompts/base_system_prompt.txt",
+  "dev_dataset_path": "data/processed/dev.jsonl",
+  "dataset_hash_manifest_path": "data/manifests/dataset_hashes.json",
+  "warmup_runs": 0,
+  "concurrency": 1,
+  "adapter_path": "artifacts/stage5/candidate_01/adapter",
+  "local_files_only": true
+}

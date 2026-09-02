@@ -1,0 +1,184 @@
+instruction,ground_truth_intent,predicted_intent,ground_truth_needs_human,predicted_needs_human,raw_model_output,response,error_tags
+seeing bill from {{Person Name}},check_invoice,check_invoice,False,False,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I'm sorry to hear that you've received an invoice from {{Person Name}}. To proceed, you can either check your account for the invoice details or contact {{Person Name}} directly for more information. If you need assistance with this, please let me know.""
+}","Hello! I'm sorry to hear that you've received an invoice from {{Person Name}}. To proceed, you can either check your account for the invoice details or contact {{Person Name}} directly for more information. If you need assistance with this, please let me know.",
+seeing bill from {{Person Name}},check_invoice,check_invoice,False,False,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""Hello! I'm sorry to hear that you've received an invoice from {{Person Name}}. To proceed, you can either check your account for the invoice details or contact {{Person Name}} directly for more information. If you need assistance with this, please let me know.""
+}","Hello! I'm sorry to hear that you've received an invoice from {{Person Name}}. To proceed, you can either check your account for the invoice details or contact {{Person Name}} directly for more information. If you need assistance with this, please let me know.",
+need to set my new shipping addrses up,set_up_shipping_address,set_up_shipping_address,False,False,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""SHIPPING"",
+  ""needs_human"": false,
+  ""response"": ""Please provide your new shipping address details. You can enter the address information here: [Shipping Address Form]. Once you provide the details, we will update your shipping address.""
+}","Please provide your new shipping address details. You can enter the address information here: [Shipping Address Form]. Once you provide the details, we will update your shipping address.",
+"I want to see the allowed payment methods , how can I do it?",check_payment_methods,check_payment_methods,False,False,"{""intent"":""check_payment_methods"",""category"":""PAYMENT"",""needs_human"":false,""response"":""You can check the allowed payment methods by looking at the payment options available on your account. If you have a registered account, you can usually find this information under the 'Payment Methods' section of your account dashboard. If you don't have an account, you can sign up for one to access this information.""}","You can check the allowed payment methods by looking at the payment options available on your account. If you have a registered account, you can usually find this information under the 'Payment Methods' section of your account dashboard. If you don't have an account, you can sign up for one to access this information.",
+how to check the fucking early termination charge?,check_cancellation_fee,check_cancellation_fee,False,False,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""To check the early termination fee, please contact our customer service team. They can provide you with the necessary information and help you understand the charges.""
+}","To check the early termination fee, please contact our customer service team. They can provide you with the necessary information and help you understand the charges.",
+I don't know what I need to do to see the termination fees,check_cancellation_fee,check_cancellation_fee,False,False,"{
+  ""intent"": ""check_cancellation_fee"",
+  ""category"": ""CANCEL"",
+  ""needs_human"": false,
+  ""response"": ""To see the termination fees, you need to cancel your order. You can do this by contacting our customer service.""
+}","To see the termination fees, you need to cancel your order. You can do this by contacting our customer service.",
+i want assistance to look for my bill #85632,check_invoice,check_invoice,False,False,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check your invoice. Please provide the invoice number so I can assist you further.""
+}",I can help you check your invoice. Please provide the invoice number so I can assist you further.,
+assistance to check in which cases can I request a refund,check_refund_policy,check_refund_policy,False,False,"{
+  ""intent"": ""check_refund_policy"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""You can request a refund in cases where the product is defective, the product does not match the description, the product is missing, the product is damaged, or the product does not fulfill the advertised features. Please check the details of your order and the product description to see if you qualify for a refund.""
+}","You can request a refund in cases where the product is defective, the product does not match the description, the product is missing, the product is damaged, or the product does not fulfill the advertised features. Please check the details of your order and the product description to see if you qualify for a refund.",
+help to switch several products of order {{Order Number}},change_order,switch_order,False,False,"{
+  ""intent"": ""switch_order"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""Hello! To switch products in your order, you can follow these steps:\n1. Log in to your account.\n2. Go to the 'My Orders' section.\n3. Find the order by the Order Number.\n4. Click on the 'Edit' option for that order.\n5. Select the products you want to switch.\n6. Click 'Save' to complete the switch.\n\nIf you need further assistance, feel free to ask. Have a great day!""
+}","Hello! To switch products in your order, you can follow these steps:
+1. Log in to your account.
+2. Go to the 'My Orders' section.
+3. Find the order by the Order Number.
+4. Click on the 'Edit' option for that order.
+5. Select the products you want to switch.
+6. Click 'Save' to complete the switch.
+
+If you need further assistance, feel free to ask. Have a great day!",wrong_intent;invalid_enum
+helo to contact an assistant,contact_human_agent,CONTACT,True,False,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Hello! How can I assist you today? Please provide more details so I can help you effectively.""
+}",Hello! How can I assist you today? Please provide more details so I can help you effectively.,wrong_intent;invalid_enum;wrong_needs_human
+wanna know about canceling the newsletter subscription,newsletter_subscription,complaint,False,False,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""To cancel your newsletter subscription, please visit our website and navigate to the 'My Account' section. From there, select 'Manage Subscriptions' and choose to unsubscribe. If you have any issues or need further assistance, feel free to contact our support team.""
+}","To cancel your newsletter subscription, please visit our website and navigate to the 'My Account' section. From there, select 'Manage Subscriptions' and choose to unsubscribe. If you have any issues or need further assistance, feel free to contact our support team.",wrong_intent;wrong_category;intent_category_mismatch
+opening premium account for wife,create_account,registration_problems,False,False,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We'll help you set up your premium account. Please provide your personal information so we can proceed with the setup.""
+}",We'll help you set up your premium account. Please provide your personal information so we can proceed with the setup.,wrong_intent;wrong_category;invalid_enum
+change purxhase {{Order Number}},change_order,ORDER,False,False,"{
+  ""intent"": ""ORDER"",
+  ""category"": ""ORDER"",
+  ""needs_human"": false,
+  ""response"": ""We've received your request to change the purchase of Order Number [Order Number]. Our team is working on it and will update you as soon as possible. Please note that changes to your order may take some time to process.""
+}",We've received your request to change the purchase of Order Number [Order Number]. Our team is working on it and will update you as soon as possible. Please note that changes to your order may take some time to process.,wrong_intent;invalid_enum
+"I need to see what damn shipment options I have, help me",delivery_options,check_delivery_options,False,False,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""I can help you check your shipment options. Please provide your tracking number so I can assist you further.""
+}",I can help you check your shipment options. Please provide your tracking number so I can assist you further.,wrong_intent;invalid_enum
+i dont know what i need to do to shop a few of ur product,place_order,check_invoice,False,False,"{
+  ""intent"": ""check_invoice"",
+  ""category"": ""INVOICE"",
+  ""needs_human"": false,
+  ""response"": ""To shop our products, you can browse through our catalog on our website. If you have a specific product in mind, you can search for it by entering its name or category. Once you find the product you're interested in, you can add it to your cart and proceed to checkout. If you need help with the checkout process, you can visit our FAQ section for more information.""
+}","To shop our products, you can browse through our catalog on our website. If you have a specific product in mind, you can search for it by entering its name or category. Once you find the product you're interested in, you can add it to your cart and proceed to checkout. If you need help with the checkout process, you can visit our FAQ section for more information.",wrong_intent;wrong_category
+help using the freemium account,switch_account,registration_problems,False,False,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""We're glad you're here! If you're having trouble with your account, you can try checking your email for a confirmation link or contact our support team for assistance. We're here to help.""
+}","We're glad you're here! If you're having trouble with your account, you can try checking your email for a confirmation link or contact our support team for assistance. We're here to help.",wrong_intent;wrong_category;invalid_enum
+change info on {{Account Category}} account,edit_account,CHANGE,False,False,"{
+  ""intent"": ""CHANGE"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""We'll update your account information right away. Please provide your new details.""
+}",We'll update your account information right away. Please provide your new details.,wrong_intent;invalid_enum
+I want to make a consumer claim,complaint,complaint,True,False,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you have a complaint, please provide as much detail as possible so we can address your issue promptly. You can contact us via phone, email, or live chat.""
+}","We're here to help. If you have a complaint, please provide as much detail as possible so we can address your issue promptly. You can contact us via phone, email, or live chat.",wrong_category;intent_category_mismatch;wrong_needs_human
+can I leave feedback about a servic?,review,feedback,False,False,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""Sure, you can provide feedback about the service. Please share your thoughts and any suggestions you have. We value your input and strive to improve our offerings.""
+}","Sure, you can provide feedback about the service. Please share your thoughts and any suggestions you have. We value your input and strive to improve our offerings.",wrong_intent;invalid_enum
+I don't know what to do to create a standard account,create_account,registration_problems,False,False,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""REGISTRATION"",
+  ""needs_human"": false,
+  ""response"": ""Creating a standard account involves providing some basic information. You can start by signing up on our website. Click on the 'Create Account' button, fill in the required fields, and proceed through the registration process. If you need help with the registration, feel free to ask. We're here to help.""
+}","Creating a standard account involves providing some basic information. You can start by signing up on our website. Click on the 'Create Account' button, fill in the required fields, and proceed through the registration process. If you need help with the registration, feel free to ask. We're here to help.",wrong_intent;wrong_category;invalid_enum
+I do not know how to check the delivery methods,delivery_options,check_delivery_options,False,False,"{
+  ""intent"": ""check_delivery_options"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""To check your delivery options, please visit our website and select the shipping method that best suits your needs. If you have any questions, feel free to contact our customer service team.""
+}","To check your delivery options, please visit our website and select the shipping method that best suits your needs. If you have any questions, feel free to contact our customer service team.",wrong_intent;invalid_enum
+I want help to leave feedback for your services,review,feedback,False,False,"{
+  ""intent"": ""feedback"",
+  ""category"": ""FEEDBACK"",
+  ""needs_human"": false,
+  ""response"": ""We'd love to hear your feedback! Please provide a brief comment or suggestion. We'll use it to improve our services. Thank you for your input.""
+}",We'd love to hear your feedback! Please provide a brief comment or suggestion. We'll use it to improve our services. Thank you for your input.,wrong_intent;invalid_enum
+need help seeing in which situations can I request refunds,check_refund_policy,REFUND,False,False,"{
+  ""intent"": ""REFUND"",
+  ""category"": ""REFUND"",
+  ""needs_human"": false,
+  ""response"": ""Refunds are typically available for items that are defective, damaged, or not as described. You can request a refund if you are not satisfied with the product or service. For more details, please check our refund policy.""
+}","Refunds are typically available for items that are defective, damaged, or not as described. You can request a refund if you are not satisfied with the product or service. For more details, please check our refund policy.",wrong_intent;invalid_enum
+how to unsubscribe to your newsletter?,newsletter_subscription,unsubscribe,False,False,"{
+  ""intent"": ""unsubscribe"",
+  ""category"": ""SUBSCRIPTION"",
+  ""needs_human"": false,
+  ""response"": ""To unsubscribe from our newsletter, please visit our website and click on the 'Unsubscribe' option. If you have any trouble, feel free to contact our customer service team.""
+}","To unsubscribe from our newsletter, please visit our website and click on the 'Unsubscribe' option. If you have any trouble, feel free to contact our customer service team.",wrong_intent;invalid_enum
+can you help me notify of a payment issue?,payment_issue,PAYMENT,True,False,"{
+  ""intent"": ""PAYMENT"",
+  ""category"": ""PAYMENT"",
+  ""needs_human"": false,
+  ""response"": ""We'll send you an email notification if we notice any payment issues. In the meantime, please try to resolve the issue yourself. If you need further assistance, feel free to contact our customer support.""
+}","We'll send you an email notification if we notice any payment issues. In the meantime, please try to resolve the issue yourself. If you need further assistance, feel free to contact our customer support.",wrong_intent;invalid_enum;wrong_needs_human
+file consumer claim against your organization,complaint,complaint,True,True,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": true,
+  ""response"": ""We're here to help. Please provide a detailed description of the issue so we can address it promptly.""
+}",We're here to help. Please provide a detailed description of the issue so we can address it promptly.,wrong_category;intent_category_mismatch
+assistance checking what hours i can reach customer sdupport,contact_customer_service,CONTACT,True,False,"{
+  ""intent"": ""CONTACT"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""Customer support is available 24/7. You can reach us at [phone number] or [email].""
+}",Customer support is available 24/7. You can reach us at [phone number] or [email].,wrong_intent;invalid_enum;wrong_needs_human
+could you help me deleting a platinum account?,delete_account,registration_problems,True,False,"{
+  ""intent"": ""registration_problems"",
+  ""category"": ""ACCOUNT"",
+  ""needs_human"": false,
+  ""response"": ""I'm sorry, but I don't have the authority to delete your account. Please contact our support team for assistance.""
+}","I'm sorry, but I don't have the authority to delete your account. Please contact our support team for assistance.",wrong_intent;wrong_needs_human
+i need assistance filing a consumer claim against ur company,complaint,complaint,True,False,"{
+  ""intent"": ""complaint"",
+  ""category"": ""CONTACT"",
+  ""needs_human"": false,
+  ""response"": ""We're here to help. If you need to file a complaint, please provide the details and we'll assist you accordingly. For immediate assistance, you can contact our customer service team at [customer service email] or [customer service phone number].""
+}","We're here to help. If you need to file a complaint, please provide the details and we'll assist you accordingly. For immediate assistance, you can contact our customer service team at [customer service email] or [customer service phone number].",wrong_category;intent_category_mismatch;wrong_needs_human
+is it possible to set my delivery address up?,set_up_shipping_address,set_up_shipping_address,False,False,"{
+  ""intent"": ""set_up_shipping_address"",
+  ""category"": ""DELIVERY"",
+  ""needs_human"": false,
+  ""response"": ""Yes, you can set up your delivery address. Please provide your new shipping address details.""
+}","Yes, you can set up your delivery address. Please provide your new shipping address details.",wrong_category;intent_category_mismatch

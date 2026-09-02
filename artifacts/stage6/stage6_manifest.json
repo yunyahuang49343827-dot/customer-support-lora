@@ -1,0 +1,29 @@
+{
+  "adapter_load_success": true,
+  "adapter_path": "artifacts/stage5/candidate_01/adapter",
+  "base_config_sha256": "a6c18e0e6b016897a1645a4cef1bb0663dc25d568fcbf5c499ccaceb5e4b52c9",
+  "base_inference_rerun": false,
+  "decision": {
+    "checks": {
+      "category_drop_less_than_3pp": true,
+      "escalation_drop_less_than_3pp": true,
+      "intent_at_least_base_plus_3pp": true,
+      "json_regression_within_1pp": true,
+      "schema_regression_within_1pp": true
+    },
+    "controlled_iteration_needed": false,
+    "decision": "candidate_01_strong_enough_to_freeze_pending_manual_response_qa",
+    "manual_response_qa_still_required": true,
+    "not_a_locked_promotion_decision": true
+  },
+  "dev_rows": 300,
+  "dev_sha256": "a0859497b5fe23ca1adf1ab1e6a9b7da5dfca1bbcd6519c89ab7ea4f21a5b4d6",
+  "locked_content_accessed": false,
+  "locked_inference_performed": false,
+  "lora_config_sha256": "8a6b5e4f908344f03a6c35a260003a5c2db7bb19c0b66c4f69a62dea80d821fc",
+  "model_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "model_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "prompt_sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b",
+  "same_evaluator": true,
+  "stage": "C6 Development Evaluation"
+}

@@ -1,0 +1,43 @@
+{
+  "source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+  "evaluated_rows": 300,
+  "metrics": {
+    "intent_accuracy": {
+      "absolute_delta": 66.0,
+      "base": 28.0,
+      "lora": 94.0,
+      "unit": "percentage_points"
+    },
+    "category_accuracy": {
+      "absolute_delta": 37.333333,
+      "base": 61.666667,
+      "lora": 99.0,
+      "unit": "percentage_points"
+    },
+    "json_valid_rate": {
+      "absolute_delta": 0.333334,
+      "base": 99.333333,
+      "lora": 99.666667,
+      "unit": "percentage_points"
+    },
+    "schema_compliance": {
+      "absolute_delta": 62.666666,
+      "base": 36.666667,
+      "lora": 99.333333,
+      "unit": "percentage_points"
+    },
+    "escalation_accuracy": {
+      "absolute_delta": 19.666667,
+      "base": 79.0,
+      "lora": 98.666667,
+      "unit": "percentage_points"
+    },
+    "escalation_f1": {
+      "absolute_delta": 83.693271,
+      "base": 14.084507,
+      "lora": 97.777778,
+      "unit": "percentage_points"
+    }
+  },
+  "locked_test_rerun_performed": false
+}

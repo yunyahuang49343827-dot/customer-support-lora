@@ -1,0 +1,42 @@
+{
+  "all_frozen_blocking_gates_passed": true,
+  "blocking_failures": [],
+  "candidate": "candidate_01",
+  "critical_behavioral_regression": false,
+  "decision": "PROMOTE",
+  "decision_basis": "Frozen promotion gate + Stage C7 Locked evaluation evidence + Locked Manual Response QA conclusion",
+  "deployment_scope": [
+    "structured classification",
+    "schema-constrained routing",
+    "escalation decision support",
+    "intent classification",
+    "category classification",
+    "structured JSON generation",
+    "customer-support workflow classification"
+  ],
+  "known_limitations": [
+    "QLoRA significantly improved structured classification behavior, but manual QA found that generated responses can still contain unsupported policy or capability claims. Therefore, the fine-tuned model should not be treated as an enterprise factual authority.",
+    "QLoRA 顯著改善 structured classification behavior，但人工 QA 發現生成式 response 仍可能產生 unsupported policy/capability claims，因此模型不應直接被視為企業 factual authority。",
+    "one isolated generation degeneration/truncation case observed on Locked Test",
+    "higher inference latency",
+    "remaining taxonomy confusion around semantically close intents",
+    "occasional unsupported action/capability claims",
+    "occasional unsupported factual/policy details",
+    "one unsupported guarantee signal",
+    "unresolved placeholders",
+    "verbose responses"
+  ],
+  "manual_response_qa_conclusion": "PASS WITH KNOWN LIMITATIONS",
+  "material_response_safety_regression": false,
+  "operational_warnings": [
+    "Candidate 01 substantially increases inference latency on the tested Apple Silicon environment."
+  ],
+  "prohibited_scope": [
+    "enterprise factual authority",
+    "backend action executor",
+    "authoritative refund/policy engine",
+    "authoritative delivery/payment information source"
+  ],
+  "stage": "C8",
+  "unrestricted_production_approval": false
+}

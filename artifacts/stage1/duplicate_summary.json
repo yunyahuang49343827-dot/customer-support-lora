@@ -1,0 +1,9 @@
+{
+  "count_definition": "Counts are duplicate occurrences beyond the first occurrence.",
+  "exact_duplicate_instruction_count": 2237,
+  "exact_duplicate_instruction_groups": 989,
+  "normalized_duplicate_instruction_count": 2868,
+  "normalized_duplicate_group_count": 1128,
+  "normalized_duplicate_rows_in_groups": 3996,
+  "largest_normalized_duplicate_group_size": 22
+}

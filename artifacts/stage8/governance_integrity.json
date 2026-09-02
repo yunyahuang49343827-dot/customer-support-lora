@@ -1,0 +1,232 @@
+{
+  "evidence_only": true,
+  "fail_count": 0,
+  "items": [
+    {
+      "actual": "PASS",
+      "expected": "PASS",
+      "name": "stage6_5_freeze_status",
+      "status": "PASS"
+    },
+    {
+      "actual": "PASS",
+      "expected": "PASS",
+      "name": "stage6_5_freeze_validation_status",
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "stage6_5_freeze_validation_fail_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "EVALUATION_COMPLETE",
+      "expected": "EVALUATION_COMPLETE",
+      "name": "stage7_status",
+      "status": "PASS"
+    },
+    {
+      "actual": "PASS",
+      "expected": "PASS",
+      "name": "stage7_integrity",
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "stage7_integrity_fail_count",
+      "status": "PASS"
+    },
+    {
+      "actual": "candidate_01",
+      "expected": "candidate_01",
+      "name": "candidate",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "base_attempts",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "lora_attempts",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "training_performed",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "prompt_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "evaluator_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "thresholds_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "candidate_modified",
+      "status": "PASS"
+    },
+    {
+      "actual": "f59616cb621e7794766b4b668f86546667746edbcaff387fd02b2af423aae3d0",
+      "expected": "f59616cb621e7794766b4b668f86546667746edbcaff387fd02b2af423aae3d0",
+      "name": "freeze_manifest_hash",
+      "status": "PASS"
+    },
+    {
+      "actual": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "expected": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "name": "promotion_gate_hash_expected",
+      "status": "PASS"
+    },
+    {
+      "actual": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "expected": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377",
+      "name": "promotion_gate_hash_frozen",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "promotion_gate_defined_before_training",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "promotion_thresholds_may_change_after_locked",
+      "status": "PASS"
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "name": "stage7_comparison_rows",
+      "status": "PASS"
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "promotion_inputs_no_decision",
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "name": "stage9_outputs_before_decision",
+      "status": "PASS"
+    },
+    {
+      "actual": 61.666667,
+      "expected": 61.666667,
+      "name": "category_accuracy_base_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 99.0,
+      "expected": 99.0,
+      "name": "category_accuracy_lora_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 37.333333,
+      "expected": 37.333333,
+      "name": "category_accuracy_delta_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 79.0,
+      "expected": 79.0,
+      "name": "escalation_accuracy_base_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 98.666667,
+      "expected": 98.666667,
+      "name": "escalation_accuracy_lora_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 19.666667,
+      "expected": 19.666667,
+      "name": "escalation_accuracy_delta_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 28.0,
+      "expected": 28.0,
+      "name": "intent_accuracy_base_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 94.0,
+      "expected": 94.0,
+      "name": "intent_accuracy_lora_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 66.0,
+      "expected": 66.0,
+      "name": "intent_accuracy_delta_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 99.333333,
+      "expected": 99.333333,
+      "name": "json_valid_rate_base_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 99.666667,
+      "expected": 99.666667,
+      "name": "json_valid_rate_lora_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 0.333334,
+      "expected": 0.333334,
+      "name": "json_valid_rate_delta_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 36.666667,
+      "expected": 36.666667,
+      "name": "schema_compliance_base_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 99.333333,
+      "expected": 99.333333,
+      "name": "schema_compliance_lora_cross_file",
+      "status": "PASS"
+    },
+    {
+      "actual": 62.666666,
+      "expected": 62.666666,
+      "name": "schema_compliance_delta_cross_file",
+      "status": "PASS"
+    }
+  ],
+  "locked_rerun_performed": false,
+  "pass_count": 37,
+  "stage": "C8",
+  "status": "PASS"
+}

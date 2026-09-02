@@ -1,0 +1,21 @@
+{
+  "all_overlap_counts_zero": true,
+  "checks": {
+    "exact_instruction_overlap": {
+      "examples": [],
+      "overlap_count": 0
+    },
+    "group_overlap": {
+      "examples": [],
+      "overlap_count": 0
+    },
+    "normalized_instruction_overlap": {
+      "examples": [],
+      "overlap_count": 0
+    },
+    "source_row_index_overlap": {
+      "examples": [],
+      "overlap_count": 0
+    }
+  }
+}

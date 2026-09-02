@@ -1,0 +1,42 @@
+{
+  "base_model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "base_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "candidate_adapter": "artifacts/stage5/candidate_01/adapter",
+  "chat_template": "base_model_tokenizer.apply_chat_template",
+  "contract_version": "stage6_5_frozen_inference_v1",
+  "decoding": {
+    "concurrency": 1,
+    "max_generated_tokens": 512,
+    "seed": 42,
+    "strategy": "deterministic_greedy",
+    "temperature": 0.0,
+    "warmup_runs": 0
+  },
+  "escalation_metric_aggregator": "src.evaluation.development_evaluation.escalation_metrics",
+  "evaluator": "src.evaluation.base_baseline.evaluate_prediction",
+  "evaluator_source_hashes": [
+    {
+      "path": "src/evaluation/base_baseline.py",
+      "sha256": "184ca998f1a29dcf99cc4bc48788d09ad0c177314a16ac7eb4f21c0caf64fb52",
+      "size_bytes": 24257
+    },
+    {
+      "path": "src/evaluation/contracts.py",
+      "sha256": "e2f8bb620a3b7d44f98c5ca0a96e985d98b944fe7d68b0a265cd26aa425a31a3",
+      "size_bytes": 3328
+    },
+    {
+      "path": "src/evaluation/development_evaluation.py",
+      "sha256": "2cb2f7f37f4b5b03837eb8b2cec17355a3df77cdc1df07939f990bfb38ba9a37",
+      "size_bytes": 28726
+    }
+  ],
+  "json_surrounding_text_detection": "src.evaluation.base_baseline._surrounding_text_tags",
+  "metric_aggregator": "src.evaluation.base_baseline.aggregate_metrics",
+  "parser": "src.evaluation.base_baseline._strict_json_object",
+  "per_model_difference": "Candidate 01 loads only the frozen adapter; every other inference setting is identical.",
+  "prompt": {
+    "path": "prompts/base_system_prompt.txt",
+    "sha256": "6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b"
+  }
+}

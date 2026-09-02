@@ -1,0 +1,35 @@
+{
+  "chat_template_applied": true,
+  "recommended_max_seq_length": 1024,
+  "selection_rule": "Use 1536 only when more than 1% of Train examples exceed 1024 tokens; otherwise use 1024.",
+  "tokenizer_model_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "tokenizer_revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "train": {
+    "count": 2700,
+    "count_over_1024": 0,
+    "count_over_1536": 0,
+    "max": 851,
+    "mean": 530.748148,
+    "median": 506.0,
+    "min": 422,
+    "p90": 632.1,
+    "p95": 674.05,
+    "p99": 782.0,
+    "percentage_over_1024": 0.0,
+    "percentage_over_1536": 0.0
+  },
+  "validation": {
+    "count": 300,
+    "count_over_1024": 0,
+    "count_over_1536": 0,
+    "max": 843,
+    "mean": 526.74,
+    "median": 507.0,
+    "min": 424,
+    "p90": 620.7,
+    "p95": 654.15,
+    "p99": 763.16,
+    "percentage_over_1024": 0.0,
+    "percentage_over_1536": 0.0
+  }
+}

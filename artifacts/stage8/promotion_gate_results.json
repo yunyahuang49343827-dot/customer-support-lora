@@ -1,0 +1,147 @@
+{
+  "all_frozen_blocking_gates_passed": true,
+  "automated_screening_is_not_complete_quality_judgment": true,
+  "blocking_gates": [
+    {
+      "base_result": 28.0,
+      "delta": 66.0,
+      "evidence_source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+      "frozen_rule": "LoRA delta >= +3.0 percentage points",
+      "gate_name": "intent_accuracy",
+      "lora_result": 94.0,
+      "rationale": "Observed delta +66.000000 percentage points; evaluated against the frozen rule.",
+      "status": "PASS",
+      "unit": "percentage_points"
+    },
+    {
+      "base_result": 99.333333,
+      "delta": 0.333334,
+      "evidence_source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+      "frozen_rule": "LoRA regression <= 1.0 percentage point",
+      "gate_name": "json_valid_rate",
+      "lora_result": 99.666667,
+      "rationale": "Observed delta +0.333334 percentage points; evaluated against the frozen rule.",
+      "status": "PASS",
+      "unit": "percentage_points"
+    },
+    {
+      "base_result": 36.666667,
+      "delta": 62.666666,
+      "evidence_source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+      "frozen_rule": "LoRA regression <= 1.0 percentage point",
+      "gate_name": "schema_compliance",
+      "lora_result": 99.333333,
+      "rationale": "Observed delta +62.666666 percentage points; evaluated against the frozen rule.",
+      "status": "PASS",
+      "unit": "percentage_points"
+    },
+    {
+      "base_result": 61.666667,
+      "delta": 37.333333,
+      "evidence_source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+      "frozen_rule": "drop >= 3.0 percentage points is material",
+      "gate_name": "category_accuracy",
+      "lora_result": 99.0,
+      "rationale": "Observed delta +37.333333 percentage points; evaluated against the frozen rule.",
+      "status": "PASS",
+      "unit": "percentage_points"
+    },
+    {
+      "base_result": 79.0,
+      "delta": 19.666667,
+      "evidence_source": "artifacts/stage7/base_vs_lora_locked_comparison.json",
+      "frozen_rule": "drop >= 3.0 percentage points is material",
+      "gate_name": "escalation_accuracy",
+      "lora_result": 98.666667,
+      "rationale": "Observed delta +19.666667 percentage points; evaluated against the frozen rule.",
+      "status": "PASS",
+      "unit": "percentage_points"
+    },
+    {
+      "base_result": null,
+      "delta": null,
+      "evidence_source": "Locked Manual Response QA conclusion supplied for Stage C8",
+      "frozen_rule": "not allowed",
+      "gate_name": "critical_behavioral_regression",
+      "lora_result": "NO critical behavioral regression",
+      "rationale": "Manual QA conclusion records no critical behavioral regression; isolated known issues are retained as limitations.",
+      "status": "PASS"
+    },
+    {
+      "base_result": {
+        "asks_for_sensitive_secret": 0,
+        "fabricated_24_7_availability": 1,
+        "fabricated_contact_details": 5,
+        "fabricated_fees_or_timelines": 5,
+        "unnecessary_escalation": 75,
+        "unsupported_action_completion": 2,
+        "unsupported_guarantee": 0,
+        "unsupported_update_claim": 0
+      },
+      "delta": {
+        "asks_for_sensitive_secret": 0,
+        "fabricated_24_7_availability": -1,
+        "fabricated_contact_details": -5,
+        "fabricated_fees_or_timelines": -4,
+        "unnecessary_escalation": -42,
+        "unsupported_action_completion": 4,
+        "unsupported_guarantee": 1,
+        "unsupported_update_claim": 0
+      },
+      "evidence_source": [
+        "artifacts/stage7/locked_response_risk_summary.json",
+        "Locked Manual Response QA conclusion supplied for Stage C8"
+      ],
+      "frozen_rule": "not allowed",
+      "gate_name": "material_response_safety_regression",
+      "lora_result": {
+        "asks_for_sensitive_secret": 0,
+        "fabricated_24_7_availability": 0,
+        "fabricated_contact_details": 0,
+        "fabricated_fees_or_timelines": 1,
+        "unnecessary_escalation": 33,
+        "unsupported_action_completion": 6,
+        "unsupported_guarantee": 1,
+        "unsupported_update_claim": 0
+      },
+      "rationale": "Manual QA conclusion is PASS WITH KNOWN LIMITATIONS and records NO material response safety regression; automated screening is supporting evidence, not a complete quality judgment.",
+      "status": "PASS"
+    }
+  ],
+  "candidate": "candidate_01",
+  "manual_response_qa_conclusion": "PASS WITH KNOWN LIMITATIONS",
+  "operational_gates": [
+    {
+      "base_result": {
+        "latency_sample_count": 300,
+        "mean_latency_ms": 1121.592696,
+        "median_latency_ms": 1078.23727,
+        "p95_latency_ms": 1587.030367
+      },
+      "blocking": false,
+      "delta": {
+        "mean_latency_ms": 1946.319345,
+        "median_latency_ms": 1639.493168,
+        "p95_latency_ms": 3385.788934
+      },
+      "evidence_source": [
+        "artifacts/stage7/base_locked_metrics.json",
+        "artifacts/stage7/lora_locked_metrics.json"
+      ],
+      "frozen_rule": "operational context only; not a frozen promotion blocker",
+      "gate_name": "latency",
+      "lora_result": {
+        "latency_sample_count": 300,
+        "mean_latency_ms": 3067.912041,
+        "median_latency_ms": 2717.730438,
+        "p95_latency_ms": 4972.819301
+      },
+      "rationale": "Candidate 01 substantially increases inference latency on the tested Apple Silicon environment.",
+      "status": "OPERATIONAL_WARNING"
+    }
+  ],
+  "post_hoc_thresholds_added": false,
+  "stage": "C8",
+  "threshold_source": "configs/promotion_gate.json",
+  "threshold_source_sha256": "8e756705625c7bc61cb136d0672b785a76d21b8443f10c9f1903c87c3d2af377"
+}

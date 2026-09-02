@@ -1,0 +1,36 @@
+{
+  "error_tag_counts": {
+    "wrong_category": 5,
+    "wrong_intent": 24,
+    "wrong_needs_human": 8
+  },
+  "evaluated_rows": 300,
+  "operational": {
+    "latency_sample_count": 300,
+    "mean_latency_ms": 2191.734293,
+    "median_latency_ms": 2123.567125,
+    "p95_latency_ms": 3459.854888
+  },
+  "primary": {
+    "intent_accuracy_percent": 92.0,
+    "json_valid_rate_percent": 100.0,
+    "schema_compliance_percent": 100.0
+  },
+  "secondary": {
+    "category_accuracy_percent": 98.333333,
+    "escalation_accuracy_percent": 97.333333,
+    "escalation_false_negative_count": 0,
+    "escalation_false_positive_count": 8,
+    "escalation_invalid_or_missing_count": 0,
+    "escalation_positive_class": {
+      "f1_percent": 94.285714,
+      "false_negative": 0,
+      "false_positive": 8,
+      "invalid_or_missing": 0,
+      "precision_percent": 89.189189,
+      "recall_percent": 100.0,
+      "true_negative": 226,
+      "true_positive": 66
+    }
+  }
+}
