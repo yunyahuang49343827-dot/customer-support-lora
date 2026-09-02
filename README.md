@@ -77,7 +77,7 @@ Base Model 雖然能生成流暢的客服文字，但在本專案中無法穩定
 
 ## 3. QLoRA 微調與評估流程
 
-![QLoRA 微調與評估流程](images/qlora_workflow.png)
+![QLoRA 微調與評估流程](images/qlora_workflow_v2.png)
 
 本專案的核心不是單純完成一次 Fine-tuning，而是建立一個完整的：
 
