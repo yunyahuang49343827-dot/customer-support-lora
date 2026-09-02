@@ -2,84 +2,171 @@
 
 **客服分類 QLoRA 微調與評估**
 
-本專案以 **Qwen2.5-1.5B-Instruct + QLoRA** 改善 Customer Support 的 Intent Classification、Category Classification、Structured JSON 與 Human Escalation。重點不是讓模型背誦企業知識，而是讓它穩定遵守可驗證的分類、Schema 與轉介規則。
+本專案使用 **Qwen2.5-1.5B-Instruct + QLoRA**，微調客服模型的**意圖分類、類別分類、JSON 結構化輸出與真人轉介判斷**。
 
-## 1. 專案簡介
+核心目標不是把企業政策或即時資訊寫進模型，而是讓模型穩定遵守可驗證的 **Intent Taxonomy、Category Mapping、JSON Schema 與 Escalation Policy**。
 
-Base Model 能生成流暢的客服文字，但不穩定遵守企業定義的 taxonomy 與輸出契約。Candidate 01 經過 group-aware data split、QLoRA training、Dev Evaluation、Freeze、Locked Test 與 Promotion Gate 後，獲准用於 structured classification & routing。
+### Locked Test 主要成果
 
-Locked Test 主要結果：
+| 指標 | Base | QLoRA | 改善 |
+|---|---:|---:|---:|
+| Intent 準確率 | 28.0% | **94.0%** | **+66.0 pp** |
+| Category 準確率 | 61.7% | **99.0%** | **+37.3 pp** |
+| Schema 合規率 | 36.7% | **99.3%** | **+62.7 pp** |
+| 真人轉介準確率 | 79.0% | **98.7%** | **+19.7 pp** |
 
-- Intent Accuracy：**28.0% → 94.0%**
-- Category Accuracy：**61.7% → 99.0%**
-- Schema Compliance：**36.7% → 99.3%**
-- Escalation Accuracy：**79.0% → 98.7%**
+> **Candidate 01：PROMOTED for structured classification & routing**  
+> Promotion 代表結構化分類與轉介行為通過評估，**不代表 unrestricted production approval**。
 
-**Candidate 01：PROMOTED for structured classification & routing.** Promotion 不代表 unrestricted production approval。
+---
 
-## 2. Live Demo
+## 1. Live Demo
 
 ### Public Vercel Demo
 
-**[開啟公開 Demo](https://customer-support-lora.vercel.app/)**
+[**開啟公開 Demo**](https://customer-support-lora.vercel.app/)
 
-公開網站展示 8 個 curated examples，內容為 Frozen Base / Candidate 01 預先產生的真實 inference snapshots。Vercel 只讀取靜態 JSON，**不是 live model inference**，也不接受自由輸入。
+公開網站提供 8 個 curated examples，使用 Frozen Base / Candidate 01 **預先產生的真實 inference snapshots**。
 
-### Local Streamlit Demo
+- 可比較 Base 與 QLoRA 的 Intent、Category、`needs_human`、JSON 與 Schema 表現
+- 保留原始英文 Customer Message 與模型回覆
+- Vercel 只讀取靜態 JSON，**不在雲端即時執行模型**
+- 不提供自由輸入
 
-本機版支援自由輸入新的英文 Customer Support 問題，並實際執行 Base 與 QLoRA Candidate 01 inference。安裝與啟動方式請見 [Local Live Inference](#local-live-inference)。
+### Local Streamlit Live Demo
 
-## 3. 問題與目標
+本機版支援自由輸入新的英文客服問題，並實際執行：
 
-Base Model 雖具備一般客服語言能力，但無法穩定遵守企業自訂的：
+```text
+Base Model
+vs
+QLoRA Candidate 01
+```
 
-- 27-value Intent Taxonomy
-- Category Mapping
+可即時比較：
+
+- Intent
+- Category
+- `needs_human`
+- JSON Validity
+- Schema Compliance
+- Generated Response
+- Raw Model Output
+- Latency
+
+安裝與啟動方式請見 [Local Live Inference](#local-live-inference)。
+
+---
+
+## 2. 問題與目標
+
+Base Model 雖然能生成流暢的客服文字，但在本專案中無法穩定遵守企業自訂的：
+
+- 27 個 canonical Intent
+- Intent-to-Category Mapping
 - JSON Schema
 - Human Escalation Policy
 
-本專案 Fine-tuning 的目標是 **structured behavior adaptation**，不是把公司政策、fees、delivery timelines、contact details 或 live account state 寫入 model weights。會變動的企業事實仍需 external grounding；真實操作仍需 backend tools。
+因此本專案的 Fine-tuning 目標是：
 
-## 4. QLoRA 微調與評估流程
+> **讓模型學會固定的 structured behavior，而不是讓模型成為企業知識來源。**
 
-<!-- TODO: Add QLoRA workflow diagram here -->
+會變動的公司政策、付款方式、費用、時程、聯絡資訊與即時訂單狀態，仍應透過 **RAG / external grounding / backend tools** 取得，而不是依賴 model weights。
 
-### ① Data
+---
 
-Dataset Analysis → Source Quality Check → Group-aware Split
+## 3. QLoRA 微調與評估流程
 
-### ② Development
+<!-- TODO: 將流程圖存成 docs/images/qlora_workflow.png 後，解除下一行註解 -->
+<!-- ![QLoRA 微調與評估流程](docs/images/qlora_workflow.png) -->
 
-Base Benchmark → QLoRA Training → Dev Evaluation
+本專案的核心不是單純完成一次 Fine-tuning，而是建立一個完整的：
 
-### ③ Frozen Evaluation
+> **Fine-tuning + Evaluation + Governance Lifecycle**
 
-Freeze → Locked Test → Risk Screening + Manual QA
+整體流程分成四個階段：
 
-### ④ Decision
+### ① 資料準備
 
-Promotion Gate → Candidate 01 PROMOTED → Demo
+**Dataset Analysis → Source Quality Check → Group-aware Split**
 
-## 5. 資料處理與 Leakage Prevention
+重點：
+- 檢查重複資料、placeholder 與不完整 response
+- 使用 normalized instruction 進行 group-aware split
+- 避免高度相似問句跨 Train / Test，降低 evaluation leakage
 
-客服資料含有大量高度相似、只替換少數詞彙的 customer instructions。若直接使用一般 Random Split，近似問句可能同時進入 Train 與 Test，造成 evaluation leakage 與虛高結果。
+### ② 模型開發
 
-本專案以 **normalized instruction + group-aware split** 將相似問句綁定於同一 group，確保不跨 split。最終 source row、exact instruction、normalized instruction 與 group overlap 均為 0；不完整的 source response 也會先經 deterministic quality gate 排除。
+**Base Benchmark → QLoRA Training → Dev Evaluation**
 
-| Split | Rows | 用途 | 是否可用於調整 |
+重點：
+- 先建立 Base Model behavioral baseline
+- 使用 QLoRA 進行 targeted behavior adaptation
+- Dev 用於 behavioral metrics、QA、error analysis 與 controlled iteration
+
+### ③ 凍結與最終評估
+
+**Freeze → Locked Test → Risk Screening + Manual QA**
+
+Locked Test 開啟前先固定：
+
+- Candidate
+- Base revision
+- Prompt
+- Parser
+- Schema
+- Taxonomy
+- Escalation Policy
+- Evaluator
+- Promotion Thresholds
+
+Locked Test 僅在 Freeze 後執行，**不可用於 retraining、prompt tuning 或 checkpoint selection**。
+
+### ④ 決策與展示
+
+**Promotion Gate → Candidate 01 PROMOTED → Demo**
+
+Candidate 01 通過 structured classification / routing 的 Promotion Gate，後續以：
+
+- Streamlit：本機 Live Inference
+- Vercel：Frozen Snapshot Portfolio Demo
+
+進行展示。
+
+---
+
+## 4. 資料處理與避免 Leakage
+
+客服資料中存在大量只更換少數詞彙、但語意高度相似的 customer instructions。
+
+如果直接使用一般 Random Split，近似問句可能同時出現在 Train 與 Test，導致模型看似表現很好，但其實只是記住相似句型。
+
+因此本專案使用：
+
+> **normalized instruction + group-aware split**
+
+將高度相似的問句綁定在同一 group，避免跨 split。
+
+最終 source row、exact instruction、normalized instruction 與 group overlap 均為 0。
+
+| 資料集 | 筆數 | 用途 | 是否可用於調整 |
 |---|---:|---|---|
-| Train | 2,700 | QLoRA training | Yes |
-| Validation | 300 | Training diagnostics | Yes |
-| Dev | 300 | Development evaluation / QA | Yes |
-| Locked Test | 300 | Final post-freeze evaluation | No |
+| Train | 2,700 | QLoRA 訓練 | 是 |
+| Validation | 300 | 訓練期間驗證 | 是 |
+| Dev | 300 | 開發評估、QA、error analysis | 是 |
+| Locked Test | 300 | 最終一次性評估 | **否** |
 
-詳細資料請見 [Split Validation Report](reports/split_validation_report.md) 與 [dataset manifests](data/manifests/)。
+詳細資料請見：
+- [Split Validation Report](reports/split_validation_report.md)
+- [Dataset Manifests](data/manifests/)
 
-## 6. QLoRA 訓練設定
+---
+
+## 5. QLoRA 訓練設定
 
 | 設定 | 值 |
 |---|---|
-| Base Model | `Qwen2.5-1.5B-Instruct-4bit` |
+| Base Model | `mlx-community/Qwen2.5-1.5B-Instruct-4bit` |
 | LoRA Rank / Scale | 8 / 16 |
 | Adapted Layers | 16 |
 | Target Modules | q/k/v/o + gate/up/down |
@@ -89,132 +176,242 @@ Promotion Gate → Candidate 01 PROMOTED → Demo
 | Peak Memory | 4.74 GB |
 | Training Time | 約 34.8 分鐘 |
 
-QLoRA 讓本專案在 Apple Silicon 上，只調整約 0.34% 參數即可完成 targeted behavior adaptation。Base revision、sequence length、prompt masking 與完整 provenance 請見 [Stage C5 Training Report](reports/stage5_formal_qlora_training.md)。
+QLoRA 讓本專案在 Apple Silicon 上，只調整約 **0.34%** 的參數即可完成 targeted behavior adaptation。
 
-## 7. Locked Test Results
+完整 training configuration 與 provenance 請見：
 
-以下數值來自既有 Stage C7 artifact；本次 README 更新未重新執行 Locked Test。
+- [Stage C5 Training Report](reports/stage5_formal_qlora_training.md)
 
-| Metric | Base | QLoRA | Delta |
+---
+
+## 6. Locked Test 結果
+
+以下數值來自既有 Stage C7 artifacts，README 更新過程沒有重新執行 Locked Test。
+
+| 指標 | Base | QLoRA | 改善 |
 |---|---:|---:|---:|
-| Intent Accuracy | 28.0% | 94.0% | +66.0 pp |
-| Category Accuracy | 61.7% | 99.0% | +37.3 pp |
-| JSON Valid | 99.3% | 99.7% | +0.3 pp |
-| Schema Compliance | 36.7% | 99.3% | +62.7 pp |
-| Escalation Accuracy | 79.0% | 98.7% | +19.7 pp |
-| Escalation F1 | 14.1% | 97.8% | +83.7 pp |
+| Intent 準確率 | 28.0% | **94.0%** | **+66.0 pp** |
+| Category 準確率 | 61.7% | **99.0%** | **+37.3 pp** |
+| JSON 有效率 | 99.3% | **99.7%** | +0.3 pp |
+| Schema 合規率 | 36.7% | **99.3%** | **+62.7 pp** |
+| 真人轉介準確率 | 79.0% | **98.7%** | **+19.7 pp** |
+| 真人轉介 F1 | 14.1% | **97.8%** | **+83.7 pp** |
 
-Base 的 Escalation Precision 雖為 100%，Recall 卻只有 7.6%；Candidate 01 的 Recall 為 100%，F1 為 97.8%。這說明 Human Escalation 不能只看單一 Precision 指標。
+### Escalation 補充
 
-詳細資料請見 [Stage C7 Locked Evaluation](reports/stage7_locked_evaluation.md) 與 [Base vs QLoRA comparison artifact](artifacts/stage7/base_vs_lora_locked_comparison.json)。
+Base 的 Escalation Precision 為 100%，但 Recall 只有 **7.6%**。
 
-## 8. Base vs QLoRA Example
+Candidate 01：
+
+- Precision：95.7%
+- Recall：**100.0%**
+- F1：**97.8%**
+
+因此不能只看單一 Precision；Base 幾乎沒有辨識出真正需要真人處理的案例。
+
+詳細資料請見：
+- [Stage C7 Locked Evaluation](reports/stage7_locked_evaluation.md)
+- [Base vs QLoRA Comparison Artifact](artifacts/stage7/base_vs_lora_locked_comparison.json)
+
+---
+
+## 7. Base vs QLoRA 實際案例
 
 **Customer Message**
 
 > Please help me request a refund for my recent purchase.
 
+**Expected**
+
+```text
+Intent: get_refund
+Category: REFUND
+needs_human: true
+```
+
 | 項目 | Expected | Base | QLoRA |
 |---|---|---|---|
-| Intent | `get_refund` | `refund` | `get_refund` |
-| Category | `REFUND` | `REFUND` | `REFUND` |
-| `needs_human` | `true` | `false` | `true` |
-| JSON Valid | — | Yes | Yes |
-| Schema Compliance | — | No | Yes |
+| Intent | `get_refund` | `refund` ❌ | `get_refund` ✅ |
+| Category | `REFUND` | `REFUND` ✅ | `REFUND` ✅ |
+| `needs_human` | `true` | `false` ❌ | `true` ✅ |
+| JSON Valid | — | ✅ | ✅ |
+| Schema Compliance | — | ❌ | ✅ |
 
-QLoRA 在此案例中修正 canonical Intent、Schema Compliance 與 Human Escalation。此案例證明 structured behavior 改善，不代表生成式 response factuality 已完全解決。
+這個案例呈現 QLoRA 對 **canonical taxonomy、Schema Compliance 與 Escalation Behavior** 的改善。
 
-未修改的 response 與 raw JSON 請見 [demo_cases.json](web/data/demo_cases.json)。
+但這只代表 structured behavior 改善，**不代表生成式 response 的 factuality 已完全解決**。
 
-## 9. Evaluation / Freeze / Promotion
+未修改的原始 response 與 raw JSON 可查看：
 
-### Dev Evaluation
+- [demo_cases.json](web/data/demo_cases.json)
 
-Dev 用於 behavioral metrics、QA、error analysis 與 controlled iteration，不作為最終泛化結果。
+---
+
+## 8. 評估、Freeze 與 Promotion Gate
+
+### Dev 評估
+
+Dev 用於：
+
+- behavioral metrics
+- QA
+- error analysis
+- controlled iteration
+
+Dev 可以協助開發與調整，但不作為最終泛化結果。
 
 ### Freeze
 
-進入 Locked Test 前固定以下項目：
+進入 Locked Test 前固定：
 
-- Candidate 與 Base revision
-- Prompt、Parser 與 Schema
-- Taxonomy 與 Escalation Policy
-- Evaluator 與 Promotion Thresholds
+- Candidate
+- Base revision
+- Prompt
+- Parser
+- Schema
+- Taxonomy
+- Escalation Policy
+- Evaluator
+- Promotion Thresholds
+- deterministic inference settings
 
-### Locked Test / Promotion
+### Locked Test
 
-Locked Test 共 300 rows，僅在 Freeze 後執行；結果不用於 retraining、prompt tuning 或 checkpoint selection。Promotion 不以 training / validation loss 作為 criterion，而是依預先固定的 behavioral gates 與 Manual QA 結論判定。
+Locked Test 共 300 rows，僅在 Freeze 後執行。
 
-詳細資料請見 [Stage C6.5 Freeze Report](reports/stage6_5_freeze_report.md)、[Evaluation Contract](reports/evaluation_contract.md) 與 [Stage C8 Promotion Report](reports/stage8_promotion_report.md)。
+Locked Test 結果：
 
-## 10. Error Analysis
+- 不用於 retraining
+- 不用於 prompt tuning
+- 不用於 checkpoint selection
 
-Candidate 01 在 Locked Test 最主要的 Intent confusion 為：
+### Promotion Gate
 
-- `get_invoice` → `check_invoice`：4
-- `set_up_shipping_address` → `change_shipping_address`：4
-- `create_account` → `edit_account`：3
+Promotion 不以 training / validation loss 作為判定標準。
 
-錯誤主要集中於語義高度相近的 taxonomy boundaries。Manual QA 與 automated Risk Screening 另發現 unsupported action/capability claims、偶發 unsupported factual/policy details、單一 truncation case，以及較高 inference latency。Risk Screening 是輔助人工檢查的 heuristic，不代表全面 factual correctness 判定。
+最終依據：
 
-## 11. Deployment Scope & Limitations
+- Intent Accuracy
+- Category Accuracy
+- JSON Validity
+- Schema Compliance
+- Escalation Performance
+- Critical Behavioral Regression
+- Risk Screening
+- Manual QA
 
-### Approved Scope
+進行 Promotion Decision。
 
-- Intent Classification
-- Category Classification
+詳細資料請見：
+- [Stage C6.5 Freeze Report](reports/stage6_5_freeze_report.md)
+- [Evaluation Contract](reports/evaluation_contract.md)
+- [Stage C8 Promotion Report](reports/stage8_promotion_report.md)
+
+---
+
+## 9. 錯誤分析
+
+Candidate 01 在 Locked Test 中最大的 Intent confusion：
+
+| Ground Truth | Prediction | Cases |
+|---|---|---:|
+| `get_invoice` | `check_invoice` | 4 |
+| `set_up_shipping_address` | `change_shipping_address` | 4 |
+| `create_account` | `edit_account` | 3 |
+
+主要錯誤集中於**語意高度相近的 taxonomy boundary**，而不是完全無關的分類錯誤。
+
+Manual QA 與 automated Risk Screening 另外觀察到：
+
+- unsupported action / capability claims
+- 偶發 unsupported factual / policy details
+- 1 個 isolated generation truncation case
+- Candidate inference latency 較高
+
+Risk Screening 僅作為人工檢查的 heuristic evidence，**不能被視為全面 factual correctness evaluator**。
+
+---
+
+## 10. 適用範圍與模型限制
+
+### 適用範圍
+
+Candidate 01 適合：
+
+- Intent 分類
+- Category 分類
 - Schema-constrained Routing
-- Structured JSON
+- Structured JSON Generation
 - Escalation Decision Support
+- Customer-support Workflow Classification
 
-### Not Approved As
+### 不適合作為
 
-- Enterprise Factual Authority
-- Backend Action Executor
-- Authoritative Policy Engine
-- Authoritative Delivery / Payment Source
+Candidate 01 不應直接作為：
 
-### Important Limitation
+- 企業事實與政策的權威來源
+- 實際執行退款、取消訂單等操作的 Backend
+- Authoritative Refund / Policy Engine
+- Authoritative Delivery / Payment Information Source
 
-> 「QLoRA 顯著改善 structured classification behavior，但人工 QA 發現生成式 response 仍可能產生 unsupported policy/capability claims，因此模型不應直接被視為企業 factual authority。」
+### 重要限制
 
-External grounding required for：
+> **QLoRA 顯著改善 structured classification behavior，但人工 QA 發現生成式 response 仍可能產生 unsupported policy/capability claims，因此模型不應直接被視為企業 factual authority。**
 
-- company policies、payment methods、fees、timelines
+以下資訊需要 external grounding：
+
+- company policies
+- payment methods
+- fees
+- timelines
 - contact details
-- live refund/order status
+- live refund / order status
 
-Backend tools required for：
+以下操作需要 backend tools：
 
-- refund execution、order cancellation
-- address update、account modification
+- refund execution
+- order cancellation
+- address update
+- account modification
 - live status lookup
 
-完整核准範圍與限制請見 [promotion_decision.json](artifacts/stage8/promotion_decision.json) 與 [deployment_constraints.json](artifacts/stage8/deployment_constraints.json)。Candidate 01 不具 unrestricted production approval。
+完整範圍與限制請見：
+- [promotion_decision.json](artifacts/stage8/promotion_decision.json)
+- [deployment_constraints.json](artifacts/stage8/deployment_constraints.json)
 
-## 12. Demo Preview
+---
 
-<!-- TODO: Add Vercel Demo screenshot here -->
+## 11. Demo Preview
 
-Public Demo：**https://customer-support-lora.vercel.app/**
+<!-- TODO: 將 Vercel 截圖存成 docs/images/vercel_demo.png 後，解除下一行註解 -->
+<!-- ![Vercel Demo Preview](docs/images/vercel_demo.png) -->
 
-## 13. Tech Stack
+Public Demo：
 
-| 領域 | Technology |
+**https://customer-support-lora.vercel.app/**
+
+---
+
+## 12. Tech Stack
+
+| 領域 | 技術 |
 |---|---|
 | AI / ML | Python, Qwen2.5, QLoRA, MLX, MLX-LM |
 | Evaluation | JSON Schema, Custom Evaluator, Risk Screening, Manual QA |
 | Demo | Streamlit, Next.js, TypeScript, Tailwind CSS, Vercel |
 | Engineering | Pytest, Git, GitHub |
 
+---
+
 <a id="local-live-inference"></a>
 
-## 14. Local Live Inference
+## 13. Local Live Inference
 
 ### 環境需求
 
 - macOS on **Apple Silicon** (`arm64`)
-- Python **3.9 以上**；frozen run 使用 Python 3.9.6、MLX 0.29.3、MLX-LM 0.29.1
+- Python **3.9 以上**
+- Frozen run 使用 Python 3.9.6、MLX 0.29.3、MLX-LM 0.29.1
 - 足夠空間存放外部 4-bit Base Model snapshot
 - 首次下載 Base Model 時需要網路
 
@@ -227,47 +424,70 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-程式以 `local_files_only=True` 解析 exact Base revision，因此啟動時不會自動下載不同或較新的模型。先將 frozen revision 下載至 Hugging Face cache：
+程式以 `local_files_only=True` 解析 exact Base revision，因此啟動時不會自動下載不同或較新的模型。
+
+先將 frozen revision 下載到 Hugging Face cache：
 
 ```bash
 python -c "from huggingface_hub import snapshot_download; snapshot_download('mlx-community/Qwen2.5-1.5B-Instruct-4bit', revision='8b403126fc14f14cfc99bb4cfa72ecbc129ea677')"
 ```
 
-啟動 Local Streamlit Demo：
+啟動 Streamlit：
 
 ```bash
 python -m streamlit run demo/app.py
 ```
 
-Candidate 01 adapter 已存放於 repository，不需另外下載，也未使用 Git LFS。Base Model weights 不在 repository 內；完成 dependencies 與 exact Base snapshot 安裝前，fresh clone 無法直接執行 inference。
+Candidate 01 adapter 已存放於 repository，不需另外下載，也未使用 Git LFS。
 
-## 15. Repository Structure
+Base Model weights 不在 repository 內，因此 fresh clone 在安裝 dependencies 與 exact Base snapshot 前，無法直接執行 inference。
+
+---
+
+## 14. Repository Structure
 
 ```text
-artifacts/  # Training / evaluation / freeze / QA / promotion artifacts
-configs/    # Taxonomy, Schema, escalation, inference 與 QLoRA configs
-data/       # Frozen splits、training data 與 manifests
+artifacts/  # Training、evaluation、freeze、QA、promotion artifacts
+configs/    # Taxonomy、Schema、Escalation、Inference、QLoRA configs
+data/       # Frozen splits、training data、manifests
 demo/       # Local Streamlit Live Demo
 prompts/    # Frozen system prompt
 reports/    # 各階段 evidence 與決策報告
-src/        # Data、training、evaluation 與 demo implementation
+src/        # Data、training、evaluation、demo implementation
 tests/      # Pytest contract 與 pipeline tests
 web/        # Public Vercel Portfolio Demo
 ```
 
-## 16. Reproducibility
+---
+
+## 15. 可重現性
+
+本專案固定 Base Model revision、Candidate adapter、Prompt 與 deterministic inference contract，避免最終結果受到後續環境或設定漂移影響。
 
 - Base revision：`8b403126fc14f14cfc99bb4cfa72ecbc129ea677`
 - Adapter SHA-256：`da763e47f3c6051defb605345e9aaccd989a8768b804c802606a7f8317fc2c16`
 - Prompt SHA-256：`6b84135769b7348758e8cc21a3cb168465e00de5efaf59ff8a8459087db3dc3b`
-- Deterministic inference：temperature 0、greedy decoding、seed 42、max 512 generated tokens、concurrency 1；Base 與 Candidate 使用相同 tokenizer、chat template、Parser 與 Schema。
+- Inference：temperature 0、greedy decoding、seed 42、max 512 generated tokens、concurrency 1
+- Base 與 Candidate 使用相同 tokenizer、chat template、Parser 與 Schema
 
-完整 dataset / frozen component hashes 請見 [data/manifests/](data/manifests/) 與 [artifacts/stage6_5/](artifacts/stage6_5/)。
+完整 dataset / frozen component hashes 請見：
 
-## 17. Future Work
+- [data/manifests/](data/manifests/)
+- [artifacts/stage6_5/](artifacts/stage6_5/)
 
-- Chinese zero-shot evaluation
-- Chinese QLoRA（如評估顯示確有需要）
-- RAG / external grounding for factual responses
-- Backend tools for real customer actions
-- Inference latency optimization
+---
+
+## 16. 後續規劃
+
+- 先進行 Chinese zero-shot evaluation，再決定是否需要中文 QLoRA
+- 若 multilingual 表現不足，再建立中文微調版本
+- 使用 RAG / external grounding 補足企業政策與 factual responses
+- 串接 backend tools 執行真實 customer actions
+- 優化 inference latency，同時維持 frozen behavioral contract
+
+---
+
+## Project Links
+
+- **Public Demo:** https://customer-support-lora.vercel.app/
+- **GitHub Repository:** https://github.com/yunyahuang49343827-dot/customer-support-lora
