@@ -1,5 +1,7 @@
 # Customer Support QLoRA Fine-tuning & Evaluation
 
+![Customer Support QLoRA Fine-tuning & Evaluation](images/hero_cover.png)
+
 **客服分類 QLoRA 微調與評估**
 
 本專案使用 **Qwen2.5-1.5B-Instruct + QLoRA**，微調客服模型的**意圖分類、類別分類、JSON 結構化輸出與真人轉介判斷**。
