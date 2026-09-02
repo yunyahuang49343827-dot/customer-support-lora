@@ -77,8 +77,8 @@ Base Model 雖然能生成流暢的客服文字，但在本專案中無法穩定
 
 ## 3. QLoRA 微調與評估流程
 
-<!-- TODO: 將流程圖存成 docs/images/qlora_workflow.png 後，解除下一行註解 -->
-<!-- ![QLoRA 微調與評估流程](docs/images/qlora_workflow.png) -->
+<!-- TODO: 將流程圖存成 images/qlora_workflow.png 後，解除下一行註解 -->
+<!-- ![QLoRA 微調與評估流程](images/qlora_workflow.png) -->
 
 本專案的核心不是單純完成一次 Fine-tuning，而是建立一個完整的：
 
